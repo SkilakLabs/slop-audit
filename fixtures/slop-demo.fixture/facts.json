@@ -1,11 +1,11 @@
 {
-  "url": "http://127.0.0.1:61555/slop-demo/",
+  "url": "http://127.0.0.1:50535/slop-demo/",
   "palette": {
     "sampled": 960000,
     "darkShare": 0.955,
     "chromaticShare": 0.009,
     "neonShare": 0.0067,
-    "neonOfChromatic": 0.748,
+    "neonOfChromatic": 0.739,
     "neonBands": {
       "cyan-teal-mint": 0.0067,
       "radium-green": 0
@@ -17,8 +17,8 @@
       }
     ]
   },
-  "finalUrl": "http://127.0.0.1:61555/slop-demo/",
-  "collectedAt": "2026-10-26T16:06:41.287Z",
+  "finalUrl": "http://127.0.0.1:50535/slop-demo/",
+  "collectedAt": "2026-10-26T22:27:32.150Z",
   "viewport": {
     "width": 1440,
     "height": 900
@@ -599,6 +599,9 @@
   "placeholders": [],
   "phone": true,
   "address": true,
+  "status": 200,
+  "server": null,
+  "screenshotPartial": false,
   "mobile": {
     "viewportWidth": 390,
     "scrollWidth": 390,

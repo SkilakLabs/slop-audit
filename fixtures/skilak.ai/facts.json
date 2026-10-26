@@ -30,7 +30,7 @@
     ]
   },
   "finalUrl": "https://skilak.ai/",
-  "collectedAt": "2026-10-26T14:09:29.581Z",
+  "collectedAt": "2026-10-26T22:27:23.581Z",
   "viewport": {
     "width": 1440,
     "height": 900
@@ -434,6 +434,9 @@
   "placeholders": [],
   "phone": false,
   "address": false,
+  "status": 200,
+  "server": "cloudflare",
+  "screenshotPartial": false,
   "mobile": {
     "viewportWidth": 390,
     "scrollWidth": 390,

@@ -93,8 +93,9 @@ Open http://127.0.0.1:4100, paste a URL, press **Scan**. A progress bar shows
 each stage and the one-page report appears when it finishes, usually within a
 minute. Every scan is saved under `out/<host>/` as `report.html`, `report.md`,
 `result.json`, `facts.json` and desktop and mobile screenshots, and the front
-page lists every report. The server only listens on your own machine. Ctrl-C
-stops it.
+page lists every report. A page that never stops animating may save only its
+first screen, or no screenshot at all; the report still appears. The server only
+listens on your own machine. Ctrl-C stops it.
 
 Each report ends with a short form: is the score too high, about right, or too
 low, and why. Answers are appended to `out/feedback.jsonl` and nowhere else.

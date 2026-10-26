@@ -3,7 +3,7 @@
   "palette": {
     "sampled": 577440,
     "darkShare": 0.072,
-    "chromaticShare": 0.084,
+    "chromaticShare": 0.083,
     "neonShare": 0,
     "neonOfChromatic": 0,
     "neonBands": {
@@ -13,7 +13,7 @@
     "dominantHues": [
       {
         "hue": 200,
-        "share": 0.628
+        "share": 0.629
       },
       {
         "hue": 210,
@@ -26,7 +26,7 @@
     ]
   },
   "finalUrl": "https://www.option.com/",
-  "collectedAt": "2026-10-26T14:09:20.637Z",
+  "collectedAt": "2026-10-26T22:27:14.497Z",
   "viewport": {
     "width": 1440,
     "height": 900
@@ -339,6 +339,9 @@
   "placeholders": [],
   "phone": false,
   "address": false,
+  "status": 200,
+  "server": "apache",
+  "screenshotPartial": false,
   "mobile": {
     "viewportWidth": 390,
     "scrollWidth": 390,
@@ -349,12 +352,12 @@
     "Access to fetch at 'https://polygon-public.nodies.app/' from origin 'https://www.option.com' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Acces",
     "Failed to load resource: net::ERR_FAILED",
     "requestStorageAccess: Permission denied.",
-    "Failed to load resource: the server responded with a status of 404 (Not Found)",
-    "Failed to load resource: the server responded with a status of 403 ()"
+    "Failed to load resource: the server responded with a status of 403 ()",
+    "Failed to load resource: the server responded with a status of 404 (Not Found)"
   ],
   "failedRequests": [
     "https://polygon-public.nodies.app/",
     "https://www.google.com/recaptcha/api2/clr?k=6LeiYskhAAAAAGaZKZUUb1zsFgY9oDCx4zL-LVdV",
-    "https://interseq.at/antibot/api?_v=29883729"
+    "https://interseq.at/antibot/api?_v=29884227"
   ]
 }
