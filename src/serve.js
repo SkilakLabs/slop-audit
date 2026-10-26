@@ -231,7 +231,10 @@ export function createServer({
           if (!saved) return page(res, 404, shell("Not found", back()));
           const r = JSON.parse(saved);
           const history = await readHistory(dir);
-          return page(res, 200, toHtml({ ...r, health: r.health || [] }, { screenshotSrc: "desktop.png", homeHref: "/", feedback: true, history, publicMode }));
+          // A page that never stopped animating may have no desktop.png at all;
+          // point the report at the file only when it exists.
+          const shot = await stat(path.join(dir, "desktop.png")).then(() => "desktop.png", () => null);
+          return page(res, 200, toHtml({ ...r, health: r.health || [] }, { screenshotSrc: shot, screenshotPartial: r.screenshot, homeHref: "/", feedback: true, history, publicMode }));
         }
         if (publicMode && m[2] === "facts.json") return page(res, 404, shell("Not found", back()));
         const type = STATIC[path.extname(m[2])];
@@ -281,7 +284,9 @@ export async function rescoreAll(outRoot, publicMode = false, hidden = new Set()
       continue;
     }
     if (result.rulesVersion === RULES_VERSION) continue;
-    await writeReports(auditFacts(facts), dir, { screenshotSrc: "desktop.png", cause: "rules", publicMode });
+    // Keep the saved screenshot state so a re-scored report does not point at an
+    // image this scan never wrote.
+    await writeReports({ ...auditFacts(facts), screenshot: result.screenshot }, dir, { screenshotSrc: "desktop.png", cause: "rules", publicMode });
     n += 1;
   }
   return n;

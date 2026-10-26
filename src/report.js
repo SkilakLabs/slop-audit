@@ -11,7 +11,7 @@ import { RULES_VERSION } from "./audit.js";
 export async function writeReports(result, outDir, htmlOpts = {}) {
   await mkdir(outDir, { recursive: true });
   const cause = htmlOpts.cause ?? "scan";
-  const slim = { ...result, facts: undefined };
+  const slim = { ...result, facts: undefined, screenshot: result.facts?.screenshotPartial ?? result.screenshot ?? null };
   await appendHistory(outDir, historyEntry(result, cause), cause);
   const history = await readHistory(outDir);
   await writeFile(path.join(outDir, "report.md"), toMarkdown(result));

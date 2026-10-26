@@ -34,7 +34,7 @@
     ]
   },
   "finalUrl": "https://www.nvidia.com/en-us/",
-  "collectedAt": "2026-10-26T14:10:13.271Z",
+  "collectedAt": "2026-10-26T22:28:04.649Z",
   "viewport": {
     "width": 1440,
     "height": 900
@@ -677,6 +677,9 @@
   "placeholders": [],
   "phone": false,
   "address": false,
+  "status": 200,
+  "server": "apache",
+  "screenshotPartial": false,
   "mobile": {
     "viewportWidth": 390,
     "scrollWidth": 390,

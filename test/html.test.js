@@ -21,6 +21,35 @@ test("the HTML report carries the score, tier, every finding and the health list
   assert.doesNotMatch(toHtml(result, { screenshotSrc: null }), /<figure/);
 });
 
+test("a page that never stopped animating says so, and a missing image renders nothing", () => {
+  const partial = toHtml({ ...result, facts: { screenshotPartial: true } });
+  assert.match(partial, /<img src="desktop\.png"/);
+  assert.ok(partial.includes("Desktop, 1440px wide, top of page (first screen only; the page never stopped animating)"));
+  assert.doesNotMatch(toHtml({ ...result, facts: { screenshotPartial: "none" } }), /<figure/);
+  assert.doesNotMatch(toHtml({ ...result, screenshot: "none" }), /<figure/, "a served report knows the image is missing");
+  assert.ok(toHtml(result).includes("Desktop, 1440px wide, top of page</figcaption>"), "a full-page image keeps the plain caption");
+});
+
+test("a served report without a desktop.png renders no broken image", async () => {
+  const outRoot = await mkdtemp(path.join(os.tmpdir(), "slop-audit-noshot-"));
+  const none = path.join(outRoot, "example.com");
+  const withPng = path.join(outRoot, "example.org");
+  await mkdir(none, { recursive: true });
+  await mkdir(withPng, { recursive: true });
+  await writeFile(path.join(none, "result.json"), JSON.stringify({ ...result, screenshot: "none" }));
+  await writeFile(path.join(withPng, "result.json"), JSON.stringify(result));
+  await writeFile(path.join(withPng, "desktop.png"), "");
+  const server = createServer({ outRoot }).listen(0, "127.0.0.1");
+  await new Promise((r) => server.once("listening", r));
+  const base = `http://127.0.0.1:${server.address().port}`;
+  try {
+    const gone = await (await fetch(`${base}/out/example.com/report.html`)).text();
+    assert.doesNotMatch(gone, /<figure/);
+    assert.doesNotMatch(gone, /desktop\.png/);
+    assert.match(await (await fetch(`${base}/out/example.org/report.html`)).text(), /src="desktop\.png"/);
+  } finally { server.close(); }
+});
+
 test("navigation and the feedback form appear only in the served version", () => {
   const file = toHtml(result);
   assert.doesNotMatch(file, /class="logo" href/);

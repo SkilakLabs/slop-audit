@@ -25,7 +25,9 @@ export async function collect(url, { outDir, screenshots = true, timeoutMs = 450
     const mobile = await collectViewport(browser, url, MOBILE, { timeoutMs, light: true, onLoaded: () => onProgress("Measuring the phone layout", 0.7) });
     onProgress("Reading colours from the screenshot", 0.82);
     let palette = null;
-    try { palette = paletteStats(decodePng(desktop.screenshot)); } catch (e) { palette = { error: String(e.message) }; }
+    if (desktop.screenshot) {
+      try { palette = paletteStats(decodePng(desktop.screenshot)); } catch (e) { palette = { error: String(e.message) }; }
+    }
     const facts = {
       url,
       palette,
@@ -40,8 +42,8 @@ export async function collect(url, { outDir, screenshots = true, timeoutMs = 450
     if (outDir) {
       await mkdir(outDir, { recursive: true });
       if (screenshots) {
-        await writeFile(path.join(outDir, "desktop.png"), desktop.screenshot);
-        await writeFile(path.join(outDir, "mobile.png"), mobile.screenshot);
+        if (desktop.screenshot) await writeFile(path.join(outDir, "desktop.png"), desktop.screenshot);
+        if (mobile.screenshot) await writeFile(path.join(outDir, "mobile.png"), mobile.screenshot);
       }
       await writeFile(path.join(outDir, "facts.json"), JSON.stringify(facts, null, 2));
     }
@@ -80,10 +82,26 @@ async function collectViewport(browser, url, viewport, { timeoutMs, light = fals
     const r = await page.request.get(new URL("/favicon.ico", page.url()).href, { timeout: 8000 }).catch(() => null);
     facts.favicon = !!(r && r.ok() && /image|icon/i.test(r.headers()["content-type"] || ""));
   }
-  const screenshot = await page.screenshot({ fullPage: true, type: "png" });
+  const shot = await capture(page);
+  if (!light) facts.screenshotPartial = shot.partial;
   const finalUrl = page.url();
   await context.close();
-  return { facts, screenshot, finalUrl, consoleErrors, failedRequests };
+  return { facts, screenshot: shot.buffer, finalUrl, consoleErrors, failedRequests };
+}
+
+// A canvas or CSS animation that never stops leaves Playwright without a stable
+// frame, so a full-page capture waits until it times out and the whole scan would
+// fail after every fact was already measured. Try the whole page with animations
+// frozen, then the first screen, then give up: a missing picture is a health note,
+// never a failed scan.
+async function capture(page) {
+  try {
+    return { buffer: await page.screenshot({ fullPage: true, type: "png", animations: "disabled", timeout: 30000 }), partial: false };
+  } catch {}
+  try {
+    return { buffer: await page.screenshot({ type: "png", animations: "disabled", timeout: 15000 }), partial: true };
+  } catch {}
+  return { buffer: null, partial: "none" };
 }
 
 // Runs inside the page. Keep it dependency-free and defensive: every site is hostile to assumptions.

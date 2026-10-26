@@ -84,7 +84,7 @@ export function header(homeHref, right = "", rescanHref = null) {
   return `<header>${left}<div class="meta">${nav}</div></header>`;
 }
 
-export function toHtml(result, { screenshotSrc = "desktop.png", homeHref = null, feedback = false, history = [], publicMode = false } = {}) {
+export function toHtml(result, { screenshotSrc = "desktop.png", screenshotPartial = result.facts?.screenshotPartial ?? result.screenshot, homeHref = null, feedback = false, history = [], publicMode = false } = {}) {
   const { url, finalUrl, scored, health, collectedAt } = result;
   const shown = finalUrl || url;
   const host = hostOf(shown);
@@ -99,7 +99,10 @@ export function toHtml(result, { screenshotSrc = "desktop.png", homeHref = null,
   const healthList = health.length ? `
     <h2>Also worth fixing <span class="meta">not part of the score</span></h2>
     <ul class="health">${health.map((h) => `<li><b>${esc(h.title)}.</b> ${esc(h.evidence)}</li>`).join("")}</ul>` : "";
-  const shot = screenshotSrc ? `<figure><img src="${esc(screenshotSrc)}" alt="Top of ${esc(host)} on desktop"><figcaption>Desktop, 1440px wide, top of page</figcaption></figure>` : "";
+  // A page that never stopped animating may have only its first screen, or no
+  // image at all; never point <img> at a file that was not written.
+  const caption = `Desktop, 1440px wide, top of page${screenshotPartial === true ? " (first screen only; the page never stopped animating)" : ""}`;
+  const shot = screenshotSrc && screenshotPartial !== "none" ? `<figure><img src="${esc(screenshotSrc)}" alt="Top of ${esc(host)} on desktop"><figcaption>${caption}</figcaption></figure>` : "";
   const historySection = history.length >= 2 ? `
     <h2>Score history <span class="meta">newest first</span></h2>
     <table class="list">
