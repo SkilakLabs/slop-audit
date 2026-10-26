@@ -17,8 +17,8 @@ unfinished 15) and the total is normalised to 100.
 | orb | 5 | A tiny saturated animated or glowing circle, or a ≤48px canvas | The glowing dot before an "Ask …" button on an AI-built landing page. |
 | beta-pill | 6 | A pill reads "free beta", "no credit card", "now in beta", "early access"… | The model's reassurance reflex. |
 | chip-row | 4 | ≥4 pill-shaped labels in the first 1000px; chips in product mockups further down are the product | Chips are for filters. |
-| eyebrow-everywhere | 5 / 2 | ≥25 / ≥12 small uppercase tracked labels | Density, not presence. One eyebrow is a choice; forty is a template. |
-| status-tags | 4 | ≥4 distinct tiny uppercase tags (LIVE, SIM, PRO…) | Product UI leaking into marketing. |
+| eyebrow-everywhere | 5 / 2 | ≥12 labels with ≥8 distinct texts (5 when ≥15 distinct) | Density of distinct labels, not occurrences. One eyebrow is a choice; forty different ones is a template — forty repeats of three tags is just a carousel. |
+| status-tags | 4 | ≥3 distinct status words (LIVE, BETA, PRO, NEW…), not product nouns | Status words are decoration; category chips inside a product mockup are the product. |
 | gradient-text | 5 / 2 | ≥3 / ≥1 headlines use background-clip:text | One gradient headline is a choice; a page of them is the light-theme builder default. |
 | gradient-heavy | 3 | ≥6 gradient elements covering ≥30% of the first screens | A single soft wash does not fire. |
 | glass | 3 | ≥3 backdrop-filter blur panels | |
@@ -35,7 +35,7 @@ Measured on all authored text, including closed tabs and accordions.
 |---|---:|---|---|
 | em-dash-density | 8 / 4 | ≥1.5 / ≥0.7 em dashes per 100 words | Humans use about one per page. |
 | repeated-phrases | 6 / 3 | ≥3 / ≥1 three-word phrases repeated ≥5 times, or ≥2.5 per thousand words on long pages, excluding link/button text and capitalised names | "before anything runs" ×8 on an AI-built landing page. "for more information" ×8 in 7000 words of nvidia.com is boilerplate, not a tic. |
-| honesty-protest | 8 / 4 | ≥6 / ≥3 hits of honest, never fabricated, no black box, human-in-the-loop, deterministic, no vaporware, transparent… | A company does not keep insisting it is honest. A model told to sound trustworthy does. |
+| honesty-protest | 8 / 4 | ≥6 / ≥3 brand honesty claims ("radically honest", "we're transparent", "honest pricing", "no hidden fees", "never fabricated", "no black box") on de-duplicated copy | The brand insisting on its own honesty is a tell; a customer saying "honestly clutch" is not. |
 | buzzwords | 5 / 2 | ≥1 / ≥0.5 per 100 words, lower-case occurrences only | "Smart Metering" is a product; "smart insights" is a tic. |
 | not-just | 3 | "it's not just X, it's Y" | |
 | beta-reassurance | 4 | "free beta / no credit card" ≥2 times in copy | |

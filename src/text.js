@@ -1,9 +1,17 @@
 // Pure text measurements used by the copy rules. No DOM, no network.
 
 export const HONESTY_WORDS = [
-  /\bhonest(ly)?\b/i, /never fabricated/i, /no black[- ]?box/i, /no vaporware/i, /no fake\b/i,
+  // Claim forms only. The bare words "honest" and "transparent" turn up in
+  // customer quotes ("honestly clutch", "a steal honestly"); the tell is the
+  // brand asserting its own honesty, so only the claim constructions count.
+  /\b(radically|fully|completely|100%|brutally|always|truly) (honest|transparent)\b/i,
+  /\bwe(’|')?(re| are) (honest|transparent)\b/i,
+  /\b(honest|transparent) (pricing|about|with you|by design|approach|ai)\b/i,
+  /\bno (hidden|surprise) (fees|costs)\b/i,
+  /\bhonesty\b/i,
+  /never fabricated/i, /no black[- ]?box/i, /no vaporware/i, /no fake\b/i,
   /nothing .{0,30}pretends/i, /human[- ]in[- ]the[- ]loop/i, /\bdeterministic\b/i, /zero guesswork/i,
-  /you stay in control/i, /on your terms/i, /\btransparent(ly)?\b/i, /no (hidden|surprise) (fees|costs)/i,
+  /you stay in control/i, /on your terms/i,
   /we('| a)?re not (here )?to/i, /\bno gimmicks\b/i,
 ];
 
@@ -50,8 +58,26 @@ export function repeatedPhrases(text, { n = 3, min = 4 } = {}) {
 
 export function honestyHits(text) {
   const hits = [];
-  for (const re of HONESTY_WORDS) { const m = text.match(new RegExp(re.source, re.flags.includes("g") ? re.flags : re.flags + "g")); if (m) hits.push({ phrase: m[0].toLowerCase(), count: m.length }); }
+  // Carousels render the same quote twice; match against de-duplicated text so
+  // a repeated customer line is not read as the brand repeating itself.
+  const deduped = dedupeSentences(text);
+  for (const re of HONESTY_WORDS) { const m = deduped.match(new RegExp(re.source, re.flags.includes("g") ? re.flags : re.flags + "g")); if (m) hits.push({ phrase: m[0].toLowerCase(), count: m.length }); }
   return hits.sort((a, b) => b.count - a.count);
+}
+
+// Split into sentences (or lines) and drop exact duplicates.
+function dedupeSentences(text) {
+  const seen = new Set();
+  const out = [];
+  for (const line of text.split(/\n+/)) {
+    for (const s of line.split(/(?<=[.!?…])\s+/)) {
+      const t = s.replace(/\s+/g, " ").trim();
+      if (!t || seen.has(t)) continue;
+      seen.add(t);
+      out.push(t);
+    }
+  }
+  return out.join("\n");
 }
 
 export function buzzwordHits(text) {
