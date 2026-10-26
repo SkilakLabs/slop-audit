@@ -69,6 +69,11 @@ export const CSS = `
 // A square with a stroke through it: the human saying no to the default.
 export const MARK = `<svg width="22" height="22" viewBox="0 0 22 22" aria-hidden="true"><rect x="1" y="1" width="20" height="20" rx="4" fill="${BRAND.ink}"/><path d="M6.5 15.5 L15.5 6.5" stroke="${BRAND.coral}" stroke-width="3" stroke-linecap="round"/></svg>`;
 
+// The mark again as the tab icon. A data URI works for the served pages and
+// for a report.html opened from disk alike.
+export const ICON = `<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,${encodeURIComponent(MARK.replace(/ width="22" height="22"/, ""))}">`;
+export const DESCRIPTION = "Slop Audit scores a website for unedited AI defaults: neon palettes, glow, pill badges, model vocabulary, placeholder trust signals and unfinished edges. Deterministic rules, every point shown with its evidence.";
+
 // homeHref: in the local app the logo links back to the scan list; the
 // standalone file has nowhere to go, so it stays plain. rescanHref, when set,
 // adds a Rescan link to the served nav.
@@ -121,6 +126,7 @@ export function toHtml(result, { screenshotSrc = "desktop.png", homeHref = null,
   return `<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Slop audit: ${esc(host)} scores ${scored.score}/100</title>
+<meta name="description" content="${esc(host)} scores ${scored.score}/100, ${esc(scored.tier)}, on the Slop Scale: how much unedited AI default is showing, with every point and its evidence.">${ICON}
 <link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
 <style>${CSS}</style></head>
 <body><main>
