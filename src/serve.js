@@ -10,7 +10,7 @@ import { appendFile, mkdir, readFile, readdir, rm, stat } from "node:fs/promises
 import { audit, auditFacts, RULES_VERSION, isBlockedError } from "./audit.js";
 import { detectBlock } from "./blocked.js";
 import { writeReports, readHistory } from "./report.js";
-import { toHtml, esc, CSS, header, footer } from "./html.js";
+import { toHtml, esc, CSS, ICON, DESCRIPTION, header, footer } from "./html.js";
 import { assertPublicUrl, normalizeUrl } from "./safety.js";
 import { SCALE } from "./score.js";
 
@@ -169,7 +169,9 @@ export function createServer({
         try { target = await assertPublicUrl(url); } catch (e) { return bounce(friendly(e.message, raw)); }
         const host = target.hostname;
         if ((await readHidden()).has(hostKey(host))) return bounce("This site is not listed here.");
-        if (publicMode && String(req.headers.host || "").split(":")[0] === host) return bounce("Scanning itself would be a loop.");
+        // Scanning this server's own /scan or /progress would start scans from inside a scan.
+        // The homepage and the about page are ordinary pages and may be scored like any other.
+        if (publicMode && String(req.headers.host || "").split(":")[0] === host && !["/", "/about"].includes(target.pathname.replace(/\/+$/, "") || "/")) return bounce("Only this site's homepage can be scanned; its working pages would scan themselves.");
 
         const force = u.searchParams.get("force") === "1";
         const fresh = !force && await freshReport(outRoot, host, freshMs);
@@ -379,8 +381,8 @@ async function feedbackPage(outRoot) {
   return shell("Feedback", rows ? `<ul class="health">${rows}</ul>` : `<p>No feedback yet. Every report ends with a form.</p>`);
 }
 
-function shell(title, content) {
-  return `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${esc(title)} · Slop Audit</title><style>${CSS}</style></head><body><main>${header("/")}<h1>${esc(title)}</h1>${content}${footer("/", "/about#disputes")}</main></body></html>`;
+function shell(title, content, description = DESCRIPTION) {
+  return `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${esc(title)} · Slop Audit</title><meta name="description" content="${esc(description)}">${ICON}<style>${CSS}</style></head><body><main>${header("/")}<h1>${esc(title)}</h1>${content}${footer("/", "/about#disputes")}</main></body></html>`;
 }
 function aboutPage() {
   const rows = SCALE.map((t) => `<tr><td class="n"><b>${t.range[0]}–${t.range[1]}</b></td><td>${esc(t.name)}</td><td class="meta">${esc(t.blurb)}</td></tr>`).join("");
