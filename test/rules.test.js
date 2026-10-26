@@ -38,18 +38,38 @@ test("beta pill matches the phrases, not any pill", () => {
   assert.equal(rule("beta-pill").run({ ...empty, pills: [{ text: "Rented H100-class (80 GB)" }] }), null);
 });
 
-test("eyebrow rule scales with density, not presence", () => {
-  const eb = (n) => ({ ...empty, eyebrows: Array.from({ length: n }, () => ({ text: "LABEL" })) });
-  assert.equal(rule("eyebrow-everywhere").run(eb(11)), null);
-  assert.equal(rule("eyebrow-everywhere").run(eb(12)).weight, 2);
-  assert.equal(rule("eyebrow-everywhere").run(eb(30)).weight, 5);
+test("eyebrow rule counts distinct labels, not occurrences", () => {
+  const eb = (n, distinct) => ({ ...empty, eyebrows: Array.from({ length: n }, (_, i) => ({ text: `LABEL ${i % distinct}` })) });
+  // 60 occurrences of 5 distinct texts is a carousel, not a template.
+  assert.equal(rule("eyebrow-everywhere").run(eb(60, 5)), null);
+  // 30 occurrences of 16 distinct texts is the template at full weight.
+  assert.equal(rule("eyebrow-everywhere").run(eb(30, 16)).weight, 5);
+  // 12 occurrences of 8 distinct texts is the low band.
+  assert.equal(rule("eyebrow-everywhere").run(eb(12, 8)).weight, 2);
+});
+
+test("honesty-protest counts brand claims, not quoted 'honestly'", () => {
+  // Six customer quotes saying "honestly clutch" (carousel clones) are not a protest.
+  const quoted = Array(6).fill('"honestly clutch" is what a customer said.').join(" ");
+  assert.equal(rule("honesty-protest").run({ ...empty, fullText: quoted, fullWordCount: 42 }), null);
+  // Brand claims repeated are: even de-duplicated, they still fire.
+  const claims = "We're radically transparent. No black box. Honest pricing. ".repeat(2);
+  assert.ok(rule("honesty-protest").run({ ...empty, fullText: claims, fullWordCount: 30 }));
+  assert.equal(honestyHits(claims).reduce((a, x) => a + x.count, 0), 3, "carousel clones count once");
+});
+
+test("status-tags counts status words, not product nouns", () => {
+  const nouns = { ...empty, tags: [["GOOGLE DRIVE", 1], ["WELLNESS", 1], ["KNOWLEDGE", 1], ["TASKS", 1]] };
+  assert.equal(rule("status-tags").run(nouns), null);
+  const status = { ...empty, tags: [["LIVE", 1], ["BETA", 1], ["PRO", 1], ["NEW", 1]] };
+  assert.ok(rule("status-tags").run(status));
 });
 
 test("text measures", () => {
   assert.equal(emDashDensity("a — b — c d e f g h i j").per100, 20);
   assert.deepEqual(repeatedPhrases("before anything runs. before anything runs! before anything runs? before anything runs", { min: 4 })[0], { phrase: "before anything runs", count: 4 });
   assert.equal(repeatedPhrases("LoRa Basics Station LoRa Basics Station LoRa Basics Station LoRa Basics Station", { min: 4 }).length, 0, "product names are skipped");
-  assert.equal(honestyHits("We are honest. Honestly. No black box. Human-in-the-loop by design.").reduce((a, x) => a + x.count, 0), 4);
+  assert.equal(honestyHits("We are honest. Honestly. No black box. Human-in-the-loop by design.").reduce((a, x) => a + x.count, 0), 3, "bare 'honestly' is a quote word, not a brand claim");
   assert.equal(buzzwordHits("Smart Metering is our product").length, 0, "capitalised product words do not count");
   assert.equal(buzzwordHits("seamlessly unlock robust value").length, 3);
   assert.ok(isTitleCase("Keep Your Stack. Gain A Co-Pilot With Confidence"));
