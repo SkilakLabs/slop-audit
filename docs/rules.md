@@ -19,7 +19,7 @@ unfinished 15) and the total is normalised to 100.
 | chip-row | 4 | ≥4 pill-shaped labels in the first 1000px; chips in product mockups further down are the product | Chips are for filters. |
 | eyebrow-everywhere | 5 / 2 | ≥25 / ≥12 small uppercase tracked labels | Density, not presence. One eyebrow is a choice; forty is a template. |
 | status-tags | 4 | ≥4 distinct tiny uppercase tags (LIVE, SIM, PRO…) | Product UI leaking into marketing. |
-| gradient-text | 5 | background-clip:text on a headline | |
+| gradient-text | 5 / 2 | ≥3 / ≥1 headlines use background-clip:text | One gradient headline is a choice; a page of them is the light-theme builder default. |
 | gradient-heavy | 3 | ≥6 gradient elements covering ≥30% of the first screens | A single soft wash does not fire. |
 | glass | 3 | ≥3 backdrop-filter blur panels | |
 | blur-blobs | 4 | Any large element with filter blur ≥20px | Aurora blobs. |
@@ -40,6 +40,9 @@ Measured on all authored text, including closed tabs and accordions.
 | not-just | 3 | "it's not just X, it's Y" | |
 | beta-reassurance | 4 | "free beta / no credit card" ≥2 times in copy | |
 | title-case | 4 / 2 | ≥3 / ≥2 headings in Title Case, and at least a quarter of all headings with ≥4 words | Product names ("CloudGate IoT Gateway") do not count. Four headline-case news titles among 80 headings (nvidia.com) is editorial style. |
+| waitlist-everywhere | 4 | "waitlist" appears ≥3 times in copy | One sign-up is a step; the word on every pill, nav item, CTA and FAQ answer is the waitlist template left in. |
+| ai-powered-headline | 3 | "AI-powered / AI-driven" in the hero headline | A real company might say it once in a press release; leading the hero with it is the model's default opener. |
+| builder-defaults | 6 / 4 | ≥2 of builder badge, waitlist/beta pill, "AI-powered" headline left in together | A human-directed site may keep any one; leaving two or three is the template unedited. |
 
 Not a tell, by evidence: the three-word tricolon ("Reliable. Secure.
 Flexible.") appears on option.com, a pre-AI site. The model learned it from
