@@ -1,0 +1,445 @@
+{
+  "url": "https://skilak.ai",
+  "palette": {
+    "sampled": 876960,
+    "darkShare": 0,
+    "chromaticShare": 0.003,
+    "neonShare": 0.0002,
+    "neonOfChromatic": 0.053,
+    "neonBands": {
+      "cyan-teal-mint": 0.0002,
+      "radium-green": 0
+    },
+    "dominantHues": [
+      {
+        "hue": 10,
+        "share": 0.886
+      },
+      {
+        "hue": 0,
+        "share": 0.029
+      },
+      {
+        "hue": 190,
+        "share": 0.027
+      },
+      {
+        "hue": 180,
+        "share": 0.021
+      }
+    ]
+  },
+  "finalUrl": "https://skilak.ai/",
+  "collectedAt": "2026-10-26T14:09:29.581Z",
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "title": "Skilak — Your AI. Your hardware. Your data.",
+  "generator": null,
+  "description": "Skilak makes self-hosted AI easy for people who want to keep their data to themselves.",
+  "favicon": true,
+  "html": {
+    "lang": "en"
+  },
+  "builderMarkers": [],
+  "text": "Skip to content\nKeep\nMesh\nPromise\nCompany\nRequest a pilot\nNEWS\nSkilak joins NVIDIA Inception\nYour \nAI\n.\nYour hardware.\nYour data.\n\nSkilak makes self-hosted AI easy for people who want to keep their data to themselves.\n\nWhat we believe\nSee the products\nRuns here\nKeep\nStays here\nMesh\nProven here\nEvidence\nSKILAK KEEP · ON-PREMISES SERVER\n0 EGRESS\nOWNED HARDWARE PERIMETER\nAIR-GAPPED OR PRIVATE LAN\n02\nLOCAL ACCELERATOR HARDWARE\nRENTED H100-CLASS (80 GB)\nQwen2.5-72B AWQ\nvLLM serving · single 80 GB GPU\n1,262\ntok/s\naggregate at 32 concurrent\nServing benchmark · single rented H100-class GPU (80 GB)\n· 2026-07-17\n01 LOCAL CORPUS\nPrivate Documents\nQdrant Vector DB on-box\nLocal chunk embeddings\n03 VERIFIED CLIENT\nGrounded Answer\nOpen WebUI on LAN\n[Doc #14 · §3]\n(demo citation)\n1,262 tok/s aggregate at 32 concurrent (Qwen2.5-72B AWQ)\n· 2026-07-17\n\nEvery number above has a date and a method. Read the evidence →\n\nZERO EGRESS\nZero Packets Out\n\nProven at your physical firewall with live network capture.\n\nOWNED COMPUTE\nZero SaaS Rent\n\nYou own the hardware. Zero recurring per-seat fees, ever.\n\nSINGLE COMMAND\nInstant Gateway\n\nDeploy Mesh in minutes to inspect and protect agent traffic.\n\nSOLO → ENTERPRISE\nRight-Sized Keep\n\nTailored hardware from desk workstation to rack cluster.\n\nNEWS\n\nWe joined NVIDIA Inception.\n\nSkilak has been accepted into NVIDIA Inception. We will use it to test local inference on NVIDIA hardware more thoroughly.\n\nThank you to the NVIDIA Inception team.\n\nRead the announcement\nMember of NVIDIA Inception\n\nMANIFESTO\n\nWhat we believe\n01\nOwn your AI like you own your computer.\n\nYou bought the machine. The model runs on it. Nobody can change the terms, raise the price, or switch it off.\n\n02\nOpen source is for everyone. We do the hard part.\n\nThe best models and tools are already free. Making them run well, safely, on your own hardware is not. That part is our job.\n\n03\nNobody makes money off your data. Not vendors, not clouds, not us.\n\nWe collect only what the system needs to run. Nothing about you or your documents leaves the perimeter.\n\n04\nCapable AI should be affordable.\n\nYou should not need a million-dollar contract to run a capable model. Affordable self-hosted AI is the point, not a tier.\n\n05\nA private AI has a perimeter.\n\nWhat goes in stays in. That line is drawn in hardware and network, not in a policy PDF.\n\nPRODUCTS\n\nTwo products, one idea\n\nOne keeps everything in. The other keeps your data out of everyone else's model.\n\nKeep\n\nAI that keeps everything in.\n\nA private AI server for your office. Chat, documents, and open models on hardware you own. Arrives silent, proven silent at your firewall.\n\nMeet Keep\nIllustrative depiction only\nHardware configured to client specification.\nMesh\n\nKeeps your data out of other people's AI.\n\nA gateway on your computer that inspects what your AI tools send out, and stops secrets and personal data before they leave.\n\nMeet Mesh\nclaude (mesh-protected) — zsh\n❯\nclaude\n“update SSN 482-19-4820 using key sk-proj-9x…”\nMESH GATEWAY · LOCAL INTERCEPT\nREDACTED\nAPI key → [REDACTED:secret]\nREDACTED\nSSN → [REDACTED:pii_ssn]\nRedacted locally · before it reached the provider\n\nOUR PROMISE\n\nOur promise on data\n\nWe collect only what the system needs to run. We never sell, share, or train on your data. If that ever changes, you will read it here first.\n\nRead the full promise\nWho this is for\nFirms whose files cannot leave\n\nLaw firms, clinics, and defense contractors whose privileged, patient, or controlled data cannot go near a public model. Keep puts the model in your building.\n\nMeet Keep\nEngineers using cloud AI tools\n\nTeams in Claude Code or Codex who want API keys and personal data removed before a prompt leaves the laptop. Mesh runs on each computer.\n\nMeet Mesh\n\nSkilak Keep and Skilak Mesh are designed to fit within a customer's CMMC, HIPAA, ITAR, or other security program. Skilak LLC does not certify or confer compliance.\n\nTALK TO US\n\nTell us what you would run.\n\nEmail us, or request a pilot. A few lines about the workload is enough.\n\ncontact@skilak.ai\nSt. Louis, Missouri\n\nRequest a pilot\n\nSelf-hosted AI, kept to yourself.\n\ncontact@skilak.ai\nMember of\nProducts\nKeep\nMesh\nRequest a pilot\nCompany\nCompany\nNVIDIA Inception\nOur promise\nGitHub\nLegal\nPrivacy\nTerms\n\nSkilak LLC · © 2026\n\nPrivacy\nTerms\nPromise\n\n© 2026 NVIDIA, the NVIDIA logo, and NVIDIA Inception are trademarks and/or registered trademarks of NVIDIA Corporation in the U.S. and other countries.",
+  "wordCount": 739,
+  "fullText": "Skip to content\nKeep\nMesh\nPromise\nCompany\nKeep\nMesh\nPromise\nCompany\nRequest a pilot\nRequest a pilot\nNews\nSkilak joins NVIDIA Inception\nYour\nAI\n.\nYour\nhardware\n.\nYour\ndata\n.\nSkilak makes self-hosted AI easy for people who want to keep their data to themselves.\nWhat we believe\nSee the products\nRuns here\nKeep\nStays here\nMesh\nProven here\nEvidence\nSKILAK KEEP · ON-PREMISES SERVER\nKEEP · ON-PREMISES\n0 EGRESS\nOWNED HARDWARE PERIMETER\nAIR-GAPPED OR PRIVATE LAN\n02\nLOCAL ACCELERATOR HARDWARE\nRENTED H100-CLASS (80 GB)\nQwen2.5-72B AWQ\nvLLM serving · single 80 GB GPU\n1,262\ntok/s\naggregate at 32 concurrent\nServing benchmark · single rented H100-class GPU (80 GB)\n· 2026-07-17\n01 LOCAL CORPUS\nPrivate Documents\nQdrant Vector DB on-box\nLocal chunk embeddings\n03 VERIFIED CLIENT\nGrounded Answer\nOpen WebUI on LAN\n[Doc #14 · §3]\n(demo citation)\n1,262 tok/s aggregate\nat 32 concurrent (Qwen2.5-72B AWQ)\n· 2026-07-17\nOUTBOUND DLP GATEWAY\nILLUSTRATIVE EXAMPLE\nAGENT TOOL CALL\nOutbound\n{\n  \"tool\": \"fetch_data\",\n  \"params\": {\n    \"key\":\n\"AKIA…EXAMPLE\"\n}\n}\nPattern: AWS Access Key ID\nBLOCK\nHTTP 400\nRequest Terminated\nRule:\naws_access_key_id\nBlocked before forwarding\nExample intercept · zero egress\nNothing left your machine.\nInterception verified locally.\nACCEPTANCE TEST EVIDENCE\nREHEARSAL RECEIPT\nZERO-EGRESS FIREWALL AUDIT\n0 packets\n·\n0 bytes\nContinuous capture: 240s idle + 100s active load to any public address\nDISASTER DRILL\nPASSED\nDeterministic Restore\nWiped & rebuilt; identical cited answer verified pre- and post-restore.\nACCEPTANCE GATE\n6 / 6 CHECKS\nValidation Suite\nAnswer coherence, isolated LAN auth, and zero outbound socket leakage.\nStaging network rehearsal · A10-class GPU\n· 2026-07-16\nEvery number above has a date and a method.\nRead the evidence →\nZero Egress\nZero Packets Out\nProven at your physical firewall with live network capture.\nOwned Compute\nZero SaaS Rent\nYou own the hardware. Zero recurring per-seat fees, ever.\nSingle Command\nInstant Gateway\nDeploy Mesh in minutes to inspect and protect agent traffic.\nSolo → Enterprise\nRight-Sized Keep\nTailored hardware from desk workstation to rack cluster.\nNews\nWe joined NVIDIA Inception.\nSkilak has been accepted into NVIDIA Inception. We will use it to test local inference on NVIDIA hardware more thoroughly.\nThank you to the NVIDIA Inception team.\nRead the announcement\nMember of NVIDIA Inception\nManifesto\nWhat we believe\n01\nOwn your AI like you own your computer.\nYou bought the machine. The model runs on it. Nobody can change the terms, raise the price, or switch it off.\n02\nOpen source is for everyone. We do the hard part.\nThe best models and tools are already free. Making them run well, safely, on your own hardware is not. That part is our job.\n03\nNobody makes money off your data. Not vendors, not clouds, not us.\nWe collect only what the system needs to run. Nothing about you or your documents leaves the perimeter.\n04\nCapable AI should be affordable.\nYou should not need a million-dollar contract to run a capable model. Affordable self-hosted AI is the point, not a tier.\n05\nA private AI has a perimeter.\nWhat goes in stays in. That line is drawn in hardware and network, not in a policy PDF.\nProducts\nTwo products, one idea\nOne keeps everything in. The other keeps your data out of everyone else's model.\nKeep\nAI that keeps everything in.\nA private AI server for your office. Chat, documents, and open models on hardware you own. Arrives silent, proven silent at your firewall.\nMeet Keep\nIllustrative depiction only\nHardware configured to client specification.\nMesh\nKeeps your data out of other people's AI.\nA gateway on your computer that inspects what your AI tools send out, and stops secrets and personal data before they leave.\nMeet Mesh\nclaude (mesh-protected) — zsh\n❯\nclaude\n“update SSN\n482-19-4820\nusing key\nsk-proj-9x…\n”\nMesh Gateway · Local Intercept\nREDACTED\nAPI key →\n[REDACTED:secret]\nREDACTED\nSSN →\n[REDACTED:pii_ssn]\nRedacted locally · before it reached the provider\nOur promise\nOur promise on data\nWe collect only what the system needs to run. We never sell, share, or train on your data. If that ever changes, you will read it here first.\nRead the full promise\nWho this is for\nFirms whose files cannot leave\nLaw firms, clinics, and defense contractors whose privileged, patient, or controlled data cannot go near a public model. Keep puts the model in your building.\nMeet Keep\nEngineers using cloud AI tools\nTeams in Claude Code or Codex who want API keys and personal data removed before a prompt leaves the laptop. Mesh runs on each computer.\nMeet Mesh\nSkilak Keep and Skilak Mesh are designed to fit within a customer's CMMC, HIPAA, ITAR, or other security program. Skilak LLC does not certify or confer compliance.\nTalk to us\nTell us what you would run.\nEmail us, or request a pilot. A few lines about the workload is enough.\ncontact@skilak.ai\nSt. Louis, Missouri\nRequest a pilot\nSelf-hosted AI, kept to yourself.\ncontact@skilak.ai\nMember of\nProducts\nKeep\nMesh\nRequest a pilot\nCompany\nCompany\nNVIDIA Inception\nOur promise\nGitHub\nLegal\nPrivacy\nTerms\nSkilak LLC · © 2026\nPrivacy\nTerms\nPromise\n© 2026 NVIDIA, the NVIDIA logo, and NVIDIA Inception are trademarks and/or registered trademarks of NVIDIA Corporation in the U.S. and other countries.",
+  "fullWordCount": 863,
+  "headings": [
+    {
+      "level": "h1",
+      "text": "Your \nAI\n.\nYour hardware.\nYour data."
+    },
+    {
+      "level": "h2",
+      "text": "We joined NVIDIA Inception."
+    },
+    {
+      "level": "h2",
+      "text": "What we believe"
+    },
+    {
+      "level": "h2",
+      "text": "Two products, one idea"
+    },
+    {
+      "level": "h2",
+      "text": "Our promise on data"
+    },
+    {
+      "level": "h2",
+      "text": "Who this is for"
+    },
+    {
+      "level": "h2",
+      "text": "Tell us what you would run."
+    },
+    {
+      "level": "h3",
+      "text": "Own your AI like you own your computer."
+    },
+    {
+      "level": "h3",
+      "text": "Open source is for everyone. We do the hard part."
+    },
+    {
+      "level": "h3",
+      "text": "Nobody makes money off your data. Not vendors, not clouds, not us."
+    },
+    {
+      "level": "h3",
+      "text": "Capable AI should be affordable."
+    },
+    {
+      "level": "h3",
+      "text": "A private AI has a perimeter."
+    },
+    {
+      "level": "h3",
+      "text": "Keep"
+    },
+    {
+      "level": "h3",
+      "text": "Mesh"
+    },
+    {
+      "level": "h3",
+      "text": "Firms whose files cannot leave"
+    },
+    {
+      "level": "h3",
+      "text": "Engineers using cloud AI tools"
+    },
+    {
+      "level": "h3",
+      "text": "Products"
+    },
+    {
+      "level": "h3",
+      "text": "Company"
+    },
+    {
+      "level": "h3",
+      "text": "Legal"
+    }
+  ],
+  "h1": "Your \nAI\n.\nYour hardware.\nYour data.",
+  "fonts": {
+    "hero": "\"DM Sans\", ui-sans-serif, system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+    "histogram": [
+      [
+        "dm sans",
+        106
+      ],
+      [
+        "ui-monospace",
+        45
+      ],
+      [
+        "monospace",
+        2
+      ]
+    ]
+  },
+  "colors": [
+    {
+      "hex": "#1e2a4a",
+      "h": 224,
+      "s": 0.42,
+      "l": 0.2,
+      "count": 403,
+      "where": {
+        "bg": 3,
+        "cta": 38,
+        "text": 190,
+        "border": 169
+      }
+    },
+    {
+      "hex": "#b03a17",
+      "h": 14,
+      "s": 0.77,
+      "l": 0.39,
+      "count": 133,
+      "where": {
+        "text": 43,
+        "border": 45,
+        "cta": 35,
+        "bg": 4
+      }
+    },
+    {
+      "hex": "#dc2626",
+      "h": 0,
+      "s": 0.72,
+      "l": 0.51,
+      "count": 18,
+      "where": {
+        "text": 6,
+        "border": 6,
+        "cta": 6
+      }
+    },
+    {
+      "hex": "#f0603f",
+      "h": 11,
+      "s": 0.86,
+      "l": 0.59,
+      "count": 16,
+      "where": {
+        "text": 3,
+        "border": 6,
+        "cta": 4,
+        "bg": 1
+      }
+    },
+    {
+      "hex": "#0284c7",
+      "h": 200,
+      "s": 0.98,
+      "l": 0.39,
+      "count": 15,
+      "where": {
+        "text": 5,
+        "border": 5,
+        "cta": 5
+      }
+    },
+    {
+      "hex": "#059669",
+      "h": 161,
+      "s": 0.94,
+      "l": 0.3,
+      "count": 15,
+      "where": {
+        "text": 5,
+        "border": 5,
+        "cta": 5
+      }
+    },
+    {
+      "hex": "#ff5f56",
+      "h": 3,
+      "s": 1,
+      "l": 0.67,
+      "count": 3,
+      "where": {
+        "bg": 1,
+        "cta": 1
+      }
+    },
+    {
+      "hex": "#ffbd2e",
+      "h": 41,
+      "s": 1,
+      "l": 0.59,
+      "count": 3,
+      "where": {
+        "bg": 1,
+        "cta": 1
+      }
+    },
+    {
+      "hex": "#27c93f",
+      "h": 129,
+      "s": 0.67,
+      "l": 0.47,
+      "count": 3,
+      "where": {
+        "bg": 1,
+        "cta": 1
+      }
+    },
+    {
+      "hex": "#166534",
+      "h": 143,
+      "s": 0.64,
+      "l": 0.24,
+      "count": 2,
+      "where": {
+        "text": 1,
+        "border": 1
+      }
+    },
+    {
+      "hex": "#b9d9f7",
+      "h": 209,
+      "s": 0.79,
+      "l": 0.85,
+      "count": 2,
+      "where": {
+        "bg": 1
+      }
+    },
+    {
+      "hex": "#bfefd9",
+      "h": 153,
+      "s": 0.6,
+      "l": 0.84,
+      "count": 1,
+      "where": {
+        "bg": 1
+      }
+    }
+  ],
+  "darkMode": false,
+  "gradients": {
+    "elements": 4,
+    "areaRatio": 0.344,
+    "textClip": 0
+  },
+  "glow": {
+    "count": 1,
+    "samples": [
+      {
+        "tag": "DIV",
+        "sat": 0.86,
+        "alpha": 0.12,
+        "blur": 16,
+        "y": 4,
+        "shadow": "rgba(240, 96, 63, 0.12) 0px 4px 16px -3px"
+      }
+    ]
+  },
+  "glass": 0,
+  "blurBlobs": 0,
+  "decor": {
+    "canvases": [
+      {
+        "w": 1440,
+        "h": 986,
+        "top": 73,
+        "area": 1420245
+      }
+    ],
+    "networkSvgs": [],
+    "animations": []
+  },
+  "pills": [
+    {
+      "text": "RENTED H100-CLASS (80 GB)",
+      "top": 345,
+      "fontSize": 9.5
+    }
+  ],
+  "eyebrows": [
+    {
+      "text": "SKILAK KEEP · ON-PREMISES SERVER",
+      "tracking": 0.04
+    },
+    {
+      "text": "0 EGRESS",
+      "tracking": 0.06
+    },
+    {
+      "text": "ZERO EGRESS",
+      "tracking": 0.06
+    },
+    {
+      "text": "OWNED COMPUTE",
+      "tracking": 0.06
+    },
+    {
+      "text": "SINGLE COMMAND",
+      "tracking": 0.06
+    },
+    {
+      "text": "SOLO → ENTERPRISE",
+      "tracking": 0.06
+    },
+    {
+      "text": "NEWS",
+      "tracking": 0.08
+    },
+    {
+      "text": "MANIFESTO",
+      "tracking": 0.08
+    },
+    {
+      "text": "PRODUCTS",
+      "tracking": 0.08
+    },
+    {
+      "text": "OUR PROMISE",
+      "tracking": 0.08
+    },
+    {
+      "text": "TALK TO US",
+      "tracking": 0.08
+    }
+  ],
+  "orbs": [],
+  "tags": [
+    [
+      "0 EGRESS",
+      1
+    ]
+  ],
+  "cards": {
+    "count": 9,
+    "nested": 1,
+    "perScreen": 1.5
+  },
+  "sections": 7,
+  "pageHeight": 5479,
+  "screens": 6.1,
+  "links": {
+    "total": 34,
+    "dead": 0,
+    "deadTexts": [],
+    "socialRoots": 0,
+    "external": 3
+  },
+  "buttons": 4,
+  "ctaTexts": [
+    "skip to content",
+    "keep",
+    "mesh",
+    "promise",
+    "company",
+    "request a pilot",
+    "newsskilak joins nvidia inception",
+    "what we believe",
+    "see the products",
+    "runs herekeep",
+    "stays heremesh",
+    "proven hereevidence",
+    "read the evidence →",
+    "read the announcement",
+    "member of nvidia inception",
+    "read the full promise",
+    "meet keep",
+    "meet mesh",
+    "contact@skilak.ai",
+    "member of",
+    "nvidia inception",
+    "our promise",
+    "github",
+    "privacy",
+    "terms"
+  ],
+  "forms": [],
+  "images": {
+    "total": 6,
+    "missingAlt": 2,
+    "avatarHosts": 0,
+    "stockHosts": 0
+  },
+  "testimonials": [],
+  "stats": [],
+  "logoBars": 0,
+  "copyrightYear": 2026,
+  "placeholders": [],
+  "phone": false,
+  "address": false,
+  "mobile": {
+    "viewportWidth": 390,
+    "scrollWidth": 390,
+    "horizontalOverflow": false,
+    "pageHeight": 8468
+  },
+  "consoleErrors": [],
+  "failedRequests": []
+}

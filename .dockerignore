@@ -1,0 +1,10 @@
+node_modules
+out
+fixtures
+test
+docs
+infra
+scripts
+.github
+*.md
+.git

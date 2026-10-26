@@ -1,0 +1,8 @@
+node_modules/
+out/
+hidden.txt
+*.log
+.DS_Store
+fixtures/*/*.png
+fixtures/private/
+private/

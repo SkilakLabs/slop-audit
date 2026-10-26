@@ -1,0 +1,557 @@
+{
+  "url": "https://linear.app",
+  "palette": {
+    "sampled": 960000,
+    "darkShare": 0.964,
+    "chromaticShare": 0,
+    "neonShare": 0,
+    "neonOfChromatic": 0,
+    "neonBands": {
+      "cyan-teal-mint": 0,
+      "radium-green": 0
+    },
+    "dominantHues": [
+      {
+        "hue": 230,
+        "share": 0.576
+      },
+      {
+        "hue": 180,
+        "share": 0.112
+      },
+      {
+        "hue": 50,
+        "share": 0.097
+      },
+      {
+        "hue": 40,
+        "share": 0.078
+      },
+      {
+        "hue": 10,
+        "share": 0.037
+      }
+    ]
+  },
+  "finalUrl": "https://linear.app/",
+  "collectedAt": "2026-10-26T14:09:49.261Z",
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "title": "Linear – The system for product development",
+  "generator": null,
+  "description": "Purpose-built for planning and building products with AI agents.",
+  "favicon": true,
+  "html": {
+    "lang": "en"
+  },
+  "builderMarkers": [],
+  "text": "Skip to content →\nProduct\nResources\nCustomers\nPricing\nNow\nContact\nLog in\nSign up\nThe product development\nsystem for teams and agents\nThe product development system for teams and agents\n\nPurpose-built for planning and building products. Designed for the AI era.\n\nNew\nLoops →\nLinear\nPulse\nInbox\nMy issues\nReviews\nWorkspace\nInitiatives\nProjects\nMore\nFavorites\nFaster app launch\nAgent tasks\nAgent Insights\nUI Refresh\nDRV-8852\nFaster app launch\n1 / 84\nFaster app launch\n\nRender UI before vehicle_state sync when minimum required state is present, instead of blocking on full refresh during iOS startup.\n\nActivity\nLinear created the issue via Slack on behalf of Karri\n·\n2min ago\nTriage Intelligence added the labels Performance and iOS\n·\n2min ago\nkarri\n·\n4 min ago\nRight now we show a spinner forever, which makes it look like the car disappeared...\njori\n·\njust now\n@Linear can you take a stab at this?\nLinear\nconnected by Jori\n·\n2 min ago\nChanged 2 files\nDraft PR awaiting your review\n·\n2 min ago\nLinear moved from Todo to In Progress\n·\njust now\nLinear\nOpus 5.5\n\nFix the dimmed ride rows that never reset and open a PR\n\nDRV-364\nadded to context\n\nThinking…\nThinking…\n\nReply…\n\nSkills\nReviews\nRevert\nProperties\nIn Progress\nMedium\nKarri\nLinear\nCycle 144\nLabels\nPerformance\niOS\nReleases\nLinear App\n1.6881...\n⋅\nJun 25\n\nPOWERING THE COMPANIES BUILDING THE FUTURE\n\nA new species of product tool. Purpose-built for modern teams with AI workflows at its core, Linear sets a new standard for planning and building products.\nFIG 0.1\nPurpose-built\n\nLinear is shaped by the practices and principles of world-class product teams.\n\nFIG 0.2\nPowered by agents\n\nDesigned for workflows shared by humans and agents. From drafting PRDs to pushing PRs.\n\nFIG 0.3\nDesigned for speed\n\nReduces noise and restores momentum to help teams ship with high velocity and focus.\n\nIntake\nand integrations\n\nAutomatically turn conversations and customer feedback into actionable issues that are instantly routed, labeled, and prioritized for the right team.\n\nLearn more\n→\nBacklog\n8\nENG-2085\nReduce UI flicker during autonomy...\nENG-2094\nAdd buffering for autonomy event streams\nENG-2092\nReduce startup delay caused by vehicle sync\nENG-2200\nFix delayed route updates during rerouting\nTodo\n71\nENG-926\nRemove UI inconsistencies\nBug\nDesign\nENG-2088\nTypeError: Cannot read properties\nBug\nENG-924\nUpgrade to Claude Opus 5.5\nAI\nENG-1882\nOptimize load times\nPerformance\nIn Progress\n3\nENG-1487\nRemove contentData from GraphQL API\n61039\nMKT-1028\nLaunch page assets\nDesign\nENG-2187\nPrevent duplicate ride requests on poor...\nBug\n62048\nDone\n53\nENG-2074\nClean up deprecated APIs...\nAPI\n61002\nENG-1912\nReduce latency in autonomy st...\n61005\nENG-1951\nReduce ETA fluctuations durin...\n61202\nENG-1960\nImprove fallback messaging\nUI\n61149\nENG-1991\nImprove rider visibility into veh...\nThread\n#product\ndidier\n9:09 AM\nHas anyone been looking into the iOS startup performance issues?\nlena\n9:09 AM\nAnyone else noticing the iOS app feels slow to open if you haven’t used it in a bit?\ndidier\n9:09 AM\nYea, we’re still blocking initial render on a full vehicle_state sync every time…\nandreas\n9:09 AM\nFeels like we could render sooner and load the rest in the background. Probably also worth tracking startup timing so we know how often this happens!\n@Linear\ncreate issues and assign to me\nFeatures\nLinear Agent +\nCustomer Requests +\nTriage +\nLinear Asks +\nPlanning\nand monitoring\n\nPlan and navigate from idea to launch. Align your team with product initiatives, strategic roadmaps, and clear, up-to-date PRDs.\n\nLearn more\n→\nMAR\nAPR\nMAY\nJUN\nJUL\nAUG\nSEP\n2\n9\n16\n23\n6\n13\n20\n27\n4\n11\n18\n25\n1\n8\n15\n22\n6\n13\n20\n27\n3\n10\n17\n24\n7\n14\n21\n28\nUI Refresh\nCore screens\nPolish\nSplit fares\nInternal\nPublic Beta\nAutonomy status clarity\nAlpha\nAutonomy telemetry reliability\nBeta\nGA\nCycle time by agent\nOct 2025\nNov 2025\nDec 2025\nJan 2026\nFeb 2026\nFeatures\nProjects +\nDocuments +\nPulse +\nInitiatives +\nVisual planning +\nInsights +\nAI and\nautomations\n\nBuild and deploy AI agents that work alongside you as teammates. Work on complex tasks together or delegate entire issues end-to-end.\n\nLearn more\n→\nLinear\nOpus 5.5\n\nwhat are the three most important customer requests around permissions? add them to the Access Controls project\n\nWorked for 8 sec\n\nThree issues ranked by customer impact:\n\nENG-2298\nAdd granular project permissions\nENG-2647\nLet guests access multiple teams\nENG-2352\nCreate custom roles with scoped access\n\nI’ve added them to \nAccess Controls\n\nCursor\n\nadd retry handling for failed image uploads described in this issue\n\nENG-2844\nadded to context\nLinear\nOpus 5.5\n\nReview today’s mobile triage and group the issues by what should happen next\n\nMobile Triage\nadded to context\nChatPRD\n\nreview this issue, draft complete offline mode requirements, and break the work into sub-issues\n\nENG-2521\nadded to context\nWorked for 1 min\n\nUpdated the issue with requirements, open product decisions, and acceptance criteria.\n\nENG-2920\nDefine offline mode requirements\nFeatures\nLinear Agent +\nCoding sessions +\nTriage +\nLinear MCP +\nBuild, review,\nand ship\n\nStreamline code reviews with clear diffs, better context, and fewer back-and-forth comments. Keep PRs moving without sacrificing quality.\n\nLearn more\n→\nIn Review\n3\nENG-2498\nReplace isFullySynced with a sync status\n#54910\niOS\nOct 9\nENG-2380\nShow a stale data banner while syncing\n#55167\nReliability\nOct 9\nENG-2039\nPass sync status to the dashboard\n#55209\nBug\nReliability\nOct 8\nIn Progress\n4\nENG-2076\nReduce ETA jitter\n#55423\nPerformance\nWorking…\nWorking…\nOct 6\nENG-2108\nHandle GPS dropouts gracefully\n#55409\nMaps\nWorking…\nWorking…\nOct 2\nENG-2143\nOptimize map tile loading on initial app open\nMaps\nOct 7\nENG-2187\nPrevent duplicate ride requests on poor networks\nBug\nWorking…\nWorking…\nOct 5\nTodo\n4\nENG-2254\nReduce unnecessary map re-rendering on home screen\nMaps\nOct 10\nENG-2291\nClean up deprecated APIs used by the rider app\nAPI\nOct 9\nENG-2327\nSpeed up CI pipelines for mobile builds\nPerformance\nOct 9\nENG-2358\nReduce flakiness in mobile UI tests\nReliability\nOct 4\nkinetic-ios/src/screens/Home/HomeScreen.tsx\nimport React from 'react'\nimport { View, ActivityIndicator } from 'react-native'\nimport { useVehicleState } from '@hooks/useVehicleState'\nimport { Dashboard } from '@components/Dashboard'\nexport const HomeScreen = () => {\n  const { vehicleState, isFullySynced } = useVehicleState()\n  if (!isFullySynced) {\n    return <ActivityIndicator size=\"large\" />\n  }\n  return (\n    <View>\n      <Dashboard state={vehicleState} />\n    </View>\n  )\n}\nimport React from 'react'\nimport { View, ActivityIndicator } from 'react-native'\nimport { useVehicleState, SyncStatus } from '@hooks/useVehicleState'\nimport { Dashboard } from '@components/Dashboard'\nexport const HomeScreen = () => {\n  const { vehicleState, syncStatus } = useVehicleState()\n  if (syncStatus === SyncStatus.PENDING) {\n    return <ActivityIndicator size=\"large\" />\n  }\n  return (\n    <View>\n      <Dashboard state={vehicleState} syncStatus={syncStatus} />\n    </View>\n  )\n}\nLinear\nFeatures\nIssues +\nGit automations +\nGuided reviews +\nCycles +\nDiffs +\nReleases +\nChangelog\nSlack and GitHub loop triggers\nLoops automate product work by responding to changes in Linear and connected tools. You can now trigger them from Slack and GitHub, share them as templates, and customize their reasoning levels.\nOCT 22, 2026\nStacked pull requests\nStacked pull requests are now displayed in Linear Diffs. Move through a stack and see review, CI, and merge status at a glance. Related PRs are grouped into a single collapsible row in Reviews, alongside their issue and project context.\nOCT 8, 2026\nNew controls for Linear coding agent\nCoding sessions are the shortest path from issue to diff. Assign a task to Linear Agent, and it works in a secure cloud environment to write and test the code before opening a pull request for review.\nSEP 24, 2026\nLoops for product management\nLoops are recurring agent workflows for teams. They now respond to more workspace activity, including changes to initiatives, projects, and cycles. They can also edit Linear documents and post updates to Slack.\nSEP 10, 2026\nView all\n→\n\nYou’ll probably build a better product, just because of the craft that using Linear infuses on your brain.\n\nGabriel Peal\nStaff Software Engineer, OpenAI\n\nOur speed is intense and Linear helps us be action biased.\n\nNik Koblov\nHead of Engineering, Ramp\n\nLinear powers over 40,000 product teams. From ambitious startups to major enterprises.\n\nCustomer stories\n→\nBuilt for the future. Available today.\nGet started\nContact sales\nProduct\nIntake\nPlan\nAI\nBuild\nPricing\nSecurity\nFeatures\nAsks\nAgents\nCoding Sessions\nCustomer Requests\nInsights\nMobile\nIntegrations\nChangelog\nCompany\nAbout\nCustomers\nCareers\nNow\nMethod\nQuality\nBrand\nResources\nSwitch\nDownload\nDocumentation\nDevelopers\nStatus\nEnterprise\nStartups\nConnect\nContact us\nCommunity\nX (Twitter)\nGitHub\nYouTube\nPrivacy\nTerms\nDPA\nAUP",
+  "wordCount": 1399,
+  "fullText": "Skip to content →\nProduct\nResources\nCustomers\nPricing\nNow\nContact\nDocs\nOpen app\nLog in\nSign up\nThe product\ndevelopment\nsystem for teams\nand agents\nThe product development\nsystem for teams and agents\nThe product development system for teams and agents\nPurpose-built for planning and building products. Designed for the AI era.\nNew\nLoops\n→\nNew\nLoops\n→\nLinear\nPulse\nInbox\nMy issues\nReviews\nWorkspace\nInitiatives\nProjects\nMore\nFavorites\nFaster app launch\nAgent tasks\nAgent Insights\nUI Refresh\nDRV-8852\nFaster app launch\n1\n/ 84\nFaster app launch\nRender UI before\nvehicle_state\nsync when minimum required state is present, instead of blocking on full refresh during iOS startup.\nActivity\nLinear\ncreated the issue via\nSlack\non behalf of\nKarri\n·\n2min ago\nTriage Intelligence\nadded the labels\nPerformance\nand\niOS\n·\n2min ago\nkarri\n·\n4 min ago\nRight now we show a spinner forever, which makes it look like the car disappeared...\njori\n·\njust now\n@Linear can you take a stab at this?\nLinear\nconnected by\nJori\n·\n2 min ago\nChanged 2 files\nDraft PR awaiting your review\n·\n2 min ago\nLinear\nmoved from\nTodo\nto\nIn Progress\n·\njust now\nLinear\nOpus 5.5\nFix the dimmed ride rows that never reset and open a PR\nDRV-364\nadded to context\nThinking…\nThinking…\nReply…\nSkills\nReviews\nRevert\nProperties\nIn Progress\nMedium\nKarri\nLinear\nCycle 144\nLabels\nPerformance\niOS\nReleases\nLinear App\n1.6881...\n⋅\nJun 25\nPowering the companies building the future\nA new species of product tool.\nPurpose-built for modern teams with AI workflows at its core, Linear sets a new standard for planning and building products.\nPurpose-built\nLinear is shaped by the practices and principles of world-class product teams.\nPowered by agents\nDesigned for workflows shared by humans and agents. From drafting PRDs to pushing PRs.\nDesigned for speed\nReduces noise and restores momentum to help teams ship with high velocity and focus.\nFig 0.1\nPurpose-built\nLinear is shaped by the practices and principles of world-class product teams.\nFig 0.2\nPowered by agents\nDesigned for workflows shared by humans and agents. From drafting PRDs to pushing PRs.\nDesigned for workflows shared by humans and agents. From drafting PRDs to pushing PRs.\nFig 0.3\nDesigned for speed\nReduces noise and restores momentum to help teams ship with high velocity and focus.\nIntake\nand integrations\nAutomatically turn conversations and customer feedback into actionable issues that are instantly routed, labeled, and prioritized for the right team.\nLearn more\n→\nBacklog\n8\nENG-2085\nReduce UI flicker during autonomy...\nENG-2094\nAdd buffering for autonomy event streams\nENG-2092\nReduce startup delay caused by vehicle sync\nENG-2200\nFix delayed route updates during rerouting\nTodo\n71\nENG-926\nRemove UI inconsistencies\nBug\nDesign\nENG-2088\nTypeError: Cannot read properties\nBug\nENG-924\nUpgrade to Claude Opus 5.5\nAI\nENG-1882\nOptimize load times\nPerformance\nIn Progress\n3\nENG-1487\nRemove contentData from GraphQL API\n61039\nMKT-1028\nLaunch page assets\nDesign\nENG-2187\nPrevent duplicate ride requests on poor...\nBug\n62048\nDone\n53\nENG-2074\nClean up deprecated APIs...\nAPI\n61002\nENG-1912\nReduce latency in autonomy st...\n61005\nENG-1951\nReduce ETA fluctuations durin...\n61202\nENG-1960\nImprove fallback messaging\nUI\n61149\nENG-1991\nImprove rider visibility into veh...\nThread\n#product\ndidier\n9:09 AM\nHas anyone been looking into the iOS startup performance issues?\nlena\n9:09 AM\nAnyone else noticing the iOS app feels slow to open if you haven’t used it in a bit?\ndidier\n9:09 AM\nYea, we’re still blocking initial render on a full vehicle_state sync every time…\nandreas\n9:09 AM\nFeels like we could render sooner and load the rest in the background. Probably also worth tracking startup timing so we know how often this happens!\n@Linear\ncreate issues and assign to me\nFeatures\nLinear Agent\n+\nCustomer Requests\n+\nTriage\n+\nLinear Asks\n+\nPlanning\nand monitoring\nPlan and navigate from idea to launch. Align your team with product initiatives, strategic roadmaps, and clear, up-to-date PRDs.\nLearn more\n→\nMAR\nAPR\nMAY\nJUN\nJUL\nAUG\nSEP\n2\n9\n16\n23\n6\n13\n20\n27\n4\n11\n18\n25\n1\n8\n15\n22\n6\n13\n20\n27\n3\n10\n17\n24\n7\n14\n21\n28\nUI Refresh\nCore screens\nPolish\nSplit fares\nInternal\nPublic Beta\nAutonomy status clarity\nAlpha\nAutonomy telemetry reliability\nBeta\nGA\nCycle time by agent\nOct 2025\nNov 2025\nDec 2025\nJan 2026\nFeb 2026\nFeatures\nProjects\n+\nDocuments\n+\nPulse\n+\nInitiatives\n+\nVisual planning\n+\nInsights\n+\nAI and\nautomations\nBuild and deploy AI agents that work alongside you as teammates. Work on complex tasks together or delegate entire issues end-to-end.\nLearn more\n→\nLinear\nOpus 5.5\nwhat are the three most important customer requests around permissions? add them to the Access Controls project\nWorked for 8 sec\nThree issues ranked by customer impact:\nENG-2298\nAdd granular project permissions\nENG-2647\nLet guests access multiple teams\nENG-2352\nCreate custom roles with scoped access\nI’ve added them to\nAccess Controls\nCursor\nadd retry handling for failed image uploads described in this issue\nENG-2844\nadded to context\nLinear\nOpus 5.5\nReview today’s mobile triage and group the issues by what should happen next\nMobile Triage\nadded to context\nChatPRD\nreview this issue, draft complete offline mode requirements, and break the work into sub-issues\nENG-2521\nadded to context\nWorked for 1 min\nUpdated the issue with requirements, open product decisions, and acceptance criteria.\nENG-2920\nDefine offline mode requirements\nFeatures\nLinear Agent\n+\nCoding sessions\n+\nTriage\n+\nLinear MCP\n+\nBuild, review,\nand ship\nStreamline code reviews with clear diffs, better context, and fewer back-and-forth comments. Keep PRs moving without sacrificing quality.\nLearn more\n→\nIn Review\n3\nENG-2498\nReplace isFullySynced with a sync status\n#54910\niOS\nOct 9\nENG-2380\nShow a stale data banner while syncing\n#55167\nReliability\nOct 9\nENG-2039\nPass sync status to the dashboard\n#55209\nBug\nReliability\nOct 8\nIn Progress\n4\nENG-2076\nReduce ETA jitter\n#55423\nPerformance\nWorking…\nWorking…\nOct 6\nENG-2108\nHandle GPS dropouts gracefully\n#55409\nMaps\nWorking…\nWorking…\nOct 2\nENG-2143\nOptimize map tile loading on initial app open\nMaps\nOct 7\nENG-2187\nPrevent duplicate ride requests on poor networks\nBug\nWorking…\nWorking…\nOct 5\nTodo\n4\nENG-2254\nReduce unnecessary map re-rendering on home screen\nMaps\nOct 10\nENG-2291\nClean up deprecated APIs used by the rider app\nAPI\nOct 9\nENG-2327\nSpeed up CI pipelines for mobile builds\nPerformance\nOct 9\nENG-2358\nReduce flakiness in mobile UI tests\nReliability\nOct 4\nkinetic-ios/src/screens/Home/HomeScreen.tsx\nkinetic-ios/src/HomeScreen.tsx\nimport\nReact\nfrom\n'\nreact\n'\nimport\n{\nView\n,\nActivityIndicator\n}\nfrom\n'\nreact-native\n'\nimport\n{\nuseVehicleState\n}\nfrom\n'\n@hooks/useVehicleState\n'\nimport\n{\nDashboard\n}\nfrom\n'\n@components/Dashboard\n'\nexport\nconst\nHomeScreen\n=\n()\n=>\n{\nconst\n{\nvehicleState\n,\nisFullySynced\n}\n=\nuseVehicleState\n()\nif\n(\n!\nisFullySynced\n) {\nreturn\n<\nActivityIndicator\nsize\n=\n\"\nlarge\n\"\n/>\n}\nreturn\n(\n<\nView\n>\n<\nDashboard\nstate\n=\n{\nvehicleState\n} />\n</\nView\n>\n)\n}\nimport\nReact\nfrom\n'\nreact\n'\nimport\n{\nView\n,\nActivityIndicator\n}\nfrom\n'\nreact-native\n'\nimport\n{\nuseVehicleState\n,\nSyncStatus\n}\nfrom\n'\n@hooks/useVehicleState\n'\nimport\n{\nDashboard\n}\nfrom\n'\n@components/Dashboard\n'\nexport\nconst\nHomeScreen\n=\n()\n=>\n{\nconst\n{\nvehicleState\n,\nsyncStatus\n}\n=\nuseVehicleState\n()\nif\n(\nsyncStatus\n===\nSyncStatus\n.\nPENDING\n) {\nreturn\n<\nActivityIndicator\nsize\n=\n\"\nlarge\n\"\n/>\n}\nreturn\n(\n<\nView\n>\n<\nDashboard\nstate\n=\n{\nvehicleState\n}\nsyncStatus\n=\n{\nsyncStatus\n}\n/>\n</\nView\n>\n)\n}\nimport React from 'react'\nimport { View, ActivityIndicator } from 'react-native'\nimport { useVehicleState, SyncStatus } from '@hooks/useVehicleState'\nimport { Dashboard } from '@components/Dashboard'\n\nexport const HomeScreen = () => {\n  const { vehicleState, syncStatus } = useVehicleState()\n\n  if (syncStatus === SyncStatus.PENDING) {\n    return <ActivityIndicator size=\"large\" />\n  }\n\n  return (\n    <View>\n      <Dashboard state={vehicleState} syncStatus={syncStatus} />\n    </View>\n  )\n}\nexport\nconst\nCodeReview\n=\n()\n=>\n{\n<\nDiff.Provider\n>\n<\nSlow\n/>\n<\nFragmented\n/>\n<\nHumanOnly\n/>\n<\nFrictionless\n/>\n<\nIntegrated\n/>\n<\nAgentReady\n/>\n</\nDiff.Provider\n>\n};\nLinear\nFeatures\nIssues\n+\nGit automations\n+\nGuided reviews\n+\nCycles\n+\nDiffs\n+\nReleases\n+\nChangelog\nSlack and GitHub loop triggers\nLoops automate product work by responding to changes in Linear and connected tools. You can now trigger them from Slack and GitHub, share them as templates, and customize their reasoning levels.\nOct 22, 2026\nStacked pull requests\nStacked pull requests are now displayed in Linear Diffs. Move through a stack and see review, CI, and merge status at a glance. Related PRs are grouped into a single collapsible row in Reviews, alongside their issue and project context.\nOct 8, 2026\nNew controls for Linear coding agent\nCoding sessions are the shortest path from issue to diff. Assign a task to Linear Agent, and it works in a secure cloud environment to write and test the code before opening a pull request for review.\nSep 24, 2026\nLoops for product management\nLoops are recurring agent workflows for teams. They now respond to more workspace activity, including changes to initiatives, projects, and cycles. They can also edit Linear documents and post updates to Slack.\nSep 10, 2026\nView all\n→\nYou’ll probably build a better product, just because of the craft that using Linear infuses on your brain.\nGabriel Peal\nOpenAI\nOur speed is intense and Linear helps us be action biased.\nNik Koblov\nRamp\nLinear is excellent, just excellent. It has the right opinions for fast moving teams.\nKaz Nejatian\nOpendoor\nYou’ll probably build a better product, just because of the craft that using Linear infuses on your brain.\nGabriel Peal\nStaff Software Engineer, OpenAI\nOur speed is intense and Linear helps us be action biased.\nNik Koblov\nHead of Engineering, Ramp\nLinear powers over\n40,000\nproduct teams. From ambitious startups to major enterprises.\nCustomer stories\n→\nBuilt for the future. Available today.\nGet started\nContact sales\nOpen app\nDownload\nProduct\nIntake\nPlan\nAI\nBuild\nPricing\nSecurity\nFeatures\nAsks\nAgents\nCoding Sessions\nCustomer Requests\nInsights\nMobile\nIntegrations\nChangelog\nCompany\nAbout\nCustomers\nCareers\nNow\nMethod\nQuality\nBrand\nResources\nSwitch\nDownload\nDocumentation\nDocs\nDevelopers\nStatus\nEnterprise\nStartups\nConnect\nContact us\nCommunity\nX (Twitter)\nGitHub\nYouTube\nLegal\nPrivacy\nTerms\nDPA\nAUP\nPrivacy\nTerms\nDPA\nAUP",
+  "fullWordCount": 1688,
+  "headings": [
+    {
+      "level": "h1",
+      "text": "The product development\nsystem for teams and agents\nThe product development system for teams and agents"
+    },
+    {
+      "level": "h2",
+      "text": "A new species of product tool. Purpose-built for modern teams with AI workflows at its core, Linear sets a new standard for planning and building products."
+    },
+    {
+      "level": "h2",
+      "text": "Intake\nand integrations"
+    },
+    {
+      "level": "h2",
+      "text": "Planning\nand monitoring"
+    },
+    {
+      "level": "h2",
+      "text": "AI and\nautomations"
+    },
+    {
+      "level": "h2",
+      "text": "Build, review,\nand ship"
+    },
+    {
+      "level": "h2",
+      "text": "Changelog"
+    },
+    {
+      "level": "h2",
+      "text": "Built for the future. Available today."
+    },
+    {
+      "level": "h3",
+      "text": "Faster app launch"
+    },
+    {
+      "level": "h3",
+      "text": "Product"
+    },
+    {
+      "level": "h3",
+      "text": "Features"
+    },
+    {
+      "level": "h3",
+      "text": "Company"
+    },
+    {
+      "level": "h3",
+      "text": "Resources"
+    },
+    {
+      "level": "h3",
+      "text": "Connect"
+    }
+  ],
+  "h1": "The product development\nsystem for teams and agents\nThe product development system for teams and agents",
+  "fonts": {
+    "hero": "\"Inter Variable\", \"SF Pro Display\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+    "histogram": [
+      [
+        "inter variable",
+        445
+      ],
+      [
+        "berkeley mono",
+        182
+      ]
+    ]
+  },
+  "colors": [
+    {
+      "hex": "#f79ce0",
+      "h": 315,
+      "s": 0.85,
+      "l": 0.79,
+      "count": 82,
+      "where": {
+        "text": 41,
+        "border": 41
+      }
+    },
+    {
+      "hex": "#f7bf8b",
+      "h": 29,
+      "s": 0.87,
+      "l": 0.76,
+      "count": 44,
+      "where": {
+        "text": 22,
+        "border": 22
+      }
+    },
+    {
+      "hex": "#ffdf9f",
+      "h": 40,
+      "s": 1,
+      "l": 0.81,
+      "count": 20,
+      "where": {
+        "text": 10,
+        "border": 10
+      }
+    },
+    {
+      "hex": "#83dcdc",
+      "h": 180,
+      "s": 0.56,
+      "l": 0.69,
+      "count": 18,
+      "where": {
+        "text": 9,
+        "border": 9
+      }
+    },
+    {
+      "hex": "#8fa6ff",
+      "h": 228,
+      "s": 1,
+      "l": 0.78,
+      "count": 16,
+      "where": {
+        "text": 8,
+        "border": 8
+      }
+    },
+    {
+      "hex": "#f34e52",
+      "h": 359,
+      "s": 0.87,
+      "l": 0.63,
+      "count": 6,
+      "where": {
+        "text": 3,
+        "border": 3
+      }
+    },
+    {
+      "hex": "#4ea7fc",
+      "h": 209,
+      "s": 0.97,
+      "l": 0.65,
+      "count": 4,
+      "where": {
+        "bg": 4
+      }
+    },
+    {
+      "hex": "#e4f222",
+      "h": 64,
+      "s": 0.89,
+      "l": 0.54,
+      "count": 4,
+      "where": {
+        "bg": 1,
+        "cta": 1
+      }
+    },
+    {
+      "hex": "#eb5757",
+      "h": 0,
+      "s": 0.79,
+      "l": 0.63,
+      "count": 3,
+      "where": {
+        "bg": 3
+      }
+    },
+    {
+      "hex": "#6d78d5",
+      "h": 234,
+      "s": 0.55,
+      "l": 0.63,
+      "count": 3,
+      "where": {
+        "text": 1,
+        "bg": 1,
+        "border": 1
+      }
+    },
+    {
+      "hex": "#27a644",
+      "h": 134,
+      "s": 0.62,
+      "l": 0.4,
+      "count": 1,
+      "where": {
+        "bg": 1
+      }
+    },
+    {
+      "hex": "#5e6ad2",
+      "h": 234,
+      "s": 0.56,
+      "l": 0.6,
+      "count": 1,
+      "where": {
+        "bg": 1
+      }
+    }
+  ],
+  "darkMode": true,
+  "gradients": {
+    "elements": 56,
+    "areaRatio": 0.438,
+    "textClip": 0
+  },
+  "glow": {
+    "count": 0,
+    "samples": []
+  },
+  "glass": 2,
+  "blurBlobs": 0,
+  "decor": {
+    "canvases": [],
+    "networkSvgs": [],
+    "animations": [
+      [
+        "fFDhtq_dotIn",
+        438
+      ],
+      [
+        "-VOcTG_agentLabelSweep",
+        3
+      ],
+      [
+        "grid-dot-0-0-upDown",
+        1
+      ],
+      [
+        "grid-dot-0-1-upDown",
+        1
+      ],
+      [
+        "grid-dot-0-2-upDown",
+        1
+      ],
+      [
+        "grid-dot-0-3-upDown",
+        1
+      ],
+      [
+        "grid-dot-0-4-upDown",
+        1
+      ],
+      [
+        "grid-dot-1-0-upDown",
+        1
+      ],
+      [
+        "grid-dot-1-1-upDown",
+        1
+      ],
+      [
+        "grid-dot-1-2-upDown",
+        1
+      ],
+      [
+        "grid-dot-1-3-upDown",
+        1
+      ],
+      [
+        "grid-dot-1-4-upDown",
+        1
+      ],
+      [
+        "grid-dot-2-0-upDown",
+        1
+      ],
+      [
+        "grid-dot-2-1-upDown",
+        1
+      ],
+      [
+        "grid-dot-2-2-upDown",
+        1
+      ]
+    ]
+  },
+  "pills": [
+    {
+      "text": "Bug",
+      "top": 3060,
+      "fontSize": 16
+    },
+    {
+      "text": "Design",
+      "top": 3060,
+      "fontSize": 16
+    },
+    {
+      "text": "Bug",
+      "top": 3164,
+      "fontSize": 16
+    },
+    {
+      "text": "AI",
+      "top": 3268,
+      "fontSize": 16
+    },
+    {
+      "text": "Performance",
+      "top": 3372,
+      "fontSize": 16
+    },
+    {
+      "text": "61039",
+      "top": 3060,
+      "fontSize": 16
+    },
+    {
+      "text": "Design",
+      "top": 3164,
+      "fontSize": 16
+    },
+    {
+      "text": "Bug",
+      "top": 3268,
+      "fontSize": 16
+    },
+    {
+      "text": "62048",
+      "top": 3268,
+      "fontSize": 16
+    },
+    {
+      "text": "API",
+      "top": 3060,
+      "fontSize": 16
+    },
+    {
+      "text": "61002",
+      "top": 3060,
+      "fontSize": 16
+    },
+    {
+      "text": "61005",
+      "top": 3164,
+      "fontSize": 16
+    },
+    {
+      "text": "61202",
+      "top": 3268,
+      "fontSize": 16
+    },
+    {
+      "text": "UI",
+      "top": 3372,
+      "fontSize": 16
+    },
+    {
+      "text": "61149",
+      "top": 3372,
+      "fontSize": 16
+    }
+  ],
+  "eyebrows": [
+    {
+      "text": "POWERING THE COMPANIES BUILDING THE FUTURE",
+      "tracking": 0
+    },
+    {
+      "text": "FIG 0.1",
+      "tracking": 0
+    },
+    {
+      "text": "FIG 0.2",
+      "tracking": 0
+    },
+    {
+      "text": "FIG 0.3",
+      "tracking": 0
+    }
+  ],
+  "orbs": [],
+  "tags": [],
+  "cards": {
+    "count": 44,
+    "nested": 30,
+    "perScreen": 4
+  },
+  "sections": 7,
+  "pageHeight": 9960,
+  "screens": 11.1,
+  "links": {
+    "total": 61,
+    "dead": 0,
+    "deadTexts": [],
+    "socialRoots": 0,
+    "external": 4
+  },
+  "buttons": 70,
+  "ctaTexts": [
+    "skip to content →",
+    "product",
+    "resources",
+    "customers",
+    "pricing",
+    "now",
+    "contact",
+    "docs",
+    "open app",
+    "log in",
+    "sign up",
+    "newloops →",
+    "linear",
+    "pulse",
+    "inbox",
+    "my issues",
+    "reviews",
+    "workspace",
+    "initiatives",
+    "projects",
+    "more",
+    "favorites",
+    "faster app launch",
+    "agent tasks",
+    "agent insights",
+    "ui refresh",
+    "performance",
+    "ios",
+    "learn more→",
+    "linear agent +",
+    "customer requests +",
+    "triage +",
+    "linear asks +",
+    "projects +",
+    "documents +",
+    "pulse +",
+    "initiatives +",
+    "visual planning +",
+    "insights +",
+    "coding sessions +",
+    "linear mcp +",
+    "issues +",
+    "git automations +",
+    "guided reviews +",
+    "cycles +",
+    "diffs +",
+    "releases +",
+    "view all→",
+    "customer stories→",
+    "get started",
+    "contact sales",
+    "download",
+    "intake",
+    "plan",
+    "ai",
+    "build",
+    "security",
+    "asks",
+    "agents",
+    "coding sessions",
+    "customer requests",
+    "insights",
+    "mobile",
+    "integrations",
+    "changelog",
+    "about",
+    "careers",
+    "method",
+    "quality",
+    "brand",
+    "switch",
+    "documentationdocs",
+    "developers",
+    "status",
+    "enterprise",
+    "startups",
+    "contact us",
+    "community",
+    "x (twitter)",
+    "github",
+    "youtube",
+    "privacy",
+    "terms",
+    "dpa",
+    "aup"
+  ],
+  "forms": [],
+  "images": {
+    "total": 35,
+    "missingAlt": 23,
+    "avatarHosts": 0,
+    "stockHosts": 0
+  },
+  "testimonials": [],
+  "stats": [],
+  "logoBars": 0,
+  "copyrightYear": null,
+  "placeholders": [],
+  "phone": false,
+  "address": false,
+  "mobile": {
+    "viewportWidth": 390,
+    "scrollWidth": 390,
+    "horizontalOverflow": false,
+    "pageHeight": 5876
+  },
+  "consoleErrors": [],
+  "failedRequests": []
+}

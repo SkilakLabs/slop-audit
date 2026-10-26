@@ -1,0 +1,360 @@
+{
+  "url": "https://option.com",
+  "palette": {
+    "sampled": 577440,
+    "darkShare": 0.072,
+    "chromaticShare": 0.084,
+    "neonShare": 0,
+    "neonOfChromatic": 0,
+    "neonBands": {
+      "cyan-teal-mint": 0,
+      "radium-green": 0
+    },
+    "dominantHues": [
+      {
+        "hue": 200,
+        "share": 0.628
+      },
+      {
+        "hue": 210,
+        "share": 0.25
+      },
+      {
+        "hue": 40,
+        "share": 0.07
+      }
+    ]
+  },
+  "finalUrl": "https://www.option.com/",
+  "collectedAt": "2026-10-26T14:09:20.637Z",
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "title": "Option.com",
+  "generator": "Site Kit by Google 1.183.0",
+  "description": "Option is a publicly quoted technology company, headquartered in Leuven, Belgium. Option specializes in the design, development, production and commercialization of broadband wireless technology devices.",
+  "favicon": true,
+  "html": {
+    "lang": "en-US"
+  },
+  "builderMarkers": [],
+  "text": "Skip to content\nProducts\nAbout us\nContact\nShop\nNews\nInvestor relations\nLogin\nOption's\nCloudGate Probe LoRa\nOption's\nCloudGate\n\nSmart Metering card\nDOWNLOAD DATASHEET\nCloudGate\nnano + LoRa =\nSmart Building\nDOWNLOAD DATASHEET\nOption's\nCloudGate Probe LoRa\nOption's\nCloudGate\n\nSmart Metering card\nDOWNLOAD DATASHEET\nCloudGate\nnano + LoRa =\nSmart Building\nDOWNLOAD DATASHEET\nOption's\nCloudGate Probe LoRa\nOption's\nCloudGate\n\nSmart Metering card\nDOWNLOAD DATASHEET\nCloudGate\nnano + LoRa =\nSmart Building\nDOWNLOAD DATASHEET\nLoRa Basics Station\n\nOption™ CloudGate gateways now feature LoRa Basics™ Station\n\nDrastically simplify the management of your large scale LoRaWAN networks with CloudGate and LoRa Basics™ Station\n\nLoRa Basics™ Station is the future proof way of connecting LoRaWAN Gateways to the vast majority of the world’s leading LoRaWAN Network Providers.\n\nSome of the advantages of LoRa Basics™ Station over Semtech ’s legacy UDP Packet Forwarder are:\n·      Centralized Update and Configuration Management\n·      State-of-the-art Authentication mechanism\n·      Centralized Channel-Plan Management\n·      No Dependency on Local Time Keeping\n \nWith this integration, OPTION CloudGate continues to keep its role as the world’s leading smart-edge LoRaWAN Gateway, however, we continue to support the usage of the legacy Semtech Packet Forwarder – the original LoRaWAN packet forwarder, for development and demonstration purposes.\n\nAzure\n\nCloudGate now certified to run with Microsoft Azure IoT.\n\nOption has joined Microsoft Azure Certified for Internet of Things (IoT), ensuring customers get IoT solutions up and running quickly with hardware and software that has been pre-tested and verified to work with Microsoft Azure IoT services. IoT projects are complex and take a long time to implement. Choosing and connecting the right set of devices, assets or sensors to the cloud can be time-consuming. To jumpstart IoT projects with confidence, customers are looking for certified devices and platforms that are tested for readiness, compatibility and usability with the Microsoft Azure IoT Suite. Option knows how.\n\nLora\n\nCONNECTING LoRa BASED SENSORS  to the Cloud\n\nOption’s LoRa solution enables the customer to have an end to end LoRa network using one or more CloudGate gateways without the need to connect to an external LoRaWAN server.\n\nSensor data can be analyzed and reacted to on the CloudGate, forwarded to remote servers and/or exposed using any protocol supported by LuvitRED, for example MODBUS or BACnet.\n\nMore here\n\nCloudGate IoT Gateway product portfolio\n\nDiscover Option’s CloudGate IoT Gateway product portfolio datasheet here !\n\nCloudGate Smart Metering Expansion card\n\nWe’ve listened.\nAnd created a IoT gamechanger.\nOption’s CloudGate Smart Metering Expansion card revolutionizes Smart Building and Energy Optimization markets.\nFeaturing all or any combinations of M-Bus, Modbus TCP/RTU, RS232, 5 GPIO, I2C, USB and DSMR/P1 while adding optional LoRa, BACnet, Zigbee or WiFi and enabled to combine up to 250 M-Bus devices.\nIn just one device.\nCombining unique protocol combinations, creating unrivalled flexibility with unparalleled value.\n\nOne device to make your buildings and cabinets smart and connected with the added ability to simultaneously roll-out a private wireless IoT sensor network.\n\nAvailable now. Find out more here\n\nCloudGate Home Office Solution\n\nIn this Covid19 new mass remote and online environment, what can a small business do to protect itself and its workforce from coronavirus cyber security threats?\n\nThe Option™ CloudGate Home Office Solution pack allows companies to implement home office for their employees in a smart and secure way in the blink of an eye. \n\nThe solution uses a fully virtualized managed switch that connects employees over secure VPN technology to the internal company network, just as they would be connected in the office to the internal network via WiFi or cable inside the office.  Easy to install and no need for any additional software!\n\nLoRa Basics Station\n\nOption™ CloudGate gateways now feature LoRa Basics™ Station\n\nDrastically simplify the management of your large scale LoRaWAN networks with CloudGate and LoRa Basics™ Station\n\nLoRa Basics™ Station is the future proof way of connecting LoRaWAN Gateways to the vast majority of the world’s leading LoRaWAN Network Providers.\n\nSome of the advantages of LoRa Basics™ Station over Semtech ’s legacy UDP Packet Forwarder are:\n·      Centralized Update and Configuration Management\n·      State-of-the-art Authentication mechanism\n·      Centralized Channel-Plan Management\n·      No Dependency on Local Time Keeping\n \nWith this integration, OPTION CloudGate continues to keep its role as the world’s leading smart-edge LoRaWAN Gateway, however, we continue to support the usage of the legacy Semtech Packet Forwarder – the original LoRaWAN packet forwarder, for development and demonstration purposes.\n\nAzure\n\nCloudGate now certified to run with Microsoft Azure IoT.\n\nOption has joined Microsoft Azure Certified for Internet of Things (IoT), ensuring customers get IoT solutions up and running quickly with hardware and software that has been pre-tested and verified to work with Microsoft Azure IoT services. IoT projects are complex and take a long time to implement. Choosing and connecting the right set of devices, assets or sensors to the cloud can be time-consuming. To jumpstart IoT projects with confidence, customers are looking for certified devices and platforms that are tested for readiness, compatibility and usability with the Microsoft Azure IoT Suite. Option knows how.\n\nConnect virtually anything to our CloudGate Gateway\nConnectivity and on-board processing power\nEasy-to-install. Powerful. Carrier-approved.\n    \nIncludes LTE, 3G, Ethernet, GPS and customizable modules compatibility\nLearn more about hardware \nConnects through WiFi, Ethernet, USB, RS232, RS485, Digital I/O, Analog I/O, etc\nCustom tailor each device to your own specifications and provision your hardware from anywhere\nReliable. Secure. Flexible, with open source SDK. User friendly, thanks to ‘visual wiring'.\nLearn more about CloudGate Universe and Luvit-RED \nTake control of your environment and start saving now\nCost-effective integration. Free quote.\nWiFi Portal\nTraffic Control\nSmart Metering\nShared Bike Rentals\nOn Site Monitoring\nMonitoring And Reporting\nWiFi Portal\nTraffic Control\nSmart Metering\nShared Bike Rentals\nOn Site Monitoring\nMonitoring And Reporting\nWiFi Portal\nTraffic Control\nSmart Metering\nShared Bike Rentals\nOn Site Monitoring\nMonitoring And Reporting\nDownload the brochure\nContact us for more information\n\n© 1986-2026 Option NV | Legal",
+  "wordCount": 979,
+  "fullText": "Skip to content\nProducts\nAbout us\nContact\nShop\nNews\nInvestor relations\nLogin\nProducts\nAbout us\nContact\nShop\nNews\nInvestor relations\nLogin\nOption's\nCloudGate Probe LoRa\nOption's\nCloudGate\nSmart Metering card\nDOWNLOAD DATASHEET\nCloudGate\nnano + LoRa =\nSmart Building\nDOWNLOAD DATASHEET\nOption's\nCloudGate Probe LoRa\nOption's\nCloudGate\nSmart Metering card\nDOWNLOAD DATASHEET\nCloudGate\nnano + LoRa =\nSmart Building\nDOWNLOAD DATASHEET\nOption's\nCloudGate Probe LoRa\nOption's\nCloudGate\nSmart Metering card\nDOWNLOAD DATASHEET\nCloudGate\nnano + LoRa =\nSmart Building\nDOWNLOAD DATASHEET\noption.com\nLoRa Basics Station\nOption™ CloudGate gateways now feature LoRa Basics™ Station\nDrastically simplify the management of your large scale LoRaWAN networks with\nCloudGate\nand LoRa Basics™ Station\nLoRa Basics™ Station is the future proof way of connecting LoRaWAN Gateways to the vast majority of the world’s leading LoRaWAN Network Providers.\nSome of the advantages of LoRa Basics™ Station over Semtech ’s legacy UDP Packet Forwarder are:\n·      Centralized Update and Configuration Management\n·      State-of-the-art Authentication mechanism\n·      Centralized Channel-Plan Management\n·      No Dependency on Local Time Keeping\nWith this integration, OPTION CloudGate continues to keep its role as the world’s leading smart-edge LoRaWAN Gateway, however, we continue to support the usage of the legacy Semtech Packet Forwarder – the original LoRaWAN packet forwarder, for development and demonstration purposes.\nAzure\nCloudGate\nnow certified to run with Microsoft Azure IoT.\nOption has joined\nMicrosoft\nAzure Certified for Internet of Things (IoT), ensuring customers get IoT solutions up and running quickly with hardware and software that has been pre-tested and verified to work with Microsoft Azure IoT services. IoT projects are complex and take a long time to implement. Choosing and connecting the right set of devices, assets or sensors to the cloud can be time-consuming. To jumpstart IoT projects with confidence, customers are looking for certified devices and platforms that are tested for readiness, compatibility and usability with the Microsoft Azure IoT Suite. Option knows how.\nLora\nCONNECTING LoRa BASED SENSORS  to the Cloud\nOption’s LoRa solution enables the customer to have an end to end LoRa network using one or more CloudGate gateways without the need to connect to an external LoRaWAN server.\nSensor data can be analyzed and reacted to on the CloudGate, forwarded to remote servers and/or exposed using any protocol supported by LuvitRED, for example MODBUS or BACnet.\nMore here\nCloudGate IoT Gateway product portfolio\nDiscover Option’s CloudGate IoT Gateway product portfolio datasheet\nhere\n!\nCloudGate Smart Metering Expansion card\nWe’ve listened.\nAnd created a IoT gamechanger.\nOption’s CloudGate Smart Metering Expansion card revolutionizes Smart Building and Energy Optimization markets.\nFeaturing all or any combinations of M-Bus, Modbus TCP/RTU, RS232, 5 GPIO, I2C, USB and DSMR/P1 while adding optional LoRa, BACnet, Zigbee or WiFi and enabled to combine up to 250 M-Bus devices.\nIn just one device.\nCombining unique protocol combinations, creating unrivalled flexibility with unparalleled value.\nOne device to make your buildings and cabinets smart and connected with the added ability to simultaneously roll-out a private wireless IoT sensor network.\nAvailable now. Find out more here\nCloudGate Home Office Solution\nIn this Covid19 new mass remote and online environment, what can a small business do to protect itself and its workforce from coronavirus cyber security threats?\nThe Option™ CloudGate Home Office Solution pack allows companies to implement home office for their employees in a smart and secure way in the blink of an eye.\nThe solution uses a fully virtualized managed switch that connects employees over secure VPN technology to the internal company network, just as they would be connected in the office to the internal network via WiFi or cable inside the office.  Easy to install and no need for any additional software!\nLoRa Basics Station\nOption™ CloudGate gateways now feature LoRa Basics™ Station\nDrastically simplify the management of your large scale LoRaWAN networks with\nCloudGate\nand LoRa Basics™ Station\nLoRa Basics™ Station is the future proof way of connecting LoRaWAN Gateways to the vast majority of the world’s leading LoRaWAN Network Providers.\nSome of the advantages of LoRa Basics™ Station over Semtech ’s legacy UDP Packet Forwarder are:\n·      Centralized Update and Configuration Management\n·      State-of-the-art Authentication mechanism\n·      Centralized Channel-Plan Management\n·      No Dependency on Local Time Keeping\nWith this integration, OPTION CloudGate continues to keep its role as the world’s leading smart-edge LoRaWAN Gateway, however, we continue to support the usage of the legacy Semtech Packet Forwarder – the original LoRaWAN packet forwarder, for development and demonstration purposes.\nAzure\nCloudGate\nnow certified to run with Microsoft Azure IoT.\nOption has joined\nMicrosoft\nAzure Certified for Internet of Things (IoT), ensuring customers get IoT solutions up and running quickly with hardware and software that has been pre-tested and verified to work with Microsoft Azure IoT services. IoT projects are complex and take a long time to implement. Choosing and connecting the right set of devices, assets or sensors to the cloud can be time-consuming. To jumpstart IoT projects with confidence, customers are looking for certified devices and platforms that are tested for readiness, compatibility and usability with the Microsoft Azure IoT Suite. Option knows how.\nConnect virtually anything to our CloudGate Gateway\nConnectivity and on-board processing power\nEasy-to-install. Powerful. Carrier-approved.\nIncludes LTE, 3G, Ethernet, GPS and customizable modules compatibility\nLearn more about hardware\nConnects through WiFi, Ethernet, USB, RS232, RS485, Digital I/O, Analog I/O, etc\nCustom tailor each device to your own specifications\nand provision your hardware from anywhere\nReliable. Secure. Flexible, with open source SDK. User friendly, thanks to ‘visual wiring'.\nLearn more about CloudGate Universe and Luvit-RED\nCloudGate Universe is our cloud-based gateway interface: the easiest, most flexible deployment mechanism for any solution – and the key to your building the most effective M2M installation possible.\nIncluded within every CloudGate product, CloudGate Universe allows you to custom tailor each device to your own specifications and connect it to the cloud.  \nNo configuration by an installation technician is required, either.  Just install and connect.\nIt's your universe – so shape it and mold it however you see fit.\nDiscover the next star of the CloudGate Universe, Luvit-RED.\nThis visually configurable agent for CloudGate users to rapidly prototype, adapt and deploy innovative M2M solutions via an easy-to-use method of “visual wiring”.\nProcesses that used to take days, weeks and months, now take only minutes or hours.\nTake control of your environment\nand start saving now\nCost-effective integration. Free quote.\nWiFi Portal\nTraffic Control\nSmart Metering\nShared Bike Rentals\nOn Site Monitoring\nMonitoring And Reporting\nWiFi Portal\nTraffic Control\nSmart Metering\nShared Bike Rentals\nOn Site Monitoring\nMonitoring And Reporting\nWiFi Portal\nTraffic Control\nSmart Metering\nShared Bike Rentals\nOn Site Monitoring\nMonitoring And Reporting\nDownload the brochure\nContact us for more information\nDownload the brochure\nContact us\n© 1986-2026 Option NV |\nLegal",
+  "fullWordCount": 1121,
+  "headings": [
+    {
+      "level": "h2",
+      "text": "LoRa Basics Station"
+    },
+    {
+      "level": "h2",
+      "text": "Azure"
+    },
+    {
+      "level": "h2",
+      "text": "Lora"
+    },
+    {
+      "level": "h2",
+      "text": "CloudGate IoT Gateway product portfolio"
+    },
+    {
+      "level": "h2",
+      "text": "CloudGate Smart Metering Expansion card"
+    },
+    {
+      "level": "h2",
+      "text": "CloudGate Home Office Solution"
+    },
+    {
+      "level": "h2",
+      "text": "LoRa Basics Station"
+    },
+    {
+      "level": "h2",
+      "text": "Azure"
+    },
+    {
+      "level": "h2",
+      "text": "Connect virtually anything to our CloudGate Gateway\nConnectivity and on-board processing power"
+    },
+    {
+      "level": "h2",
+      "text": "Custom tailor each device to your own specifications and provision your hardware from anywhere"
+    },
+    {
+      "level": "h2",
+      "text": "Take control of your environment and start saving now"
+    },
+    {
+      "level": "h2",
+      "text": "WiFi Portal"
+    },
+    {
+      "level": "h2",
+      "text": "Traffic Control"
+    },
+    {
+      "level": "h2",
+      "text": "Smart Metering"
+    },
+    {
+      "level": "h2",
+      "text": "Shared Bike Rentals"
+    },
+    {
+      "level": "h2",
+      "text": "On Site Monitoring"
+    },
+    {
+      "level": "h2",
+      "text": "Monitoring And Reporting"
+    },
+    {
+      "level": "h2",
+      "text": "WiFi Portal"
+    },
+    {
+      "level": "h2",
+      "text": "Traffic Control"
+    },
+    {
+      "level": "h2",
+      "text": "Smart Metering"
+    },
+    {
+      "level": "h2",
+      "text": "Shared Bike Rentals"
+    },
+    {
+      "level": "h2",
+      "text": "On Site Monitoring"
+    },
+    {
+      "level": "h2",
+      "text": "Monitoring And Reporting"
+    },
+    {
+      "level": "h2",
+      "text": "WiFi Portal"
+    },
+    {
+      "level": "h2",
+      "text": "Traffic Control"
+    },
+    {
+      "level": "h2",
+      "text": "Smart Metering"
+    },
+    {
+      "level": "h2",
+      "text": "Shared Bike Rentals"
+    },
+    {
+      "level": "h2",
+      "text": "On Site Monitoring"
+    },
+    {
+      "level": "h2",
+      "text": "Monitoring And Reporting"
+    },
+    {
+      "level": "h3",
+      "text": "Easy-to-install. Powerful. Carrier-approved."
+    },
+    {
+      "level": "h3",
+      "text": "Reliable. Secure. Flexible, with open source SDK. User friendly, thanks to ‘visual wiring'."
+    },
+    {
+      "level": "h3",
+      "text": "Cost-effective integration. Free quote."
+    }
+  ],
+  "h1": null,
+  "fonts": {
+    "hero": "Cloudgate, sans-serif",
+    "histogram": [
+      [
+        "century gothic",
+        101
+      ],
+      [
+        "cloudgate",
+        3
+      ],
+      [
+        "arial",
+        2
+      ],
+      [
+        "montserrat",
+        1
+      ]
+    ]
+  },
+  "colors": [
+    {
+      "hex": "#0274be",
+      "h": 204,
+      "s": 0.98,
+      "l": 0.38,
+      "count": 10,
+      "where": {
+        "bg": 2,
+        "border": 2,
+        "cta": 2
+      }
+    },
+    {
+      "hex": "#00ccff",
+      "h": 192,
+      "s": 1,
+      "l": 0.5,
+      "count": 5,
+      "where": {
+        "text": 2,
+        "border": 2,
+        "cta": 1
+      }
+    },
+    {
+      "hex": "#21759b",
+      "h": 199,
+      "s": 0.65,
+      "l": 0.37,
+      "count": 3,
+      "where": {
+        "text": 1,
+        "border": 1,
+        "cta": 1
+      }
+    },
+    {
+      "hex": "#f3be00",
+      "h": 47,
+      "s": 1,
+      "l": 0.48,
+      "count": 2,
+      "where": {
+        "text": 1,
+        "border": 1
+      }
+    },
+    {
+      "hex": "#ffce74",
+      "h": 39,
+      "s": 1,
+      "l": 0.73,
+      "count": 2,
+      "where": {
+        "bg": 1,
+        "border": 1
+      }
+    }
+  ],
+  "darkMode": false,
+  "gradients": {
+    "elements": 0,
+    "areaRatio": 0,
+    "textClip": 0
+  },
+  "glow": {
+    "count": 0,
+    "samples": []
+  },
+  "glass": 0,
+  "blurBlobs": 0,
+  "decor": {
+    "canvases": [],
+    "networkSvgs": [],
+    "animations": [
+      [
+        "fa-spin",
+        1
+      ]
+    ]
+  },
+  "pills": [],
+  "eyebrows": [],
+  "orbs": [],
+  "tags": [],
+  "cards": {
+    "count": 1,
+    "nested": 0,
+    "perScreen": 0.2
+  },
+  "sections": 33,
+  "pageHeight": 3609,
+  "screens": 4,
+  "links": {
+    "total": 62,
+    "dead": 4,
+    "deadTexts": [
+      "Learn more about hardware",
+      "Learn more about CloudGate Universe and "
+    ],
+    "socialRoots": 0,
+    "external": 2
+  },
+  "buttons": 0,
+  "ctaTexts": [
+    "skip to content",
+    "products",
+    "about us",
+    "contact",
+    "shop",
+    "news",
+    "investor relations",
+    "login",
+    "download datasheet",
+    "cloudgate",
+    "more here",
+    "here",
+    "learn more about hardware",
+    "wifi portal",
+    "traffic control",
+    "smart metering",
+    "shared bike rentals",
+    "on site monitoring",
+    "monitoring and reporting",
+    "download the brochure",
+    "contact us for more information",
+    "contact us",
+    "legal"
+  ],
+  "forms": [],
+  "images": {
+    "total": 34,
+    "missingAlt": 33,
+    "avatarHosts": 0,
+    "stockHosts": 0
+  },
+  "testimonials": [],
+  "stats": [],
+  "logoBars": 0,
+  "copyrightYear": 2026,
+  "placeholders": [],
+  "phone": false,
+  "address": false,
+  "mobile": {
+    "viewportWidth": 390,
+    "scrollWidth": 390,
+    "horizontalOverflow": false,
+    "pageHeight": 3968
+  },
+  "consoleErrors": [
+    "Access to fetch at 'https://polygon-public.nodies.app/' from origin 'https://www.option.com' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Acces",
+    "Failed to load resource: net::ERR_FAILED",
+    "requestStorageAccess: Permission denied.",
+    "Failed to load resource: the server responded with a status of 404 (Not Found)",
+    "Failed to load resource: the server responded with a status of 403 ()"
+  ],
+  "failedRequests": [
+    "https://polygon-public.nodies.app/",
+    "https://www.google.com/recaptcha/api2/clr?k=6LeiYskhAAAAAGaZKZUUb1zsFgY9oDCx4zL-LVdV",
+    "https://interseq.at/antibot/api?_v=29883729"
+  ]
+}

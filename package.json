@@ -1,0 +1,26 @@
+{
+  "name": "slop-audit",
+  "version": "0.1.0",
+  "description": "Scores a website for unedited AI defaults (slop) with deterministic, human-calibrated rules",
+  "main": "src/audit.js",
+  "scripts": {
+    "test": "node --test \"test/**/*.test.js\"",
+    "scan": "node bin/slop-audit.js",
+    "calibrate": "node scripts/calibrate.js",
+    "serve": "node bin/slop-audit.js serve"
+  },
+  "keywords": [],
+  "author": "Skilak LLC",
+  "license": "MIT",
+  "type": "module",
+  "private": "true",
+  "bin": {
+    "slop-audit": "./bin/slop-audit.js"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "playwright": "1.64.1"
+  }
+}

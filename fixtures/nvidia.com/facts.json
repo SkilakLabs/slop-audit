@@ -1,0 +1,688 @@
+{
+  "url": "https://nvidia.com",
+  "palette": {
+    "sampled": 960000,
+    "darkShare": 0.169,
+    "chromaticShare": 0.01,
+    "neonShare": 0.0001,
+    "neonOfChromatic": 0.015,
+    "neonBands": {
+      "cyan-teal-mint": 0.0001,
+      "radium-green": 0
+    },
+    "dominantHues": [
+      {
+        "hue": 80,
+        "share": 0.591
+      },
+      {
+        "hue": 10,
+        "share": 0.06
+      },
+      {
+        "hue": 210,
+        "share": 0.056
+      },
+      {
+        "hue": 190,
+        "share": 0.046
+      },
+      {
+        "hue": 20,
+        "share": 0.043
+      }
+    ]
+  },
+  "finalUrl": "https://www.nvidia.com/en-us/",
+  "collectedAt": "2026-10-26T14:10:13.271Z",
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "title": "World Leader in Artificial Intelligence Computing | NVIDIA",
+  "generator": null,
+  "description": "NVIDIA invents the GPU and drives advances in AI, HPC, gaming, creative design, autonomous vehicles, and robotics.",
+  "favicon": true,
+  "html": {
+    "lang": "en-us"
+  },
+  "builderMarkers": [],
+  "text": "Skip to main content\nProducts\n \nSolutions\n \nIndustries\nShop\n \nDrivers\n \nSupport\nUS\nSign In\nKeynote\nWatch NVIDIA CEO Jensen Huang’s Keynote at GTC Berlin\n\nHear how AI factories, open models, physical AI, and accelerated computing are advancing every industry.\n\nWatch Now\nKeynote\n\nWatch NVIDIA CEO Jensen Huang’s Keynote at GTC Berlin\n\nArtificial Intelligence\n\nKazakhstan Expands Compute for Its AI Future\n\nCybersecurity\n\nBuild and Run Safe AI Agents With NVIDIA OpenShell Reference Architecture\n\nData Center\n\nDeploy Infrastructure Faster With NVIDIA DSX POD\n\n\nRobotics\n\nNVIDIA Advances Isaac Platform for General-Purpose Robotics\n\nArtificial Intelligence\n\nNVIDIA Lands in Europe for GTC Berlin\n\nGTC Washington, D.C. Registration Is Now Open\n\nJoin developers, researchers, and business leaders on Nov. 30–Dec. 3 to explore the next wave of AI innovation. Get Your Pass Now \n\nArtificial Intelligence\n\nAI is powering change in every industry. From generative AI and speech recognition to medical imaging and improved supply chain management, AI is providing enterprises that compute power, tools, and algorithms their teams need to do their life's work.\n\n\n\nQuick Links\nArtificial Intelligence | Blog\nNVIDIA Cosmos Opens New Tools to Train and Deploy World Models\n\nAccelerate data pipelines, train and optimize world models, and improve accuracy at lower cost.\n\nAgentic AI | Announcement\nOpen Models Advance Europe’s Sovereign Intelligence\n\nNVIDIA open models, data, and research labs are helping Europe build AI tailored to local industries.\n\nCybersecurity | Blog\nRun Secure AI Agents at Scale\n\nNVIDIA OpenShell secure runtime and NVIDIA Vera CPUs govern AI agents efficiently at industrial scale.\n\nAgentic AI | Blog\nBuild Secure, Specialized Agents\n\nBuild safer, governable, and faster AI agents that connect with enterprise data using NVIDIA Agent Toolkit, including the new Agent Knowledge Foundation. \n\nArtificial Intelligence | Blog\nNVIDIA Advances Agentic Security for Media\n\nSovereign AI supports European broadcasters, while Adobe Frame.io accelerates video search.\n\nAgentic AI | Announcement\nTransforming Digital Discovery and Physical Operations in Retail\n\nEuropean retailers are improving shopping experiences and streamlining operations.\n\nArtificial Intelligence | Announcement\nNVIDIA, Nokia, and Leading Telcos Turn Networks Into Distributed Service Platforms\n\nTelcos are building and expanding NVIDIA-powered infrastructure and moving to AI-RAN pilots on live networks.\n\nArtificial Intelligence | Blog\nChancellor Merz and Jensen Huang Discuss Germany’s AI Future\n\nNVIDIA partners with the German government to advance cutting-edge physical AI models.\n\nArtificial Intelligence | Blog\nNVIDIA Local AI: Bringing the Spark to Europe: Local Intelligence Powers Next Wave of Agents\n\nAt GTC Berlin, NVIDIA is highlighting secure, local systems across RTX Spark, DGX Spark and DGX Station systems to accelerate coding, engineering, robotics and AI factory development.\n\nDesign and Simulation\n\nNVIDIA accelerated computing, libraries and AI models enable software makers and industry manufacturers to develop products for large-scale, physically accurate simulations and interactive digital twins so teams can efficiently build, train, and test advanced systems before deployment, bringing products to market faster.\n\n\n\nQuick Links\nSimulation | Blog\nDevelop AI Factory Digital Twins With Frontier Models and NVIDIA DSX\n\nUse AI agents to connect engineering data and evaluate design decisions before construction.\n\nSimulation | Blog\nEurope’s Industrial Leaders Reinvent Engineering and Manufacturing\n\nNVIDIA’s AI agents, digital twins, and engineering simulation boost innovation and productivity.\n\nDassault Systèmes\n\nSimulation | Brochure\nNVIDIA cuDSS Now Generally Available\n\nGPU-accelerated sparse solvers help engineers and scientists explore more designs, faster.\n\nSimulation | News\nNVIDIA and Semiconductor Leaders Advance AI-Defined Fabs\n\nNVIDIA accelerated computing and AI advance chip design, manufacturing, and testing.\n\nPhysical AI | Blog\nPut Astra to Work With NVIDIA Omniverse Libraries\n\nSee how developers are combining AI agents with NVIDIA Omniverse libraries to build simulation applications, test physical behavior and guide improvements.\n\nMercedes-Benz, Apptronik\n\nSimulation | GTC Session\nPhysical AI Conference Sessions at GTC Berlin\n\nJoin us October 21–22 to explore how industrial AI, robotics, and autonomous vehicles are transforming physical AI.\n\nSimulation | GTC Session\nIndustrial AI and Manufacturing Conference Sessions at NVIDIA GTC Berlin\n\nJoin us October 21–22 to explore how industrial digital twins are shaping the future of physical AI in manufacturing.\n\nSimulation | Solution\nArup Advances Low-Carbon Structural Design With NVIDIA DGX Spark\n\nGNN-based surrogate models on DGX Spark transformed Arup’s structural design workflow.\n\nSimulation | Announcement\nNVIDIA Agent Toolkit Expands With NVIDIA PhysicsNeMo, CUDA-X\n\nLearn how industry leaders are accelerating chip-to-systems design workflows with long-running agents.\n\nSimulation | Blog\nIntegrate NVIDIA Omniverse RTX Sensor Simulation into Existing Apps\n\nLearn how agents can help add camera, lidar and radar outputs to physical AI workflows.\n\nRendering | Solution\nDigital Twins for Ecommerce: Zalando Scales 3D Visualization\n\nZalando is making online fashion shopping more realistic by using ALLSIDES’ NVIDIA‑powered 3D platform to turn footwear into high‑fidelity digital product twins that customers can explore from every angle.\n\nHigh-Performance Computing\n\nHigh-performance computing (HPC) is the ability to process data and perform complex calculations at high speeds. HPC is one of the most essential tools fueling the advancement of computational science.\n\n\n\nQuick Links\nHPC | Announcement\nEurope Deploys NVIDIA Earth-2 for Weather and Climate Modeling\n\nAXA, Space42, TotalEnergies, Vaisala, and top universities put AI weather models in production.\n\nForschungszentrum Jülich / Sascha Kreklau\n\nHPC | News\nNVIDIA Runs Record Simulation of Fault-Tolerant Quantum Computing\n\nResearchers use JUPITER at Jülich Supercomputing Centre to model complex quantum computations.\n\nHPC | Announcement\nNVIDIA Joins European Commission’s AI in Science Enablers Initiative\n\nThe open learning resources, collaborations, and compute support scientific progress across Europe.\n\nHPC | Announcement\nNVIDIA Expands CUDA-Q Platform for Fault-Tolerant Quantum Computing\n\nCUDA-Q Logical is a new orchestration layer in the open source CUDA-Q™ platform, allowing developers to build and optimize quantum applications.\n\nHPC | Announcement\nNVIDIA Powers Over 400 of the World’s 500 Fastest Supercomputers\n\nNVIDIA technologies power 81% of the TOP500 supercomputing list.\n\nHPC | Brochure\nNVIDIA Vera CPUs Lead the Way for Agentic Scientific AI\n\nLos Alamos National Laboratory is advancing materials simulation, molecular design, and more.\n\nHPC | Announcement\nNew NVIDIA AI Software Unlocks Scientific Discoveries\n\nFrom materials simulation to experimental astronomy, NVIDIA CUDA-X™ accelerates AI for science.\n\nHPC | Announcement\nEurope Unveils 35 New NVIDIA AI Supercomputers\n\nNext-generation NVIDIA AI infrastructure equips millions of researchers to advance AI and scientific discovery.\n\nGaming and Creating\n\nNVIDIA RTX™ powers the world’s fastest PCs and the ultimate platform for gamers and creators. Enjoy beautiful ray tracing, AI-powered DLSS, and much more in games and applications, on your desktop, laptop, in the cloud, or in your living room.\n\n\n\nQuick Links\nArtificial Intelligence | Press Release\nNVIDIA RTX Spark Has Arrived\n\nA new beginning for Windows PCs is now available. \n\nGaming Hardware | Product\nGeForce RTX 50 Series Graphics Cards and Desktops\n\nGeForce RTX 50 Series GPUs bring game-changing AI capabilities to gamers and creators. Multiply performance with NVIDIA DLSS 4, generate images at unprecedented speed, and unleash your creativity with NVIDIA Studio.\n\nGaming Hardware | Product\nGeForce RTX 50 Series Laptops\n\nThe world’s fastest laptops for gamers and creators. Multiply performance with NVIDIA DLSS 4, generate images at unprecedented speed, and unleash your creativity with NVIDIA Studio. All in the thinnest and longest lasting RTX laptops, optimized by Max-Q.\n\nGames | News\nDLSS 5 Comes to Hogwarts Legacy\n\nPowered by a 2X faster Neural Rendering model\n\nGames | News\nRTX Spark Is Game Ready\n\nHundreds of top games at launch.\n\nGames | News\nRTX. It’s On.\n\nDLSS 4.5 and Reflex available now.\n\nGaming | News\nRTX. It’s On.\n\nWith ray tracing, DLSS, and Reflex.\n\nCloud Gaming | Blog\nCloud Deployment Incoming: ‘Call of Duty: Modern Warfare 4’ Arrives on GeForce NOW\n\nGet memberships through Amazon on Fire TV, rally a party in ‘FINAL FANTASY RESONANCE’ and explore Season Two of ‘The Elder Scrolls Online.’\n\nArtificial Intelligence | Blog\nNVIDIA Local AI: Bringing the Spark to Europe: Local Intelligence Powers Next Wave of Agents\n\nAt GTC Berlin, NVIDIA is highlighting secure, local systems across RTX Spark, DGX Spark and DGX Station systems to accelerate coding, engineering, robotics and AI factory development.\n\nLivestreaming | Product\nNVIDIA Broadcast Update Available Now\n\nThe NVIDIA Broadcast app transforms any room into a home studio with AI voice and video effects. The latest release adds File Processor to enhance recordings after capture, support for compatible AI agents, and more.\n\nAutomotive\n\nFrom design and manufacturing to autonomous vehicle development and deployment—and agentic AI that helps build and power the car—NVIDIA delivers the compute, software, and infrastructure to support the entire vehicle lifecycle and drive the future of mobility.\n\n\n\nQuick Links\n\nMercedes-Benz\n\nAutomotive | Announcement\nMercedes-Benz and NVIDIA to Advance Safe Automated Driving\n\nNVIDIA Hyperion to support point-to-point urban assistance, active safety, and automated parking.\n\nVolvo Cars\n\nAutomotive | Announcement\nVolvo Cars and NVIDIA Advance Safer Automated Driving\n\nNVIDIA Hyperion, NVIDIA Halos, Alpamayo Stack are helping unlock new levels of safety. \n\nAutomotive | Blog\nThe World’s Robotaxi Leaders Are Building With NVIDIA\n\nNVIDIA’s full-stack AV development platform is being adopted across the robotaxi ecosystem.\n\nAutomotive | Blog\nThe Frontier Open Model for Robotaxis and Autonomous Vehicles\n\nAlpamayo 2 Super brings trajectories, reasoning traces, meta actions, and auto-labeling into one model.\n\nAutomotive | Announcement\nToyota and NVIDIA Expand Partnership to Advance Physical AI\n\nLearn how the collaboration is bringing physical AI to next-generation L2++ vehicles, factory robotics, and city-scale urban intelligence.\n\nAutomotive | Announcement\nThe World Is Building Robotaxis on NVIDIA Hyperion\n\nAutomotive industry leaders are bringing Level 4-ready fleets to market on the NVIDIA Hyperion platform.\n\nAutomotive | Announcement\nNVIDIA Unveils Alpamayo 2 Super Open Reasoning Model\n\nAlpamayo 2 Super is a 32 billion-parameter reasoning VLA model, built for Level 4 robotaxi-ready autonomous vehicles.\n\nAutomotive | Announcement\nHyundai, Kia, and NVIDIA Expand Partnership for Next-Gen AV Tech\n\nHyundai Motor Group is integrating NVIDIA Hyperion and AI into its software-defined vehicles.\n\nAutomotive | GTC Session\nAutomotive Special Address: Scaling Autonomous Vehicles\n\nFoundation models, Alpamayo reasoning VLAs, and NVIDIA Hyperion are advancing Level 4 autonomy.\n\nAutomotive | Announcement\nLeading Automakers Adopt NVIDIA Hyperion for L4 Vehicles\n\nBYD, Geely, Isuzu, and Nissan build on the NVIDIA end-to-end autonomous vehicle platform.\n\nRobotics and Edge AI\n\nThe NVIDIA Jetson™ and Isaac™ platforms provide end-to-end solutions to develop and deploy AI-powered autonomous machines and edge computing applications across manufacturing, logistics, healthcare, smart cities, and retail.\n\n\n\nQuick Links\nRobotics | Blog\nNVIDIA Isaac ROS 5.0 Advances Agentic Robotics\n\nNVIDIA Isaac™ ROS 5.0 has open source tools, accelerated computing for agent-driven development.\n\nRobotics | Blog\nWhy Deploying Physical AI at Scale Demands Safety at Every Layer\n\nAs autonomous vehicles and robots take on more complex tasks, NVIDIA is focusing on safety first.\n\nRobotics | Event\nJoin NVIDIA at ROSCon Global 2026\n\nSee what’s new in agentic robotics and physical AI with NVIDIA Isaac™ and Jetson™, and ROS 2.\n\nAgile Robots\n\nRobotics | GTC Session\nRobotics Conference Sessions at GTC Berlin\n\nJoin us October 21–22 to explore how AI, simulation, and accelerated computing are enabling robots to see, learn, and make decisions in real time.\n\nRobotics | Announcement\nNVIDIA Announces Jetson Orin Nano 2\n\nThis next generation entry-level edge AI and robotics computer is ideal for delivery and inspection drones, robots, and vision AI systems.\n\nRobotics | Event\nNVIDIA at Actuate 2026\n\nSee how world foundation models, synthetic data, and safety platforms are transforming robotics.\n\nEdge Computing | Blog\nFirefly Aerospace Brings NVIDIA Jetson to Lunar Orbit\n\nFirefly’s Ocula moon imaging service will run AI inference using the NVIDIA Jetson™ platform.\n\nRobotics | Announcement\nNVIDIA Halos for Robotics: A Full-Stack Physical AI Safety System\n\nDiscover the first comprehensive safety system for next-generation humanoids and industrial robots.\n\nData Center and Cloud Computing\n\nFrom the cloud to the office to the data center to the edge, NVIDIA provides solutions that deliver breakthrough performance on enterprise AI and HPC workloads at any scale, driving business decisions in real time and resulting in faster time to value.\n\n\n\nQuick Links\nData Center | Blog\nNVIDIA Minerva Brings End-to-End Observability to AI Factories\n\nThe AIOps platform connects infrastructure and workload telemetry to help operators maximize yield.\n\nData Center | Blog\nNVIDIA DSX Connects the Grid to the AI Factory\n\nCompanies worldwide use NVIDIA DSX™ to run the grid and AI factory as one system, from substation to rack.\n\nData Center | News\nEuropean AI Ecosystem Builds World’s Most Efficient AI Factories\n\nNVIDIA DSX helps Europe’s cloud and infrastructure leaders build grid-flexible AI factories that use less power and water.\n\nData Center | Blog\nIn-Silicon AI Agent Security\n\nNVIDIA Sentry and BlueField deliver out-of-band agent monitoring and policy enforcement on NVIDIA OpenShell.\n\nData Center | Announcement\nNVIDIA Cloud Partners Scale Across Europe\n\nNVIDIA Cloud Partners advance agentic safety and security, sovereign compute and physical AI.\n\nData Center | Announcement\nNVIDIA and Suppliers Expand Capacity for AI Factories\n\nLeading semiconductor companies strengthen global supply chain to meet demand for AI infrastructure.\n\nData Center | Announcement\nNVIDIA and Cisco Introduce Pluggable Optics to Scale AI Factories\n\nEnabling AI builders to scale compute while reducing networking’s share of the power budget.\n\nData Center | Announcement\nNVIDIA Opens Vera Rubin Platform to Scale AI Factories Worldwide\n\nAt the OCP Global Summit, NVIDIA unveiled new partnerships to build next-gen AI infrastructure.\n\nAbout NVIDIA\n\nNVIDIA pioneered accelerated computing to tackle challenges no one else can solve. Our work in AI and digital twins is transforming the world's largest industries and profoundly impacting society.\n\n\n\nQuick Links\nPregame | Event\nNVIDIA GTC Live Keynote Pregame at GTC Berlin 2026\n\nExperience a new chapter in AI at the Tempodrom, Berlin. Watch live on October 21, 9 a.m. CEST. \n\n\n\nNVIDIA GTC | Event\nGTC Washington, D.C. 2026\n\n\n\nExplore how AI is accelerating American economic growth, reindustrialization, and scientific discovery.\n\nRegister Now \n\nCorporate | Blog\nBuilding in America, for America\n\nNVIDIA and our partners are strengthening American manufacturing, creating jobs, and accelerating healthcare and scientific discovery for growth and prosperity.\n\nArtificial Intelligence | Event\nJoin NVIDIA at SIGGRAPH 2026\n\nDiscover how graphics, rendering, simulation, and AI are transforming how worlds are built.\n\nNVIDIA GTC | Event\nNVIDIA CEO Jensen Huang’s GTC Taipei Keynote\n\nCatch the keynote replay unveiling breakthroughs in agentic AI, physical AI, and personal computing. \n\nNVIDIA GTC | Event\nNVIDIA GTC Live\n\nCatch the keynote pregame at GTC Taipei to hear industry experts discuss what’s shaping the next era of AI.\n\nNVIDIA GTC | Event\nNVIDIA GTC Live Keynote Pregame\n\nJoin the pregame to hear the latest on accelerated computing beyond AI, including history’s largest infrastructure buildouts.\n\nCorporate | Blog\nAI is a Five-Layer Cake\n\nAI is one of the most powerful forces shaping the world today. It isn't a clever app or a single model; it's essential infrastructure, like electricity and the internet.\n\nCorporate | Blog\nOur Story\n\nNVIDIA is the result of the decades-long pursuit of a vision and the life’s work of our employees. Discover our company’s story.\n\nCompany Information\nAbout Us\nInvestors\nVenture Capital (NVentures)\nNVIDIA Foundation\nResearch\nCorporate Sustainability\nTechnologies\nCareers\n \nNews and Events\nNewsroom\nCompany Blog\nTechnical Blog\nWebinars\nStay Informed\nEvents Calendar\nGTC AI Conference\nNVIDIA On-Demand\n \nPopular Links\nDevelopers\nPartners\nExecutive Insights\nStartups and VCs\nDocumentation\nTechnical Training\nProfessional Services for Data Science\nSign Up for NVIDIA News\nSubscribe\nFollow NVIDIA\nPrivacy Policy Your Privacy Choices Terms of Service Accessibility Corporate Policies Product Security Contact\nCopyright © 2026 NVIDIA Corporation\n\nNVIDIA uses cookies to improve your experience on our web site. We and our third-party partners also use cookies and other tools to collect and record information you provide as well as information about your interactions with our websites for performance improvement, analytics, and to assist in marketing efforts. By clicking \"Accept All\", you consent to our use of cookies and other tools as described in our Cookie Policy. You can manage your cookie settings by clicking on \"Manage Settings.\" By continuing to use this site or by clicking one of the buttons below, you agree to our Terms of Service (which contains important waivers). Please see our Privacy Policy for more information on our privacy practices.\n\nManage Settings\nReject Optional Accept All",
+  "wordCount": 2627,
+  "fullText": "Visit your regional NVIDIA website for local content, pricing, and where to buy partners specific to your country.\nArgentina\nAustralia\nBelgië (Belgium)\nBelgique (Belgium)\nBrasil (Brazil)\nCanada\nČeská Republika (Czech Republic)\nChile\nColombia\nDanmark (Denmark)\nDeutschland (Germany)\nEspaña (Spain)\nFrance\nIndia\nItalia (Italy)\nMéxico (Mexico)\nMiddle East\nNederland (Netherlands)\nNorge (Norway)\nÖsterreich (Austria)\nPeru\nPolska (Poland)\nRest of Europe\nRomânia (Romania)\nSingapore\nSuomi (Finland)\nSverige (Sweden)\nTürkiye (Turkey)\nUnited Kingdom\nUnited States\n대한민국 (South Korea)\n中国大陆 (Mainland China)\n台灣 (Taiwan)\n日本 (Japan)\nContinue\nSkip to main content\nMain Menu\nProducts\nCloud Services\nCreating\nData Center\nEmbedded Systems\nGaming\nGraphics Cards and Desktops\nLaptops\nNetworking\nProfessional Workstations\nSoftware\nTools\nCloud Services\nDGX Cloud\nNVIDIA’s AI factory in the cloud\nNVIDIA APIs\nExplore, test, and deploy AI models and agents\nPrivate Registry\nGuide for using NVIDIA NGC private registry with GPU cloud\nNVIDIA NGC\nAccelerated, containerized AI models and SDKs\nDSX Platform\nBuild AI factories optimized for lowest cost tokens per megawatt\nVirtual GPU\nVirtual solutions for scalable, high-performance computing\nCreating\nNVIDIA Studio\nHigh performance GeForce RTX PCs, purpose-built for creators\nNVIDIA Broadcast App\nAI-enhanced voice and video for next-level streams, videos, and calls\nNVIDIA App and Studio Drivers\nOptimize gaming, streaming, and AI-powered creativity\nRTX AI PCs\nAI PCs for gaming, creating, productivity and development\nRTX Remix\nCreate RTX remasters of classic games with open-source AI\nProject G-Assist\nAI assistant to optimize and control your GeForce RTX PC\nData Center\nOverview\nModernizing data centers with AI and accelerated computing\nDGX Platform\nEnterprise AI factory for model development and deployment\nGrace CPU\nArchitecture for data centers that transform data into intelligence\nHGX Platform\nA supercomputer purpose-built for AI and HPC\nIGX Platform\nAdvanced functional safety and security for edge AI\nMGX Platform\nAccelerated computing with modular servers\nOVX Systems\nScalable data center infrastructure for high-performance AI\nDSX Platform\nBuild AI factories optimized for lowest cost tokens per megawatt\nEmbedded Systems\nJetson\nLeading platform for autonomous machines and embedded applications\nDRIVE AGX\nPowerful in-vehicle computing for AI-driven autonomous vehicle systems\nIGX Platform\nAdvanced functional safety and security for edge AI\nGaming\nGeForce\nExplore graphics cards, gaming solutions, AI technology, and more\nGeForce Graphics Cards\nRTX graphics cards bring game-changing AI capabilities\nGaming Laptops\nThinnest and longest lasting RTX laptops, optimized by Max-Q\nG-SYNC Monitors\nSmooth, tear-free gaming with NVIDIA G-SYNC monitors\nDLSS\nNeural rendering tech boosts FPS and enhances image quality\nReflex\nUltimate responsiveness for faster reactions and better aim\nRTX Remix\nCreate RTX remasters of classic games with open-source AI\nProject G-Assist\nAI assistant to optimize and control your GeForce RTX PC\nGeForce NOW Cloud Gaming\nRTX-powered cloud gaming. Choose from 3 memberships\nNVIDIA App and Game Ready Drivers\nOptimize gaming, streaming, and AI-powered creativity\nNVIDIA Broadcast App\nAI-enhanced voice and video for next-level streams, videos, and calls\nSHIELD TV\nWorld-class streaming media performance\nGraphics Cards and Desktops\nGeForce RTX\nRTX graphics cards and desktops bring game-changing AI capabilities\nRTX PRO\nAccelerating professional AI, graphics, rendering and compute workloads\nRTX Spark\nSlim, powerful laptops and compact desktops for AI, creation, and gaming\nRTX AI PCs\nAI PCs for gaming, creating, productivity and development\nDGX Spark\nA Grace Blackwell AI supercomputer on your desk\nLaptops\nGeForce Laptops\nGPU-powered laptops for gamers and creators\nRTX Spark\nSlim, powerful laptops and compact desktops for AI, creation, and gaming\nStudio Laptops\nHigh performance laptops purpose-built for creators\nRTX PRO Laptops\nAccelerate professional AI and visual computing from anywhere\nRTX AI PCs\nAI PCs for gaming, creating, productivity and development\nNetworking\nOverview\nAccelerated networks for modern workloads\nDPUs\nSoftware-defined hardware accelerators for networking, storage, and security\nEthernet\nEthernet performance, availability, and ease of use across a wide range of applications\nInfiniBand\nHigh-performance networking for super computers, AI, and cloud data centers\nNetworking Software\nNetworking software for optimized performance and scalability\nNetwork Acceleration\nIO subsystem for modern, GPU-accelerated data centers\nProfessional Workstations\nOverview\nAccelerating professional AI, graphics, rendering, and compute workloads\nDGX Spark\nA Grace Blackwell AI Supercomputer on your desk\nDGX Station\nThe ultimate deskside AI supercomputer powered by NVIDIA Grace Blackwell\nDGX Station for Windows\nThe world’s most powerful deskside AI supercomputer for Windows\nNVIDIA RTX PRO Desktops\nPowerful AI, graphics, rendering, and compute workloads\nNVIDIA RTX PRO Laptops\nAccelerate professional AI and visual computing from anywhere\nSoftware\nAgentic AI Models - Nemotron\nAI Agents - NeMo\nAI Blueprints\nAI Inference - Dynamo\nAI Inference - NIM\nAI Microservices - CUDA-X\nAutomotive - DRIVE\nData Science - Apache Spark\nData Science - RAPIDS\nDecision Optimization - cuOpt\nHealthcare Platforms\nIndustrial AI - Omniverse\nIntelligent Video Analytics - Metropolis\nNVIDIA AI Enterprise\nNVIDIA Mission Control\nNVIDIA Run:ai\nPhysical AI - Cosmos\nRobotics - Isaac\nTelecommunications - Aerial\nSee All Software\nTools\nAI Workbench\nSimplify AI development with NVIDIA AI Workbench on GPUs\nAPI Catalog\nExplore NVIDIA's AI models, blueprints, and tools for developers\nGPU Monitoring\nMonitor and manage GPU performance in cluster environments\nNsight\nExplore NVIDIA developer tools for AI, graphics, and HPC\nNGC Catalog\nDiscover GPU-optimized AI, HPC, and data science software\nNVIDIA App for Laptops\nOptimize enterprise GPU management\nNVIDIA NGC\nAccelerate AI and HPC workloads with NVIDIA GPU Cloud solutions\nDesktop Manager\nEnhance multi-display productivity with NVIDIA RTX Desktop Manager\nRTX Accelerated Creative Apps\nCreative tools and AI-powered apps for artists and designers\nVideo Conferencing\nAI-powered audio and video enhancement\nSolutions\nArtificial Intelligence\nCloud and Data Center\nDesign and Simulation\nHigh-Performance Computing\nRobotics and Edge AI\nAutonomous Vehicles\nArtificial Intelligence\nOverview\nAdd intelligence and efficiency to your business with AI and machine learning\nAgentic AI\nBuild AI agents designed to reason, plan, and act\nAI Data\nPowering a new class of enterprise infrastructure for AI\nConversational AI\nEnables natural, personalized interactions with real-time speech AI\nCybersecurity\nAI-driven solutions to strengthen cybersecurity and AI infrastructure\nData Science\nIterate on large datasets, deploy models more frequently, and lower total cost\nInference\nDrive breakthrough performance with AI-enabled applications and services\nData Processing\nData engines ready for AI\nCloud and Data Center\nOverview\nPowering AI, HPC, and modern workloads with NVIDIA\nAI Storage\nBringing codesigned enterprise storage into the era of agentic AI\nAI Factory\nFull-stack infrastructure for scalable AI workloads\nAI Grid\nScale AI across connected, distributed AI infrastructure\nAccelerated Computing\nAccelerated computing uses specialized hardware to boost IT performance\nCloud Computing\nOn-demand IT resources and services, enabling scalability and intelligent insights\nColocation\nAccelerate the scaling of AI across your organization\nNetworking\nHigh speed ethernet interconnect solutions and services\nSustainable Computing\nSave energy and lower cost with AI and accelerated computing\nVirtualization\nNVIDIA virtual GPU software delivers powerful GPU performance\nDesign and Simulation\nOverview\nStreamline building, operating, and connecting metaverse apps\nComputer Aided-Engineering\nDevelop real-time interactive design using AI-accelerated real-time digital twins\nDigital Twin Development\nHarness the power of large-scale, physically-based OpenUSD simulation\nRendering\nBring state-of-the-art rendering to professional workflows\nRobotic Simulation\nInnovative solutions to take on your robotics, edge, and vision AI challenges\nScientific Visualization\nEnablies researchers to visualize their large datasets at interactive speeds\nVehicle Simulation\nAI-defined vehicles are transforming the future of mobility\nExtended Reality\nTransform workflows with immersive, scalable interactions in virtual environments\nHigh-Performance Computing\nOverview\nDiscover NVIDIA’s HPC solutions for AI, simulation, and accelerated computing\nHPC and AI\nBoost accuracy with GPU-accelerating HPC and AI\nScientific Visualization\nEnables researchers to visualize large datasets at interactive speeds\nSimulation and Modeling\nAccelerate simulation workloads\nQuantum Computing\nFast-tracking the advancement of scientific innovations with QPUs\nRobotics and Edge AI\nOverview\nInnovative solutions to take on robotics, edge, and vision AI challenges\nRobotics\nGPU-accelerated advances in AI perception, simulation, and software\nEdge AI\nBring the power of NVIDIA AI to the edge for real-time decision-making solutions\nVision AI\nTransform data into valuable insights using vision AI\nAI Grid\nScale AI-native services efficiently across connected, distributed AI infrastructure\nAutonomous Vehicles\nOverview\nAI-enhanced vehicles are transforming the future of mobility\nOpen Source AV Models and Tools\nFor reasoning-based AV systems\nAV Simulation\nExplore high-fidelity sensor simulation for safe autonomous vehicle development\nInfrastructure\nEssential data center tools for safe autonomous vehicle development\nSafety\nState-of-the-art system for AV safety, from the cloud to the car\nIndustries\nIndustries\nOverview\nArchitecture, Engineering, Construction & Operations\nAutomotive\nEnergy\nFinancial Services\nGovernment\nHealthcare and Life Sciences\nHigher Education\nIndustrial Sector\nMedia and Entertainment\nRestaurants\nRetail and CPG\nRobotics\nSemiconductor\nTelecommunications\n…\nShop\nDrivers\nSupport\nUS\nSign In\nNVIDIA Account\nNVIDIA Marketplace\nNVIDIA Account\nNVIDIA Marketplace\nLogout\nLog In\nLogOut\nSkip to main content\n0\nUS\nSign In\nNVIDIA Account\nNVIDIA Marketplace\nNVIDIA Account\nNVIDIA Marketplace\nLogout\nProducts\nCloud Services\nDGX Cloud\nNVIDIA’s AI factory in the cloud\nNVIDIA APIs\nExplore, test, and deploy AI models and agents\nPrivate Registry\nGuide for using NVIDIA NGC private registry with GPU cloud\nNVIDIA NGC\nAccelerated, containerized AI models and SDKs\nDSX Platform\nBuild AI factories optimized for lowest cost tokens per megawatt\nVirtual GPU\nVirtual solutions for scalable, high-performance computing\nCreating\nNVIDIA Studio\nHigh performance GeForce RTX PCs, purpose-built for creators\nNVIDIA Broadcast App\nAI-enhanced voice and video for next-level streams, videos, and calls\nNVIDIA App and Studio Drivers\nOptimize gaming, streaming, and AI-powered creativity\nRTX AI PCs\nAI PCs for gaming, creating, productivity and development\nRTX Remix\nCreate RTX remasters of classic games with open-source AI\nProject G-Assist\nAI assistant to optimize and control your GeForce RTX PC\nData Center\nOverview\nModernizing data centers with AI and accelerated computing\nDGX Platform\nEnterprise AI factory for model development and deployment\nGrace CPU\nArchitecture for data centers that transform data into intelligence\nHGX Platform\nA supercomputer purpose-built for AI and HPC\nIGX Platform\nAdvanced functional safety and security for edge AI\nMGX Platform\nAccelerated computing with modular servers\nOVX Systems\nScalable data center infrastructure for high-performance AI\nDSX Platform\nBuild AI factories optimized for lowest cost tokens per megawatt\nEmbedded Systems\nJetson\nLeading platform for autonomous machines and embedded applications\nDRIVE AGX\nPowerful in-vehicle computing for AI-driven autonomous vehicle systems\nIGX Platform\nAdvanced functional safety and security for edge AI\nGaming\nGeForce\nExplore graphics cards, gaming solutions, AI technology, and more\nGeForce Graphics Cards\nRTX graphics cards bring game-changing AI capabilities\nGaming Laptops\nThinnest and longest lasting RTX laptops, optimized by Max-Q\nG-SYNC Monitors\nSmooth, tear-free gaming with NVIDIA G-SYNC monitors\nDLSS\nNeural rendering tech boosts FPS and enhances image quality\nReflex\nUltimate responsiveness for faster reactions and better aim\nRTX Remix\nCreate RTX remasters of classic games with open-source AI\nProject G-Assist\nAI assistant to optimize and control your GeForce RTX PC\nGeForce NOW Cloud Gaming\nRTX-powered cloud gaming. Choose from 3 memberships\nNVIDIA App and Game Ready Drivers\nOptimize gaming, streaming, and AI-powered creativity\nNVIDIA Broadcast App\nAI-enhanced voice and video for next-level streams, videos, and calls\nSHIELD TV\nWorld-class streaming media performance\nGraphics Cards and Desktops\nGeForce RTX\nRTX graphics cards and desktops bring game-changing AI capabilities\nRTX PRO\nAccelerating professional AI, graphics, rendering and compute workloads\nRTX Spark\nSlim, powerful laptops and compact desktops for AI, creation, and gaming\nRTX AI PCs\nAI PCs for gaming, creating, productivity and development\nDGX Spark\nA Grace Blackwell AI supercomputer on your desk\nLaptops\nGeForce Laptops\nGPU-powered laptops for gamers and creators\nRTX Spark\nSlim, powerful laptops and compact desktops for AI, creation, and gaming\nStudio Laptops\nHigh performance laptops purpose-built for creators\nRTX PRO Laptops\nAccelerate professional AI and visual computing from anywhere\nRTX AI PCs\nAI PCs for gaming, creating, productivity and development\nNetworking\nOverview\nAccelerated networks for modern workloads\nDPUs\nSoftware-defined hardware accelerators for networking, storage, and security\nEthernet\nEthernet performance, availability, and ease of use across a wide range of applications\nInfiniBand\nHigh-performance networking for super computers, AI, and cloud data centers\nNetworking Software\nNetworking software for optimized performance and scalability\nNetwork Acceleration\nIO subsystem for modern, GPU-accelerated data centers\nProfessional Workstations\nOverview\nAccelerating professional AI, graphics, rendering, and compute workloads\nDGX Spark\nA Grace Blackwell AI Supercomputer on your desk\nDGX Station\nThe ultimate deskside AI supercomputer powered by NVIDIA Grace Blackwell\nDGX Station for Windows\nThe world’s most powerful deskside AI supercomputer for Windows\nNVIDIA RTX PRO Desktops\nPowerful AI, graphics, rendering, and compute workloads\nNVIDIA RTX PRO Laptops\nAccelerate professional AI and visual computing from anywhere\nSoftware\nAgentic AI Models - Nemotron\nAI Agents - NeMo\nAI Blueprints\nAI Inference - Dynamo\nAI Inference - NIM\nAI Microservices - CUDA-X\nAutomotive - DRIVE\nData Science - Apache Spark\nData Science - RAPIDS\nDecision Optimization - cuOpt\nHealthcare Platforms\nIndustrial AI - Omniverse\nIntelligent Video Analytics - Metropolis\nNVIDIA AI Enterprise\nNVIDIA Mission Control\nNVIDIA Run:ai\nPhysical AI - Cosmos\nRobotics - Isaac\nTelecommunications - Aerial\nSee All Software\nTools\nAI Workbench\nSimplify AI development with NVIDIA AI Workbench on GPUs\nAPI Catalog\nExplore NVIDIA's AI models, blueprints, and tools for developers\nGPU Monitoring\nMonitor and manage GPU performance in cluster environments\nNsight\nExplore NVIDIA developer tools for AI, graphics, and HPC\nNGC Catalog\nDiscover GPU-optimized AI, HPC, and data science software\nNVIDIA App for Laptops\nOptimize enterprise GPU management\nNVIDIA NGC\nAccelerate AI and HPC workloads with NVIDIA GPU Cloud solutions\nDesktop Manager\nEnhance multi-display productivity with NVIDIA RTX Desktop Manager\nRTX Accelerated Creative Apps\nCreative tools and AI-powered apps for artists and designers\nVideo Conferencing\nAI-powered audio and video enhancement\nSolutions\nArtificial Intelligence\nOverview\nAdd intelligence and efficiency to your business with AI and machine learning\nAgentic AI\nBuild AI agents designed to reason, plan, and act\nAI Data\nPowering a new class of enterprise infrastructure for AI\nConversational AI\nEnables natural, personalized interactions with real-time speech AI\nCybersecurity\nAI-driven solutions to strengthen cybersecurity and AI infrastructure\nData Science\nIterate on large datasets, deploy models more frequently, and lower total cost\nInference\nDrive breakthrough performance with AI-enabled applications and services\nData Processing\nData engines ready for AI\nCloud and Data Center\nOverview\nPowering AI, HPC, and modern workloads with NVIDIA\nAI Storage\nBringing codesigned enterprise storage into the era of agentic AI\nAI Factory\nFull-stack infrastructure for scalable AI workloads\nAI Grid\nScale AI across connected, distributed AI infrastructure\nAccelerated Computing\nAccelerated computing uses specialized hardware to boost IT performance\nCloud Computing\nOn-demand IT resources and services, enabling scalability and intelligent insights\nColocation\nAccelerate the scaling of AI across your organization\nNetworking\nHigh speed ethernet interconnect solutions and services\nSustainable Computing\nSave energy and lower cost with AI and accelerated computing\nVirtualization\nNVIDIA virtual GPU software delivers powerful GPU performance\nDesign and Simulation\nOverview\nStreamline building, operating, and connecting metaverse apps\nComputer Aided-Engineering\nDevelop real-time interactive design using AI-accelerated real-time digital twins\nDigital Twin Development\nHarness the power of large-scale, physically-based OpenUSD simulation\nRendering\nBring state-of-the-art rendering to professional workflows\nRobotic Simulation\nInnovative solutions to take on your robotics, edge, and vision AI challenges\nScientific Visualization\nEnablies researchers to visualize their large datasets at interactive speeds\nVehicle Simulation\nAI-defined vehicles are transforming the future of mobility\nExtended Reality\nTransform workflows with immersive, scalable interactions in virtual environments\nHigh-Performance Computing\nOverview\nDiscover NVIDIA’s HPC solutions for AI, simulation, and accelerated computing\nHPC and AI\nBoost accuracy with GPU-accelerating HPC and AI\nScientific Visualization\nEnables researchers to visualize large datasets at interactive speeds\nSimulation and Modeling\nAccelerate simulation workloads\nQuantum Computing\nFast-tracking the advancement of scientific innovations with QPUs\nRobotics and Edge AI\nOverview\nInnovative solutions to take on robotics, edge, and vision AI challenges\nRobotics\nGPU-accelerated advances in AI perception, simulation, and software\nEdge AI\nBring the power of NVIDIA AI to the edge for real-time decision-making solutions\nVision AI\nTransform data into valuable insights using vision AI\nAI Grid\nScale AI-native services efficiently across connected, distributed AI infrastructure\nAutonomous Vehicles\nOverview\nAI-enhanced vehicles are transforming the future of mobility\nOpen Source AV Models and Tools\nFor reasoning-based AV systems\nAV Simulation\nExplore high-fidelity sensor simulation for safe autonomous vehicle development\nInfrastructure\nEssential data center tools for safe autonomous vehicle development\nSafety\nState-of-the-art system for AV safety, from the cloud to the car\nIndustries\nOverview\nArchitecture, Engineering, Construction & Operations\nAutomotive\nEnergy\nFinancial Services\nGovernment\nHealthcare and Life Sciences\nHigher Education\nIndustrial Sector\nMedia and Entertainment\nRestaurants\nRetail and CPG\nRobotics\nSemiconductor\nTelecommunications\nShop\nDrivers\nSupport\nArtificial Intelligence Computing Leadership from NVIDIA\nKeynote\nWatch NVIDIA CEO  Jensen Huang’s Keynote  at GTC Berlin\nHear how AI factories, open models, physical AI, and accelerated computing are advancing every industry.\nWatch Now\nArtificial Intelligence\nKazakhstan Expands Compute for Its AI Future\nThe nation is scaling across the full AI stack, from infrastructure to models to applications.\nRead Blog\nCybersecurity\nBuild and Run Safe AI Agents With NVIDIA OpenShell Reference Architecture\nThe full-stack, open architecture enables safe agents across AI factories, enterprise infrastructure, and the edge.\nRead Press Release\nData Center\nDeploy Infrastructure Faster With NVIDIA DSX POD\nReference design to bring capacity online in months, not years.\nRead Press Release\nRobotics\nNVIDIA Advances Isaac Platform for General-Purpose Robotics\nA new reference humanoid, frameworks, simulation pipelines, and data give developers an integrated path to build, train, and deploy robots.\nLearn More\nArtificial Intelligence\nNVIDIA Lands in Europe for GTC Berlin\nNVIDIA is kicking off GTC Berlin on October 20, showcasing the future of technology with the region’s innovators.\nRead Blog\nForschungszentrum Jülich / Sascha Kreklau\nKeynote\nWatch NVIDIA CEO Jensen Huang’s Keynote at GTC Berlin\nArtificial Intelligence\nKazakhstan Expands Compute for Its AI Future\nCybersecurity\nBuild and Run Safe AI Agents With NVIDIA OpenShell Reference Architecture\nData Center\nDeploy Infrastructure Faster With NVIDIA DSX POD\nRobotics\nNVIDIA Advances Isaac Platform for General-Purpose Robotics\nArtificial Intelligence\nNVIDIA Lands in Europe for GTC Berlin\nPrevious\nNext\nKeynote\nArtificial Intelligence\nCybersecurity\nData Center\nRobotics\nArtificial Intelligence\nBuilding in America, for America\nNVIDIA and our partners are strengthening American manufacturing, creating jobs, and accelerating healthcare and scientific discovery for growth and prosperity.\nLearn More\nGTC Washington, D.C. Registration Is Now Open\nJoin developers, researchers, and business leaders on Nov. 30–Dec. 3 to explore the next wave of AI innovation.\nGet Your Pass Now\nArtificial Intelligence\nAI is powering change in every industry. From generative AI and speech recognition to medical imaging and improved supply chain management, AI is providing enterprises that compute power, tools, and algorithms their teams need to do their life's work.\nQuick Links\nOverview\nData Analytics\nMachine Learning\nRecommender Systems\nSpeech AI\nApache Spark\nRAPIDS\nArtificial Intelligence | Blog\nNVIDIA Cosmos Opens New Tools to Train and Deploy World Models\nAccelerate data pipelines, train and optimize world models, and improve accuracy at lower cost.\nAgentic AI | Announcement\nOpen Models Advance Europe’s Sovereign Intelligence\nNVIDIA open models, data, and research labs are helping Europe build AI tailored to local industries.\nCybersecurity | Blog\nRun Secure AI Agents at Scale\nNVIDIA OpenShell secure runtime and NVIDIA Vera CPUs govern AI agents efficiently at industrial scale.\nAgentic AI | Blog\nBuild Secure, Specialized  Agents\nBuild safer, governable, and faster AI agents that connect with enterprise data using NVIDIA Agent Toolkit, including the new Agent Knowledge Foundation.\nArtificial Intelligence | Blog\nNVIDIA Advances Agentic Security for Media\nSovereign AI supports European broadcasters, while Adobe Frame.io accelerates video search.\nAgentic AI | Announcement\nTransforming Digital Discovery and Physical Operations in Retail\nEuropean retailers are improving shopping experiences and streamlining operations.\nArtificial Intelligence | Announcement\nNVIDIA, Nokia, and Leading Telcos Turn Networks Into Distributed Service Platforms\nTelcos are building and expanding NVIDIA-powered infrastructure and moving to AI-RAN pilots on live networks.\nArtificial Intelligence | Blog\nChancellor Merz and Jensen Huang Discuss Germany’s AI Future\nNVIDIA partners with the German government to advance cutting-edge physical AI models.\nArtificial Intelligence | Blog\nNVIDIA Local AI: Bringing the Spark to Europe: Local Intelligence Powers Next Wave of Agents\nAt GTC Berlin, NVIDIA is highlighting secure, local systems across RTX Spark, DGX Spark and DGX Station systems to accelerate coding, engineering, robotics and AI factory development.\nPrevious\nNext\nShort Description\nNVIDIA Cosmos Opens New GTC B 1\nOpen Models Advance GTC B 2\nRun Secure AI Agents GTC B 3\nBuild Secure, Specialized  Agents GTC B 4\nNVIDIA Advances Agentic GTC B 5\nTransforming Digital Discovery GTC B 6\nNVIDIA, Nokia, and Europe’s GTC B 7\nChancellor Merz and Jensen Huang\nLocal AI Blog\nDesign and Simulation\nNVIDIA accelerated computing, libraries and AI models enable software makers and industry manufacturers to develop products for large-scale, physically accurate simulations and interactive digital twins so teams can efficiently build, train, and test advanced systems before deployment, bringing products to market faster.\nQuick Links\nOverview\nNewsroom\nShop\nPhysical AI\nIndustrial AI\nComputer Aided Engineering\nRendering and Visualization\nVirtual and Augmented Reality\nSimulation | Blog\nDevelop AI Factory Digital Twins With Frontier Models and NVIDIA DSX\nUse AI agents to connect engineering data and evaluate design decisions before construction.\nSimulation | Blog\nEurope’s Industrial Leaders Reinvent Engineering and Manufacturing\nNVIDIA’s AI agents, digital twins, and engineering simulation boost innovation and productivity.\nDassault Systèmes\nSimulation | Brochure\nNVIDIA cuDSS Now Generally Available\nGPU-accelerated sparse solvers help engineers and scientists explore more designs, faster.\nSimulation | News\nNVIDIA and Semiconductor Leaders Advance AI-Defined Fabs\nNVIDIA accelerated computing and AI advance chip design, manufacturing, and testing.\nPhysical AI | Blog\nPut Astra to Work With NVIDIA Omniverse Libraries\nSee how developers are combining AI agents with NVIDIA Omniverse libraries to build simulation applications, test physical behavior and guide improvements.\nMercedes-Benz, Apptronik\nSimulation | GTC Session\nPhysical AI Conference Sessions at GTC Berlin\nJoin us October 21–22 to explore how industrial AI, robotics, and autonomous vehicles are transforming physical AI.\nSimulation | GTC Session\nIndustrial AI and Manufacturing Conference Sessions at NVIDIA GTC Berlin\nJoin us October 21–22 to explore how industrial digital twins are shaping the future of physical AI in manufacturing.\nSimulation | Solution\nArup Advances Low-Carbon Structural Design With NVIDIA DGX Spark\nGNN-based surrogate models on DGX Spark transformed Arup’s structural design workflow.\nSimulation | Announcement\nNVIDIA Agent Toolkit Expands With NVIDIA PhysicsNeMo, CUDA-X\nLearn how industry leaders are accelerating chip-to-systems design workflows with long-running agents.\nSimulation | Blog\nIntegrate NVIDIA Omniverse RTX Sensor Simulation into Existing Apps\nLearn how agents can help add camera, lidar and radar outputs to physical AI workflows.\nRendering | Solution\nDigital Twins for Ecommerce: Zalando Scales 3D Visualization\nZalando is making online fashion shopping more realistic by using ALLSIDES’ NVIDIA‑powered 3D platform to turn footwear into high‑fidelity digital product twins that customers can explore from every angle.\nPrevious\nNext\nShort Description\nDevelop AI Factory Digital GTC B 1\nEurope’s Industrial Leaders GTC B 2\nNVIDIA cuDSS GTC B 3\nNVIDIA and Semiconductor\nPut Astra to Work\nPhysical AI Conference\nIndustrial AI and Manufacturing\nArup Advances Low-Carbon\nNVIDIA Agent Toolkit Expands\nBuild Simulation-Ready SIGG26 1\nDigital Twins for Ecommerce\nHigh-Performance Computing\nHigh-performance computing (HPC) is the ability to process data and perform complex calculations at high speeds. HPC is one of the most essential tools fueling the advancement of computational science.\nQuick Links\nHPC Overview\nSC24 Event\nSupercomputing\nHealthcare\nPublic Sector\nEnergy\nNVIDIA HPC SDK\nNVIDIA PhysicsNeMo\nHPC | Announcement\nEurope Deploys NVIDIA Earth-2 for Weather and Climate Modeling\nAXA, Space42, TotalEnergies, Vaisala, and top universities put AI weather models in production.\nForschungszentrum Jülich / Sascha Kreklau\nHPC | News\nNVIDIA Runs Record Simulation of Fault-Tolerant Quantum Computing\nResearchers use JUPITER at Jülich Supercomputing Centre to model complex quantum computations.\nHPC | Announcement\nNVIDIA Joins European Commission’s AI in Science Enablers Initiative\nThe open learning resources, collaborations, and compute support scientific progress across Europe.\nHPC | Announcement\nNVIDIA Expands CUDA-Q Platform for Fault-Tolerant Quantum Computing\nCUDA-Q Logical is a new orchestration layer in the open source CUDA-Q™ platform, allowing developers to build and optimize quantum applications.\nHPC | Announcement\nNVIDIA Powers Over 400 of the World’s 500 Fastest Supercomputers\nNVIDIA technologies power 81% of the TOP500 supercomputing list.\nHPC | Brochure\nNVIDIA Vera CPUs Lead the Way for Agentic Scientific AI\nLos Alamos National Laboratory is advancing materials simulation, molecular design, and more.\nHPC | Announcement\nNew NVIDIA AI Software Unlocks Scientific Discoveries\nFrom materials simulation to experimental astronomy, NVIDIA CUDA-X™ accelerates AI for science.\nHPC | Announcement\nEurope Unveils 35 New NVIDIA AI Supercomputers\nNext-generation NVIDIA AI infrastructure equips millions of researchers to advance AI and scientific discovery.\nPrevious\nNext\nShort Description\nEurope Deploys NVIDIA GTC B 1\nNVIDIA Runs Record Simulation\nNVIDIA Joins European\nNVIDIA Expands CUDA-Q\nNVIDIA Powers Over 400\nNVIDIA Vera CPUs Lead\nNew NVIDIA AI Software\nEurope Unveils 35\nGaming and Creating\nNVIDIA RTX™ powers the world’s fastest PCs and the ultimate platform for gamers and creators. Enjoy beautiful ray tracing, AI-powered DLSS, and much more in games and applications, on your desktop, laptop, in the cloud, or in your living room.\nQuick Links\nShop\nGeForce\nGraphics Cards\nLaptops\nDLSS\nReflex\nNVIDIA Studio\nGeForce NOW\nNVIDIA App\nGame Ready Drivers\nG-SYNC\nArtificial Intelligence | Press Release\nNVIDIA RTX Spark Has Arrived\nA new beginning for Windows PCs is now available.\nGaming Hardware | Product\nGeForce RTX 50 Series Graphics Cards and Desktops\nGeForce RTX 50 Series GPUs bring game-changing AI capabilities to gamers and creators. Multiply performance with NVIDIA DLSS 4, generate images at unprecedented speed, and unleash your creativity with NVIDIA Studio.\nGaming Hardware | Product\nGeForce RTX 50 Series Laptops\nThe world’s fastest laptops for gamers and creators. Multiply performance with NVIDIA DLSS 4, generate images at unprecedented speed, and unleash your creativity with NVIDIA Studio. All in the thinnest and longest lasting RTX laptops, optimized by Max-Q.\nGames | News\nDLSS 5 Comes to Hogwarts Legacy\nPowered by a 2X faster Neural Rendering model\nGames | News\nRTX Spark Is Game Ready\nHundreds of top games at launch.\nGames | News\nRTX. It’s On.\nDLSS 4.5 and Reflex available now.\nGaming | News\nRTX. It’s On.\nWith ray tracing, DLSS, and Reflex.\nCloud Gaming | Blog\nCloud Deployment Incoming: ‘Call of Duty: Modern Warfare 4’ Arrives on GeForce NOW\nGet memberships through Amazon on Fire TV, rally a party in ‘FINAL FANTASY RESONANCE’ and explore Season Two of ‘The Elder Scrolls Online.’\nArtificial Intelligence | Blog\nNVIDIA Local AI: Bringing the Spark to Europe: Local Intelligence Powers Next Wave of Agents\nAt GTC Berlin, NVIDIA is highlighting secure, local systems across RTX Spark, DGX Spark and DGX Station systems to accelerate coding, engineering, robotics and AI factory development.\nLivestreaming | Product\nNVIDIA Broadcast Update Available Now\nThe NVIDIA Broadcast app transforms any room into a home studio with AI voice and video effects. The latest release adds File Processor to enhance recordings after capture, support for compatible AI agents, and more.\nPrevious\nNext\nShort Description\nCreating New CMPTX26 4\n50 Series Desktop SFG 1\nGeForce RTX 50 Series Laptops\nDLSS 5\nRTX Spark Game Announcements\nCall of Duty\nFINALS PRIME TIME\nGFN SFG\nCreating SFG\nBroadcast\nAutomotive\nFrom design and manufacturing to autonomous vehicle development and deployment—and agentic AI that helps build and power the car—NVIDIA delivers the compute, software, and infrastructure to support the entire vehicle lifecycle and drive the future of mobility.\nQuick Links\nAutonomous Vehicles\nAlpamayo\nAV Simulation\nModel Development\nPartners\nMercedes-Benz\nAutomotive | Announcement\nMercedes-Benz and NVIDIA to Advance Safe Automated Driving\nNVIDIA Hyperion to support point-to-point urban assistance, active safety, and automated parking.\nVolvo Cars\nAutomotive | Announcement\nVolvo Cars and NVIDIA Advance Safer Automated Driving\nNVIDIA Hyperion, NVIDIA Halos, Alpamayo Stack are helping unlock new levels of safety.\nAutomotive | Blog\nThe World’s Robotaxi Leaders Are Building With NVIDIA\nNVIDIA’s full-stack AV development platform is being adopted across the robotaxi ecosystem.\nAutomotive | Blog\nThe Frontier Open Model for Robotaxis and Autonomous Vehicles\nAlpamayo 2 Super brings trajectories, reasoning traces, meta actions, and auto-labeling into one model.\nAutomotive | Announcement\nToyota and NVIDIA Expand Partnership to Advance Physical AI\nLearn how the collaboration is bringing physical AI to next-generation L2++ vehicles, factory robotics, and city-scale urban intelligence.\nAutomotive | Announcement\nThe World Is Building Robotaxis on NVIDIA Hyperion\nAutomotive industry leaders are bringing Level 4-ready fleets to market on the NVIDIA Hyperion platform.\nAutomotive | Announcement\nNVIDIA Unveils Alpamayo 2 Super Open Reasoning Model\nAlpamayo 2 Super is a 32 billion-parameter reasoning VLA model, built for Level 4 robotaxi-ready autonomous vehicles.\nAutomotive | Announcement\nHyundai, Kia, and NVIDIA Expand Partnership for Next-Gen AV Tech\nHyundai Motor Group is integrating NVIDIA Hyperion and AI into its software-defined vehicles.\nAutomotive | GTC Session\nAutomotive Special Address: Scaling Autonomous Vehicles\nFoundation models, Alpamayo reasoning VLAs, and NVIDIA Hyperion are advancing Level 4 autonomy.\nAutomotive | Announcement\nLeading Automakers Adopt NVIDIA Hyperion for L4 Vehicles\nBYD, Geely, Isuzu, and Nissan build on the NVIDIA end-to-end autonomous vehicle platform.\nPrevious\nNext\nShort Description\nMercedes-Benz and NVIDIA\nVolvo Cars and NVIDIA Advance\nThe World’s Robotaxi Leaders\nThe Frontier Open Model for\nToyota and NVIDIA Expand\nThe World Is Building CMPTX26 1\nNVIDIA Unveils Alpamayo CMPTX26 2\nHyundai, Kia, and NVIDIA GTC26 2\nAutomotive Special Address\nLeading Automakers Adopt GTC26 1\nRobotics and Edge AI\nThe NVIDIA Jetson™ and Isaac™ platforms provide end-to-end solutions to develop and deploy AI-powered autonomous machines and edge computing applications across manufacturing, logistics, healthcare, smart cities, and retail.\nQuick Links\nShop\nOverview\nRobotics Platform\nEmbedded Edge\nRobotics Research\nIsaac Simulation\nNVIDIA IGX\nNVIDIA-Certified Systems\nEcosystem Partners\nRobotics | Blog\nNVIDIA Isaac ROS 5.0 Advances Agentic Robotics\nNVIDIA Isaac™ ROS 5.0 has open source tools, accelerated computing for agent-driven development.\nRobotics | Blog\nWhy Deploying Physical AI at Scale Demands Safety at Every Layer\nAs autonomous vehicles and robots take on more complex tasks, NVIDIA is focusing on safety first.\nRobotics | Event\nJoin NVIDIA at ROSCon Global 2026\nSee what’s new in agentic robotics and physical AI with NVIDIA Isaac™ and Jetson™, and ROS 2.\nAgile Robots\nRobotics | GTC Session\nRobotics Conference Sessions at GTC Berlin\nJoin us October 21–22 to explore how AI, simulation, and accelerated computing are enabling robots to see, learn, and make decisions in real time.\nRobotics | Announcement\nNVIDIA Announces Jetson Orin Nano 2\nThis next generation entry-level edge AI and robotics computer is ideal for delivery and inspection drones, robots, and vision AI systems.\nRobotics | Event\nNVIDIA at Actuate 2026\nSee how world foundation models, synthetic data, and safety platforms are transforming robotics.\nEdge Computing | Blog\nFirefly Aerospace Brings NVIDIA Jetson to Lunar Orbit\nFirefly’s Ocula moon imaging service will run AI inference using the NVIDIA Jetson™ platform.\nRobotics | Announcement\nNVIDIA Halos for Robotics: A Full-Stack Physical AI Safety System\nDiscover the first comprehensive safety system for next-generation humanoids and industrial robots.\nPrevious\nNext\nShort Description\nNVIDIA Isaac ROS 5.0 Advances\nWhy Deploying Physical AI\nJoin NVIDIA at ROSCon\nRobotics Conference Sessions\nNVIDIA Announces Jetson\nNVIDIA at Actuate 2026\nFirefly Aerospace Brings\nNVIDIA Halos for Robotics\nData Center and Cloud Computing\nFrom the cloud to the office to the data center to the edge, NVIDIA provides solutions that deliver breakthrough performance on enterprise AI and HPC workloads at any scale, driving business decisions in real time and resulting in faster time to value.\nQuick Links\nData Center\nCloud Computing\nEdge Computing\nNVIDIA LaunchPad\nNVIDIA AI Enterprise\nDGX Systems\nNVIDIA-Certified Systems\nData Center | Blog\nNVIDIA Minerva Brings End-to-End  Observability to AI Factories\nThe AIOps platform connects infrastructure and workload telemetry to help operators maximize yield.\nData Center | Blog\nNVIDIA DSX Connects the Grid to the AI Factory\nCompanies worldwide use NVIDIA DSX™ to run the grid and AI factory as one system, from substation to rack.\nData Center | News\nEuropean AI Ecosystem Builds World’s Most Efficient AI Factories\nNVIDIA DSX helps Europe’s cloud and infrastructure leaders build grid-flexible AI factories that use less power and water.\nData Center | Blog\nIn-Silicon AI Agent Security\nNVIDIA Sentry and BlueField deliver out-of-band agent monitoring and policy enforcement on NVIDIA OpenShell.\nData Center | Announcement\nNVIDIA Cloud Partners Scale Across Europe\nNVIDIA Cloud Partners advance agentic safety and security, sovereign compute and physical AI.\nData Center | Announcement\nNVIDIA and Suppliers Expand Capacity for AI Factories\nLeading semiconductor companies strengthen global supply chain to meet demand for AI infrastructure.\nData Center | Announcement\nNVIDIA and Cisco Introduce Pluggable Optics to Scale AI Factories\nEnabling AI builders to scale compute while reducing networking’s share of the power budget.\nData Center | Announcement\nNVIDIA Opens Vera Rubin Platform to Scale AI Factories Worldwide\nAt the OCP Global Summit, NVIDIA unveiled new partnerships to build next-gen AI infrastructure.\nPrevious\nNext\nShort Description\nNVIDIA Minerva Brings\nNVIDIA DSX Connects GTC B 1\nEuropean AI Ecosystem Builds GTC B 2\nIn-Silicon AI Agent GTC B 3\nAI Clouds Expand Across GTC B 4\nNVIDIA and Suppliers Expand GTC B 5\nNVIDIA and Cisco Introduce\nNVIDIA Opens Vera Rubin\nAbout NVIDIA\nNVIDIA pioneered accelerated computing to tackle challenges no one else can solve. Our work in AI and digital twins is transforming the world's largest industries and profoundly impacting society.\nQuick Links\nAbout NVIDIA\nNVIDIA GTC\nCareers\nNewsroom\nNVIDIA On-Demand\nLeaders\nNVIDIA In Brief\nPregame | Event\nNVIDIA GTC Live Keynote Pregame at  GTC Berlin 2026\nExperience a new chapter in AI at the Tempodrom, Berlin. Watch live on October 21, 9 a.m. CEST.\nNVIDIA GTC | Event\nGTC Washington, D.C. 2026\nExplore how AI is accelerating American economic growth, reindustrialization, and scientific discovery.\nRegister Now\nCorporate | Blog\nBuilding in America, for America\nNVIDIA and our partners are strengthening American manufacturing, creating jobs, and accelerating healthcare and scientific discovery for growth and prosperity.\nArtificial Intelligence | Event\nJoin NVIDIA at SIGGRAPH 2026\nDiscover how graphics, rendering, simulation, and AI are transforming how worlds are built.\nNVIDIA GTC | Event\nNVIDIA CEO Jensen Huang’s GTC Taipei Keynote\nCatch the keynote replay unveiling breakthroughs in agentic AI, physical AI, and personal computing.\nNVIDIA GTC | Event\nNVIDIA GTC Live\nCatch the keynote pregame at GTC Taipei to hear industry experts discuss what’s shaping the next era of AI.\nNVIDIA GTC | Event\nNVIDIA GTC Live\nKeynote Pregame\nJoin the pregame to hear the latest on accelerated computing beyond AI, including history’s largest infrastructure buildouts.\nCorporate | Blog\nAI is a Five-Layer Cake\nAI is one of the most powerful forces shaping the world today. It isn't a clever app or a single model; it's essential infrastructure, like electricity and the internet.\nCorporate | Blog\nOur Story\nNVIDIA is the result of the decades-long pursuit of a vision and the life’s work of our employees. Discover our company’s story.\nPrevious\nNext\nShort Description\nSave the Date for GTC Berlin\nGTC DC\nBuilding in America, for America\nJoin NVIDIA at SIGGRAPH 2026\nNVIDIA GTC Taipei at COMPUTEX 2026\nComputex Pre Game\nGTC26 pregame\nAI is a Five-Layer Cake\nOur Story\nSMS is Now a Part of NVIDIA\nSMS was acquired by NVIDIA Corporation of Santa Clara, CA in May 2022 and was dissolved as a separate corporate entity. NVIDIA is incorporating SMS technology into its Omniverse platform and OpenUSD. For legacy support content please refer to the following:\nSMLib\nand\nNLib\n.\nClose\nDeci is Now a Part of NVIDIA\nDeci was acquired by NVIDIA Corporation of Santa Clara, CA in May 2024 and was dissolved as a separate corporate entity. For legacy support content please refer to the following:\nDeci AI Documentation\nClose\nCompany Information\nAbout Us\nInvestors\nVenture Capital (NVentures)\nNVIDIA Foundation\nResearch\nCorporate Sustainability\nTechnologies\nCareers\nNews and Events\nNewsroom\nCompany Blog\nTechnical Blog\nWebinars\nStay Informed\nEvents Calendar\nGTC AI Conference\nNVIDIA On-Demand\nPopular Links\nDevelopers\nPartners\nExecutive Insights\nStartups and VCs\nDocumentation\nTechnical Training\nProfessional Services for Data Science\nSign Up for NVIDIA News\nSubscribe\nFollow NVIDIA\nUnited States\nPrivacy Policy\nYour Privacy Choices\nTerms of Service\nAccessibility\nCorporate Policies\nProduct Security\nContact\nCopyright © 2026 NVIDIA Corporation\nSelect Location\nThe Americas\nArgentina\nBrasil (Brazil)\nCanada\nChile\nColombia\nMéxico (Mexico)\nPeru\nUnited States\nEurope\nBelgië (Belgium)\nBelgique (Belgium)\nČeská Republika (Czech Republic)\nDanmark (Denmark)\nDeutschland (Germany)\nEspaña (Spain)\nFrance\nItalia (Italy)\nNederland (Netherlands)\nNorge (Norway)\nÖsterreich (Austria)\nPolska (Poland)\nRomânia (Romania)\nSuomi (Finland)\nSverige (Sweden)\nTürkiye (Turkey)\nUnited Kingdom\nRest of Europe\nAsia\nAustralia\n中国大陆 (Mainland China)\nIndia\n日本 (Japan)\n대한민국 (South Korea)\nSingapore\n台灣 (Taiwan)\nMiddle East\nMiddle East\nNVIDIA uses cookies to improve your experience on our web site. We and our third-party partners also use cookies and other tools to collect and record information you provide as well as information about your interactions with our websites for performance improvement, analytics, and to assist in marketing efforts. By clicking \"Accept All\", you consent to our use of cookies and other tools as described in our\nCookie Policy\n. You can manage your cookie settings by clicking on \"Manage Settings.\" By continuing to use this site or by clicking one of the buttons below, you agree to our\nTerms of Service\n(which contains important waivers). Please see our\nPrivacy Policy\nfor more information on our privacy practices.\nWe have detected the Global Privacy Control (GPC) signal and recorded your rejection of all optional cookies on this site for this browser. You can manage your cookie settings by clicking on \"Manage Settings\". Please see our\nCookie Policy\nfor more information. To opt out of non-cookie personal information \"sales\" / \"sharing\" for targeted advertising purposes, please visit the\nNVIDIA Preference Center\n. Please see our\nPrivacy Policy\nfor more information on our privacy practices.\nWe have detected the Global Privacy Control Signal (GPC) and have opted you out of all optional cookies on this browser. You can manage your cookie settings by clicking on \"Manage Settings\". Please see our\nCookie Policy\nfor more information. We have also opted you out of \"sharing\"/\"sales\" of personal information outside of cookies. You can manage these settings in the NVIDIA\nNVIDIA Preference Center\n. Please see our\nPrivacy Policy\nfor more information.\nWe have detected the Global Privacy Control Signal (GPC) and have opted you out of all optional cookies on this browser. You can manage your cookie settings by clicking on \"Manage Settings\". Please see our\nCookie Policy\nfor more information. We have also opted you out of \"sharing\"/\"sales\" of personal information outside of cookies which overrides at least one of your previous settings. You can manage them in the\nNVIDIA Preference Center\n. Please see our\nPrivacy Policy\nfor more information.\nManage Settings\nReject Optional\nAccept All\nCookie Settings\nWe and our third-party partners (including social media, advertising, and analytics partners) use cookies and other tracking technologies to collect, store, monitor, and process certain information about you when you visit our website. The information collected might relate to you, your preferences, or your device. We use that information to make the site work, analyze performance and traffic on our website, provide a more personalized web experience, and assist in our marketing efforts.\nUnder certain privacy laws, you have the right to direct us not to \"sell\" or \"share\" your personal information for targeted advertising. To opt-out of the \"sale\" and \"sharing\" of personal information through cookies, you must opt-out of optional cookies using the toggles below. To opt out of the \"sale\" and \"sharing\" of data collected by other means (e.g., online forms) you must also update your data sharing preferences through the\nNVIDIA Preference Center\n.\nClick on the different category headings below to find out more and change the settings according to your preference. You cannot opt out of Required Cookies as they are deployed to ensure the proper functioning of our website (such as prompting the cookie banner and remembering your settings, etc.). By clicking \"Save and Accept\" or \"Decline All\" at the bottom, you consent to the use of cookies and other tools as described in our\nCookie Policy\nin accordance with your settings and accept our\nTerms of Service\n(which contains important waivers). For more information about our privacy practices, please see our\nPrivacy Policy\n.\nRequired Cookies\nAlways Active\nThese cookies enable core functionality such as security, network management, and accessibility. These cookies are required for the site to function and cannot be turned off.\nCookies Details\nPerformance Cookies\nPerformance Cookies\nThese cookies are used to provide quantitative measures of our website visitors, such as the number of times you visit, time on page, your mouse movements, scrolling, clicks and keystroke activity on the websites; other browsing, search, or product research behavior; and what brought you to our site. These cookies may store a unique ID so that our system will remember you when you return. Information collected with these cookies is used to measure and find ways to improve website performance.\nCookies Details\nPersonalization Cookies\nPersonalization Cookies\nThese cookies collect data about how you have interacted with our website to help us improve your web experience, such as which pages you have visited. These cookies   may store a unique ID so that our system will remember you when you return. They may be set by us or by third party providers whose services we have added to our pages. These cookies enable us to provide enhanced website functionality and personalization as well as make the marketing messages we send to you more relevant to your interests. If you do not allow these cookies, then some or all of these services may not function properly.\nCookies Details\nAdvertising Cookies\nAdvertising Cookies\nThese cookies record your visit to our websites, the pages you have visited and the links you have followed to influence the advertisements that you see on other websites. These cookies and the information they collect may be managed by other companies, including our advertising partners, and may be used to build a profile of your interests and show you relevant advertising on other sites. We and our advertising partners will use this information to make our websites and the advertising displayed on it,  more relevant to your interests.\nCookies Details\nCookie List\nClear\ncheckbox label\nlabel\nApply\nCancel\nConsent\nLeg.Interest\ncheckbox label\nlabel\ncheckbox label\nlabel\ncheckbox label\nlabel\nDecline All\nSave and Accept",
+  "fullWordCount": 6932,
+  "headings": [
+    {
+      "level": "h2",
+      "text": "Keynote\nWatch NVIDIA CEO Jensen Huang’s Keynote at GTC Berlin"
+    },
+    {
+      "level": "h2",
+      "text": "GTC Washington, D.C. Registration Is Now Open"
+    },
+    {
+      "level": "h3",
+      "text": "Artificial Intelligence"
+    },
+    {
+      "level": "h3",
+      "text": "NVIDIA Cosmos Opens New Tools to Train and Deploy World Models"
+    },
+    {
+      "level": "h3",
+      "text": "Open Models Advance Europe’s Sovereign Intelligence"
+    },
+    {
+      "level": "h3",
+      "text": "Run Secure AI Agents at Scale"
+    },
+    {
+      "level": "h3",
+      "text": "Build Secure, Specialized Agents"
+    },
+    {
+      "level": "h3",
+      "text": "NVIDIA Advances Agentic Security for Media"
+    },
+    {
+      "level": "h3",
+      "text": "Transforming Digital Discovery and Physical Operations in Retail"
+    },
+    {
+      "level": "h3",
+      "text": "NVIDIA, Nokia, and Leading Telcos Turn Networks Into Distributed Service Platforms"
+    },
+    {
+      "level": "h3",
+      "text": "Chancellor Merz and Jensen Huang Discuss Germany’s AI Future"
+    },
+    {
+      "level": "h3",
+      "text": "NVIDIA Local AI: Bringing the Spark to Europe: Local Intelligence Powers Next Wave of Agents"
+    },
+    {
+      "level": "h3",
+      "text": "Design and Simulation"
+    },
+    {
+      "level": "h3",
+      "text": "Develop AI Factory Digital Twins With Frontier Models and NVIDIA DSX"
+    },
+    {
+      "level": "h3",
+      "text": "Europe’s Industrial Leaders Reinvent Engineering and Manufacturing"
+    },
+    {
+      "level": "h3",
+      "text": "NVIDIA cuDSS Now Generally Available"
+    },
+    {
+      "level": "h3",
+      "text": "NVIDIA and Semiconductor Leaders Advance AI-Defined Fabs"
+    },
+    {
+      "level": "h3",
+      "text": "Put Astra to Work With NVIDIA Omniverse Libraries"
+    },
+    {
+      "level": "h3",
+      "text": "Physical AI Conference Sessions at GTC Berlin"
+    },
+    {
+      "level": "h3",
+      "text": "Industrial AI and Manufacturing Conference Sessions at NVIDIA GTC Berlin"
+    },
+    {
+      "level": "h3",
+      "text": "Arup Advances Low-Carbon Structural Design With NVIDIA DGX Spark"
+    },
+    {
+      "level": "h3",
+      "text": "NVIDIA Agent Toolkit Expands With NVIDIA PhysicsNeMo, CUDA-X"
+    },
+    {
+      "level": "h3",
+      "text": "Integrate NVIDIA Omniverse RTX Sensor Simulation into Existing Apps"
+    },
+    {
+      "level": "h3",
+      "text": "Digital Twins for Ecommerce: Zalando Scales 3D Visualization"
+    },
+    {
+      "level": "h3",
+      "text": "High-Performance Computing"
+    },
+    {
+      "level": "h3",
+      "text": "Europe Deploys NVIDIA Earth-2 for Weather and Climate Modeling"
+    },
+    {
+      "level": "h3",
+      "text": "NVIDIA Runs Record Simulation of Fault-Tolerant Quantum Computing"
+    },
+    {
+      "level": "h3",
+      "text": "NVIDIA Joins European Commission’s AI in Science Enablers Initiative"
+    },
+    {
+      "level": "h3",
+      "text": "NVIDIA Expands CUDA-Q Platform for Fault-Tolerant Quantum Computing"
+    },
+    {
+      "level": "h3",
+      "text": "NVIDIA Powers Over 400 of the World’s 500 Fastest Supercomputers"
+    },
+    {
+      "level": "h3",
+      "text": "NVIDIA Vera CPUs Lead the Way for Agentic Scientific AI"
+    },
+    {
+      "level": "h3",
+      "text": "New NVIDIA AI Software Unlocks Scientific Discoveries"
+    },
+    {
+      "level": "h3",
+      "text": "Europe Unveils 35 New NVIDIA AI Supercomputers"
+    },
+    {
+      "level": "h3",
+      "text": "Gaming and Creating"
+    },
+    {
+      "level": "h3",
+      "text": "NVIDIA RTX Spark Has Arrived"
+    },
+    {
+      "level": "h3",
+      "text": "GeForce RTX 50 Series Graphics Cards and Desktops"
+    },
+    {
+      "level": "h3",
+      "text": "GeForce RTX 50 Series Laptops"
+    },
+    {
+      "level": "h3",
+      "text": "DLSS 5 Comes to Hogwarts Legacy"
+    },
+    {
+      "level": "h3",
+      "text": "RTX Spark Is Game Ready"
+    },
+    {
+      "level": "h3",
+      "text": "RTX. It’s On."
+    },
+    {
+      "level": "h3",
+      "text": "RTX. It’s On."
+    },
+    {
+      "level": "h3",
+      "text": "Cloud Deployment Incoming: ‘Call of Duty: Modern Warfare 4’ Arrives on GeForce NOW"
+    },
+    {
+      "level": "h3",
+      "text": "NVIDIA Local AI: Bringing the Spark to Europe: Local Intelligence Powers Next Wave of Agents"
+    },
+    {
+      "level": "h3",
+      "text": "NVIDIA Broadcast Update Available Now"
+    },
+    {
+      "level": "h3",
+      "text": "Automotive"
+    },
+    {
+      "level": "h3",
+      "text": "Mercedes-Benz and NVIDIA to Advance Safe Automated Driving"
+    },
+    {
+      "level": "h3",
+      "text": "Volvo Cars and NVIDIA Advance Safer Automated Driving"
+    },
+    {
+      "level": "h3",
+      "text": "The World’s Robotaxi Leaders Are Building With NVIDIA"
+    },
+    {
+      "level": "h3",
+      "text": "The Frontier Open Model for Robotaxis and Autonomous Vehicles"
+    },
+    {
+      "level": "h3",
+      "text": "Toyota and NVIDIA Expand Partnership to Advance Physical AI"
+    },
+    {
+      "level": "h3",
+      "text": "The World Is Building Robotaxis on NVIDIA Hyperion"
+    },
+    {
+      "level": "h3",
+      "text": "NVIDIA Unveils Alpamayo 2 Super Open Reasoning Model"
+    },
+    {
+      "level": "h3",
+      "text": "Hyundai, Kia, and NVIDIA Expand Partnership for Next-Gen AV Tech"
+    },
+    {
+      "level": "h3",
+      "text": "Automotive Special Address: Scaling Autonomous Vehicles"
+    },
+    {
+      "level": "h3",
+      "text": "Leading Automakers Adopt NVIDIA Hyperion for L4 Vehicles"
+    },
+    {
+      "level": "h3",
+      "text": "Robotics and Edge AI"
+    },
+    {
+      "level": "h3",
+      "text": "NVIDIA Isaac ROS 5.0 Advances Agentic Robotics"
+    },
+    {
+      "level": "h3",
+      "text": "Why Deploying Physical AI at Scale Demands Safety at Every Layer"
+    },
+    {
+      "level": "h3",
+      "text": "Join NVIDIA at ROSCon Global 2026"
+    },
+    {
+      "level": "h3",
+      "text": "Robotics Conference Sessions at GTC Berlin"
+    },
+    {
+      "level": "h3",
+      "text": "NVIDIA Announces Jetson Orin Nano 2"
+    },
+    {
+      "level": "h3",
+      "text": "NVIDIA at Actuate 2026"
+    },
+    {
+      "level": "h3",
+      "text": "Firefly Aerospace Brings NVIDIA Jetson to Lunar Orbit"
+    },
+    {
+      "level": "h3",
+      "text": "NVIDIA Halos for Robotics: A Full-Stack Physical AI Safety System"
+    },
+    {
+      "level": "h3",
+      "text": "Data Center and Cloud Computing"
+    },
+    {
+      "level": "h3",
+      "text": "NVIDIA Minerva Brings End-to-End Observability to AI Factories"
+    },
+    {
+      "level": "h3",
+      "text": "NVIDIA DSX Connects the Grid to the AI Factory"
+    },
+    {
+      "level": "h3",
+      "text": "European AI Ecosystem Builds World’s Most Efficient AI Factories"
+    },
+    {
+      "level": "h3",
+      "text": "In-Silicon AI Agent Security"
+    },
+    {
+      "level": "h3",
+      "text": "NVIDIA Cloud Partners Scale Across Europe"
+    },
+    {
+      "level": "h3",
+      "text": "NVIDIA and Suppliers Expand Capacity for AI Factories"
+    },
+    {
+      "level": "h3",
+      "text": "NVIDIA and Cisco Introduce Pluggable Optics to Scale AI Factories"
+    },
+    {
+      "level": "h3",
+      "text": "NVIDIA Opens Vera Rubin Platform to Scale AI Factories Worldwide"
+    },
+    {
+      "level": "h3",
+      "text": "About NVIDIA"
+    },
+    {
+      "level": "h3",
+      "text": "NVIDIA GTC Live Keynote Pregame at GTC Berlin 2026"
+    },
+    {
+      "level": "h3",
+      "text": "GTC Washington, D.C. 2026"
+    },
+    {
+      "level": "h3",
+      "text": "Building in America, for America"
+    },
+    {
+      "level": "h3",
+      "text": "Join NVIDIA at SIGGRAPH 2026"
+    },
+    {
+      "level": "h3",
+      "text": "NVIDIA CEO Jensen Huang’s GTC Taipei Keynote"
+    },
+    {
+      "level": "h3",
+      "text": "NVIDIA GTC Live"
+    },
+    {
+      "level": "h3",
+      "text": "NVIDIA GTC Live Keynote Pregame"
+    },
+    {
+      "level": "h3",
+      "text": "AI is a Five-Layer Cake"
+    },
+    {
+      "level": "h3",
+      "text": "Our Story"
+    }
+  ],
+  "h1": null,
+  "fonts": {
+    "hero": "NVIDIA-NALA, Arial, Helvetica, sans-serif",
+    "histogram": [
+      [
+        "nvidia-nala",
+        323
+      ]
+    ]
+  },
+  "colors": [
+    {
+      "hex": "#76b900",
+      "h": 82,
+      "s": 1,
+      "l": 0.36,
+      "count": 155,
+      "where": {
+        "bg": 19,
+        "cta": 50,
+        "text": 31,
+        "border": 34
+      }
+    }
+  ],
+  "darkMode": true,
+  "gradients": {
+    "elements": 1,
+    "areaRatio": 0.056,
+    "textClip": 0
+  },
+  "glow": {
+    "count": 0,
+    "samples": []
+  },
+  "glass": 0,
+  "blurBlobs": 0,
+  "decor": {
+    "canvases": [],
+    "networkSvgs": [],
+    "animations": [
+      [
+        "progressBar",
+        1
+      ],
+      [
+        "onetrust-fade-in",
+        1
+      ]
+    ]
+  },
+  "pills": [],
+  "eyebrows": [],
+  "orbs": [],
+  "tags": [],
+  "cards": {
+    "count": 73,
+    "nested": 0,
+    "perScreen": 8.9
+  },
+  "sections": 0,
+  "pageHeight": 7422,
+  "screens": 8.2,
+  "links": {
+    "total": 195,
+    "dead": 1,
+    "deadTexts": [
+      "Sign In"
+    ],
+    "socialRoots": 0,
+    "external": 118
+  },
+  "buttons": 29,
+  "ctaTexts": [
+    "continue",
+    "skip to main content",
+    "main menu",
+    "cloud services",
+    "creating",
+    "data center",
+    "embedded systems",
+    "gaming",
+    "graphics cards and desktops",
+    "laptops",
+    "networking",
+    "professional workstations",
+    "software",
+    "tools",
+    "agentic ai models - nemotron",
+    "ai agents - nemo",
+    "ai blueprints",
+    "ai inference - dynamo",
+    "ai inference - nim",
+    "ai microservices - cuda-x",
+    "automotive - drive",
+    "data science - apache spark",
+    "data science - rapids",
+    "decision optimization - cuopt",
+    "healthcare platforms",
+    "industrial ai - omniverse",
+    "intelligent video analytics - metropolis",
+    "nvidia ai enterprise",
+    "nvidia mission control",
+    "nvidia run:ai",
+    "physical ai - cosmos",
+    "robotics - isaac",
+    "telecommunications - aerial",
+    "see all software",
+    "artificial intelligence",
+    "cloud and data center",
+    "design and simulation",
+    "high-performance computing",
+    "robotics and edge ai",
+    "autonomous vehicles",
+    "overview",
+    "automotive",
+    "energy",
+    "financial services",
+    "government",
+    "healthcare and life sciences",
+    "higher education",
+    "industrial sector",
+    "media and entertainment",
+    "restaurants",
+    "retail and cpg",
+    "robotics",
+    "semiconductor",
+    "telecommunications",
+    "…",
+    "shop",
+    "drivers",
+    "support",
+    "us",
+    "sign in",
+    "nvidia account",
+    "nvidia marketplace",
+    "logout",
+    "log in",
+    "products",
+    "solutions",
+    "industries",
+    "watch now",
+    "read blog",
+    "read press release",
+    "learn more",
+    "previous",
+    "next",
+    "get your pass now",
+    "quick links",
+    "data analytics",
+    "machine learning",
+    "recommender systems",
+    "speech ai",
+    "apache spark",
+    "rapids",
+    "newsroom",
+    "physical ai",
+    "industrial ai",
+    "computer aided engineering",
+    "rendering and visualization",
+    "virtual and augmented reality",
+    "hpc overview",
+    "sc24 event",
+    "supercomputing",
+    "healthcare",
+    "public sector",
+    "nvidia hpc sdk",
+    "nvidia physicsnemo",
+    "geforce",
+    "graphics cards",
+    "dlss",
+    "reflex",
+    "nvidia studio",
+    "geforce now",
+    "nvidia app",
+    "game ready drivers",
+    "g-sync",
+    "alpamayo",
+    "av simulation",
+    "model development",
+    "partners",
+    "robotics platform",
+    "embedded edge",
+    "robotics research",
+    "isaac simulation",
+    "nvidia igx",
+    "nvidia-certified systems",
+    "ecosystem partners",
+    "cloud computing",
+    "edge computing",
+    "nvidia launchpad",
+    "dgx systems",
+    "about nvidia",
+    "nvidia gtc",
+    "careers",
+    "nvidia on-demand",
+    "leaders",
+    "nvidia in brief",
+    "register now",
+    "smlib",
+    "nlib",
+    "close",
+    "deci ai documentation",
+    "about us",
+    "investors",
+    "venture capital (nventures)",
+    "nvidia foundation",
+    "research",
+    "corporate sustainability",
+    "technologies",
+    "company blog",
+    "technical blog",
+    "webinars",
+    "stay informed",
+    "events calendar",
+    "gtc ai conference",
+    "developers",
+    "executive insights",
+    "startups and vcs",
+    "documentation",
+    "technical training",
+    "professional services for data science",
+    "subscribe",
+    "united states",
+    "privacy policy",
+    "your privacy choices",
+    "terms of service",
+    "accessibility",
+    "corporate policies",
+    "product security",
+    "contact",
+    "argentina",
+    "brasil (brazil)",
+    "canada",
+    "chile",
+    "colombia",
+    "méxico (mexico)",
+    "peru",
+    "belgië (belgium)",
+    "belgique (belgium)",
+    "česká republika (czech republic)",
+    "danmark (denmark)",
+    "deutschland (germany)",
+    "españa (spain)",
+    "france",
+    "italia (italy)",
+    "nederland (netherlands)",
+    "norge (norway)",
+    "österreich (austria)",
+    "polska (poland)",
+    "românia (romania)",
+    "suomi (finland)",
+    "sverige (sweden)",
+    "türkiye (turkey)",
+    "united kingdom",
+    "rest of europe",
+    "australia",
+    "中国大陆 (mainland china)",
+    "india",
+    "日本 (japan)",
+    "대한민국 (south korea)",
+    "singapore",
+    "台灣 (taiwan)",
+    "middle east",
+    "cookie policy",
+    "nvidia preference center",
+    "manage settings",
+    "reject optional",
+    "accept all",
+    "cookies details",
+    "back button",
+    "filter icon",
+    "clear",
+    "apply",
+    "cancel",
+    "decline all",
+    "save and accept"
+  ],
+  "forms": [],
+  "images": {
+    "total": 76,
+    "missingAlt": 2,
+    "avatarHosts": 0,
+    "stockHosts": 0
+  },
+  "testimonials": [],
+  "stats": [],
+  "logoBars": 0,
+  "copyrightYear": 2026,
+  "placeholders": [],
+  "phone": false,
+  "address": false,
+  "mobile": {
+    "viewportWidth": 390,
+    "scrollWidth": 390,
+    "horizontalOverflow": false,
+    "pageHeight": 10732
+  },
+  "consoleErrors": [],
+  "failedRequests": []
+}

@@ -1,0 +1,28 @@
+# Scan any public site on a throwaway runner. Nothing is installed on your machine.
+# Run it from the Actions tab, paste URLs, download the report artifact.
+name: scan
+on:
+  workflow_dispatch:
+    inputs:
+      urls:
+        description: "One or more URLs, space separated"
+        required: true
+        type: string
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npx playwright install --with-deps chromium-headless-shell
+      - run: node bin/slop-audit.js ${{ inputs.urls }} --out out | tee out/summary.txt
+      - uses: actions/upload-artifact@v4
+        with:
+          name: slop-audit-report
+          path: out/
+          retention-days: 14

@@ -1,0 +1,610 @@
+{
+  "url": "http://127.0.0.1:61555/slop-demo/",
+  "palette": {
+    "sampled": 960000,
+    "darkShare": 0.955,
+    "chromaticShare": 0.009,
+    "neonShare": 0.0067,
+    "neonOfChromatic": 0.748,
+    "neonBands": {
+      "cyan-teal-mint": 0.0067,
+      "radium-green": 0
+    },
+    "dominantHues": [
+      {
+        "hue": 170,
+        "share": 1
+      }
+    ]
+  },
+  "finalUrl": "http://127.0.0.1:61555/slop-demo/",
+  "collectedAt": "2026-10-26T16:06:41.287Z",
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "title": "Pulsora — The AI Operating Layer for Revenue Teams",
+  "generator": null,
+  "description": "Pulsora is the AI operating layer for revenue teams — deterministic pipeline analytics that is never fabricated, never a black box, and human-in-the-loop by design.",
+  "favicon": true,
+  "html": {
+    "lang": "en"
+  },
+  "builderMarkers": [],
+  "text": "Pulsora.\nFeatures\nHow it works\nPricing\nFAQ\nLog in\nStart free\nTHE AI OPERATING LAYER\nYour revenue data, asked and answered\n\nPulsora watches your pipeline around the clock and tells you what is actually happening — real numbers, zero guesswork. You approve every decision before anything changes, so the machine stays honest — never fabricated, no black box, human-in-the-loop by design. Built for operators who are tired of dashboards that quietly disagree with each other — one deterministic source of truth, on your terms, with a human approving every loop. It is not just another BI tool, it is the one place your revenue data finally makes sense.\n\nPipeline analytics\nForecasting\nAttribution\nAlerts\nWorks with your stack\nFree beta · No credit card required\nStart free\nAsk Pulsora\nBY THE NUMBERS\nThe platform revenue teams run on\n\nOne deterministic view of every dollar — from first touch to closed-won — with a human approving each step. These are the numbers our beta customers see after a single quarter on the platform.\n\n1M+\nrevenue events processed\n99.9%\nforecast accuracy\n10x\nfaster reporting\n\nIllustrative figures — simulated data while the product is in early access. Real numbers arrive as customers onboard.\n\nFEATURES\nEverything your revenue stack does, in one console\n\nStop tab-hopping between your CRM, warehouse and spreadsheets — Pulsora unifies them into a single, transparent source of truth. Every panel, every metric and every alert reads from the same raw events, so there is exactly one version of the truth across the whole company.\n\nREPORTING\n◆\nDeterministic Pipeline Analytics\n\nEvery metric is computed from raw events, not from a model's memory. The same query returns the same number, every single time — zero guesswork.\n\nFORECASTING\n◈\nForecasts You Can Actually Trust\n\nWe show the receipts — the exact stages, dates and amounts behind each number. Nothing is invented, nothing is smoothed, and you stay in control.\n\nATTRIBUTION\n◇\nFull-Funnel Attribution\n\nTrace every closed-won dollar back to the campaign, channel and rep that earned it. Honest, transparent and never a black box.\n\nALERTS\n▣\nAnomaly Alerts That Mean Something\n\nPulsora flags the deals slipping and the cohorts leaking — no noise, no gimmicks. A human reviews every alert before it reaches your team.\n\nINTEGRATIONS\n▤\nWorks With Your Existing Stack\n\nConnect your CRM, warehouse and billing tools in minutes. Your data stays yours — we never train on it, and we never will.\n\nSECURITY\n◈\nBuilt To Be Trusted\n\nSOC 2 readiness, single sign-on and full audit logs. Because trust is earned with receipts, not with reassurances.\n\nGOVERNANCE\n▦\nApproval Workflows That Scale\n\nRoute every automated decision to the right human, with a complete audit history attached. Approve, reject or edit — the system learns your taste and never, ever acts on its own.\n\nDATA PIPELINES\n▩\nReproducible, Byte-For-Byte\n\nEvery metric recomputes from raw events on demand. Re-run yesterday's report and get yesterday's numbers back — nothing is smoothed or averaged in memory.\n\nREPORTING\n▥\nBoard-Ready Reports In One Click\n\nTurn a living pipeline into a clean, sourced report without copying anything into a slide. Every figure links back to the exact deal that produced it.\n\nINTEGRATIONS\nPlays nicely with the tools you already own\n\nYour data lives in your systems, not in ours. Pulsora reads from the sources you already trust and never asks you to rip anything out.\n\nYour CRM\nYour data warehouse\nYour billing tool\nYour CDP\nYour email platform\nYour calendar\n\nConnect in minutes with read-only credentials — no black box, no vendor lock-in, and your data never leaves your control.\n\nOUR PROMISE\nWhy we keep saying we are honest\n\nBecause the market trained everyone to ask. Here is the receipt, in plain language — transparent, deterministic, and never fabricated.\n\nNO BLACK BOX\nEvery Number Has A Source\n\nClick any figure and see the events behind it. We show our work because there is nothing to hide — no vaporware, no smoothed curves, no invented baselines.\n\nYOUR DATA\nYour Data Stays Yours\n\nWe never train on your data, never sell it, never will. Read the agreement — it is two pages and written in sentences a human can actually read.\n\nNO GIMMICKS\nWe Only Ship What Works\n\nNo fake ship dates, no vaporware roadmap, no gimmicks. When a feature appears on this page it is live, documented and ready to use today.\n\nHOW IT WORKS\nFrom raw events to decisions, in three steps\n\nNo setup calls, no black box. Connect, approve, and let the machine surface what matters — you make every call.\n\nSTEP 01\nConnect Your Sources\n\nPlug in your CRM and warehouse with a few clicks. Pulsora ingests raw events and normalises them deterministically, so the number you see on Monday is the number you defend on Friday.\n\nSTEP 02\nApprove The Models\n\nReview every forecast and alert before it ships. Human-in-the-loop is not a feature — it is the whole point, and it is why your board can trust the output.\n\nSTEP 03\nAct With Confidence\n\nShare one source of truth with the whole team. Numbers that everyone can defend, because they are never fabricated and always trace back to a real event.\n\nTHE COMMAND CENTER\nSee your whole pipeline at a glance\n\nEvery panel updates live — and every number is traceable back to the event that produced it. Zoom from the quarter down to a single deal in two clicks.\n\nLIVE\nSANDBOX\nPRO\nBETA\nEARLY ACCESS\nPipeline velocity\nClosed-won this quarter\n$4.2M ▲ 18%\nTESTIMONIALS\nLoved by revenue teams everywhere\n\nHear from the operators who run their week on Pulsora.\n\n“Pulsora replaced four spreadsheets and two dashboards on day one. Our board meeting went from two hours of arguing over numbers to twenty minutes of decisions.”\nAlex Rivera, VP Revenue\n“The first forecasting tool that actually shows its work. I can point to the exact deal behind every number — no black box, no hand-waving.”\nPriya Natarajan, Head of Ops\n“Setup took an afternoon and the alerts caught a slipping cohort we would have missed until it was too late. Genuinely transformative.”\nMarcus Chen, CRO\n\nTestimonials will appear here as users submit them.\n\nPRICING\nStart free. Scale when you are ready.\n\nEvery plan starts with a free beta — no credit card required, no hidden fees, cancel anytime. Upgrade only when the numbers prove the value, never before.\n\nSTARTER\nStarter\n$0 / month\nUp to 3 seats\nCore pipeline analytics\nDeterministic reporting\nFree beta · No credit card\nStart free\nMOST POPULAR\nGrowth\n$49 / seat / month\nUnlimited seats\nFull-funnel attribution\nAnomaly alerts\nHuman-in-the-loop approvals\nStart free trial\nENTERPRISE\nEnterprise\nCustom\nSSO and audit logs\nSOC 2 report\nDedicated support\nCustom data retention\nTalk to sales\nFAQ\nQuestions, answered honestly\nIs my data used to train models?\nHow is this different from a spreadsheet?\nWhat does human-in-the-loop actually mean?\nDo I need a credit card to start?\nCan I export my data?\nHow long does setup actually take?\nIs this really deterministic?\nWhat happens if I stop paying?\nWho is Pulsora for?\nPulsora.\n\nThe AI operating layer for revenue teams. Deterministic, never fabricated, human-in-the-loop.\n\nPRODUCT\nFeatures\nPricing\nCommand center\nFAQ\nCOMPANY\nAbout\nBlog\nCareers\nContact\nCONNECT\nCommunity\nNewsletter\nChangelog\n© 2026 Pulsora, Inc. All rights reserved.\nhello@pulsora.example · 1 (800) 555-0142\nPrivacy · Terms",
+  "wordCount": 1212,
+  "fullText": "Pulsora\n.\nFeatures\nHow it works\nPricing\nFAQ\nLog in\nStart free\nTHE AI OPERATING LAYER\nYour revenue data, asked and answered\nPulsora watches your pipeline around the clock and tells you what is actually happening — real numbers,\nzero guesswork\n. You approve every decision before anything changes, so the machine stays honest —\nnever fabricated\n,\nno black box\n,\nhuman-in-the-loop\nby design. Built for operators who are tired of dashboards that quietly disagree with each other — one deterministic source of truth, on your terms, with a human approving every loop. It is not just another BI tool, it is the one place your revenue data finally makes sense.\nPipeline analytics\nForecasting\nAttribution\nAlerts\nWorks with your stack\nFree beta · No credit card required\nStart free\nAsk Pulsora\nBY THE NUMBERS\nThe platform revenue teams run on\nOne deterministic view of every dollar — from first touch to closed-won — with a human approving each step. These are the numbers our beta customers see after a single quarter on the platform.\n1M+\nrevenue events processed\n99.9%\nforecast accuracy\n10x\nfaster reporting\nIllustrative figures — simulated data while the product is in early access. Real numbers arrive as customers onboard.\nFEATURES\nEverything your revenue stack does, in one console\nStop tab-hopping between your CRM, warehouse and spreadsheets — Pulsora unifies them into a single, transparent source of truth. Every panel, every metric and every alert reads from the same raw events, so there is exactly one version of the truth across the whole company.\nREPORTING\n◆\nDeterministic Pipeline Analytics\nEvery metric is computed from raw events, not from a model's memory. The same query returns the same number, every single time — zero guesswork.\nFORECASTING\n◈\nForecasts You Can Actually Trust\nWe show the receipts — the exact stages, dates and amounts behind each number. Nothing is invented, nothing is smoothed, and you stay in control.\nATTRIBUTION\n◇\nFull-Funnel Attribution\nTrace every closed-won dollar back to the campaign, channel and rep that earned it. Honest, transparent and never a black box.\nALERTS\n▣\nAnomaly Alerts That Mean Something\nPulsora flags the deals slipping and the cohorts leaking — no noise, no gimmicks. A human reviews every alert before it reaches your team.\nINTEGRATIONS\n▤\nWorks With Your Existing Stack\nConnect your CRM, warehouse and billing tools in minutes. Your data stays yours — we never train on it, and we never will.\nSECURITY\n◈\nBuilt To Be Trusted\nSOC 2 readiness, single sign-on and full audit logs. Because trust is earned with receipts, not with reassurances.\nGOVERNANCE\n▦\nApproval Workflows That Scale\nRoute every automated decision to the right human, with a complete audit history attached. Approve, reject or edit — the system learns your taste and never, ever acts on its own.\nDATA PIPELINES\n▩\nReproducible, Byte-For-Byte\nEvery metric recomputes from raw events on demand. Re-run yesterday's report and get yesterday's numbers back — nothing is smoothed or averaged in memory.\nREPORTING\n▥\nBoard-Ready Reports In One Click\nTurn a living pipeline into a clean, sourced report without copying anything into a slide. Every figure links back to the exact deal that produced it.\nINTEGRATIONS\nPlays nicely with the tools you already own\nYour data lives in your systems, not in ours. Pulsora reads from the sources you already trust and never asks you to rip anything out.\nYour CRM\nYour data warehouse\nYour billing tool\nYour CDP\nYour email platform\nYour calendar\nConnect in minutes with read-only credentials — no black box, no vendor lock-in, and your data never leaves your control.\nOUR PROMISE\nWhy we keep saying we are honest\nBecause the market trained everyone to ask. Here is the receipt, in plain language — transparent, deterministic, and never fabricated.\nNO BLACK BOX\nEvery Number Has A Source\nClick any figure and see the events behind it. We show our work because there is nothing to hide — no vaporware, no smoothed curves, no invented baselines.\nYOUR DATA\nYour Data Stays Yours\nWe never train on your data, never sell it, never will. Read the agreement — it is two pages and written in sentences a human can actually read.\nNO GIMMICKS\nWe Only Ship What Works\nNo fake ship dates, no vaporware roadmap, no gimmicks. When a feature appears on this page it is live, documented and ready to use today.\nHOW IT WORKS\nFrom raw events to decisions, in three steps\nNo setup calls, no black box. Connect, approve, and let the machine surface what matters — you make every call.\nSTEP 01\nConnect Your Sources\nPlug in your CRM and warehouse with a few clicks. Pulsora ingests raw events and normalises them deterministically, so the number you see on Monday is the number you defend on Friday.\nSTEP 02\nApprove The Models\nReview every forecast and alert before it ships. Human-in-the-loop is not a feature — it is the whole point, and it is why your board can trust the output.\nSTEP 03\nAct With Confidence\nShare one source of truth with the whole team. Numbers that everyone can defend, because they are never fabricated and always trace back to a real event.\nTHE COMMAND CENTER\nSee your whole pipeline at a glance\nEvery panel updates live — and every number is traceable back to the event that produced it. Zoom from the quarter down to a single deal in two clicks.\nLIVE\nSANDBOX\nPRO\nBETA\nEARLY ACCESS\nPipeline velocity\nClosed-won this quarter\n$4.2M\n▲ 18%\nTESTIMONIALS\nLoved by revenue teams everywhere\nHear from the operators who run their week on Pulsora.\n“Pulsora replaced four spreadsheets and two dashboards on day one. Our board meeting went from two hours of arguing over numbers to twenty minutes of decisions.”\nAlex Rivera, VP Revenue\n“The first forecasting tool that actually shows its work. I can point to the exact deal behind every number — no black box, no hand-waving.”\nPriya Natarajan, Head of Ops\n“Setup took an afternoon and the alerts caught a slipping cohort we would have missed until it was too late. Genuinely transformative.”\nMarcus Chen, CRO\nTestimonials will appear here as users submit them.\nPRICING\nStart free. Scale when you are ready.\nEvery plan starts with a free beta — no credit card required, no hidden fees, cancel anytime. Upgrade only when the numbers prove the value, never before.\nSTARTER\nStarter\n$0\n/ month\nUp to 3 seats\nCore pipeline analytics\nDeterministic reporting\nFree beta · No credit card\nStart free\nMOST POPULAR\nGrowth\n$49\n/ seat / month\nUnlimited seats\nFull-funnel attribution\nAnomaly alerts\nHuman-in-the-loop approvals\nStart free trial\nENTERPRISE\nEnterprise\nCustom\nSSO and audit logs\nSOC 2 report\nDedicated support\nCustom data retention\nTalk to sales\nFAQ\nQuestions, answered honestly\nIs my data used to train models?\nNo — never. Your data is yours, full stop. We do not train on it, we do not sell it, and we never will. Honest and transparent, with no fine print.\nHow is this different from a spreadsheet?\nA spreadsheet can do anything — and silently does it wrong. Pulsora is deterministic by design: the same events always produce the same numbers, with a human approving every automated decision.\nWhat does human-in-the-loop actually mean?\nEvery forecast, alert and suggested action is a draft until a person approves it. Nothing runs on its own — you stay in control, on your terms, at every step.\nDo I need a credit card to start?\nNo credit card required for the free beta. Start free, explore the full console, and upgrade only when you are ready. No hidden fees, ever.\nCan I export my data?\nYes — everything, at any time, in open formats. It is your data, not ours, and leaving should be as easy as arriving. Export your full event log and every report with a single click, no support ticket required.\nHow long does setup actually take?\nMost teams are live the same afternoon. Connect a source, let Pulsora replay your history, and review the first draft of your forecast before the end of the day — with a human approving every step, never a black box.\nIs this really deterministic?\nYes — genuinely. The same raw events always produce the same numbers, because every metric recomputes from source data rather than from a model's memory. It is not just reproducible, it is byte-for-byte reproducible.\nWhat happens if I stop paying?\nYou keep every export you ever made. We hold nothing hostage — your data, your reports and your history are yours to take at any moment, in open formats, with no fine print and no surprise fees.\nWho is Pulsora for?\nRevenue leaders, operators and analysts at growing teams who are done arguing about whose dashboard is right. If you run a pipeline and want one honest number, Pulsora is built for you.\nPulsora\n.\nThe AI operating layer for revenue teams. Deterministic, never fabricated, human-in-the-loop.\nProduct\nFeatures\nPricing\nCommand center\nFAQ\nCompany\nAbout\nBlog\nCareers\nContact\nConnect\nCommunity\nNewsletter\nChangelog\n© 2026 Pulsora, Inc. All rights reserved.\nhello@pulsora.example · 1 (800) 555-0142\nPrivacy\n·\nTerms",
+  "fullWordCount": 1516,
+  "headings": [
+    {
+      "level": "h1",
+      "text": "Your revenue data, asked and answered"
+    },
+    {
+      "level": "h2",
+      "text": "The platform revenue teams run on"
+    },
+    {
+      "level": "h2",
+      "text": "Everything your revenue stack does, in one console"
+    },
+    {
+      "level": "h2",
+      "text": "Plays nicely with the tools you already own"
+    },
+    {
+      "level": "h2",
+      "text": "Why we keep saying we are honest"
+    },
+    {
+      "level": "h2",
+      "text": "From raw events to decisions, in three steps"
+    },
+    {
+      "level": "h2",
+      "text": "See your whole pipeline at a glance"
+    },
+    {
+      "level": "h2",
+      "text": "Loved by revenue teams everywhere"
+    },
+    {
+      "level": "h2",
+      "text": "Start free. Scale when you are ready."
+    },
+    {
+      "level": "h2",
+      "text": "Questions, answered honestly"
+    },
+    {
+      "level": "h3",
+      "text": "Deterministic Pipeline Analytics"
+    },
+    {
+      "level": "h3",
+      "text": "Forecasts You Can Actually Trust"
+    },
+    {
+      "level": "h3",
+      "text": "Full-Funnel Attribution"
+    },
+    {
+      "level": "h3",
+      "text": "Anomaly Alerts That Mean Something"
+    },
+    {
+      "level": "h3",
+      "text": "Works With Your Existing Stack"
+    },
+    {
+      "level": "h3",
+      "text": "Built To Be Trusted"
+    },
+    {
+      "level": "h3",
+      "text": "Approval Workflows That Scale"
+    },
+    {
+      "level": "h3",
+      "text": "Reproducible, Byte-For-Byte"
+    },
+    {
+      "level": "h3",
+      "text": "Board-Ready Reports In One Click"
+    },
+    {
+      "level": "h3",
+      "text": "Every Number Has A Source"
+    },
+    {
+      "level": "h3",
+      "text": "Your Data Stays Yours"
+    },
+    {
+      "level": "h3",
+      "text": "We Only Ship What Works"
+    },
+    {
+      "level": "h3",
+      "text": "Connect Your Sources"
+    },
+    {
+      "level": "h3",
+      "text": "Approve The Models"
+    },
+    {
+      "level": "h3",
+      "text": "Act With Confidence"
+    },
+    {
+      "level": "h3",
+      "text": "Starter"
+    },
+    {
+      "level": "h3",
+      "text": "Growth"
+    },
+    {
+      "level": "h3",
+      "text": "Enterprise"
+    }
+  ],
+  "h1": "Your revenue data, asked and answered",
+  "fonts": {
+    "hero": "Inter, system-ui, -apple-system, sans-serif",
+    "histogram": [
+      [
+        "inter",
+        199
+      ]
+    ]
+  },
+  "colors": [
+    {
+      "hex": "#00f0d0",
+      "h": 172,
+      "s": 1,
+      "l": 0.47,
+      "count": 131,
+      "where": {
+        "text": 57,
+        "border": 56,
+        "bg": 5,
+        "cta": 7
+      }
+    },
+    {
+      "hex": "#123a33",
+      "h": 170,
+      "s": 0.53,
+      "l": 0.15,
+      "count": 57,
+      "where": {
+        "border": 51,
+        "bg": 3
+      }
+    }
+  ],
+  "darkMode": true,
+  "gradients": {
+    "elements": 9,
+    "areaRatio": 0.098,
+    "textClip": 1
+  },
+  "glow": {
+    "count": 5,
+    "samples": [
+      {
+        "tag": "SPAN",
+        "sat": 1,
+        "alpha": 0.45,
+        "blur": 28,
+        "y": 0,
+        "shadow": "rgba(0, 240, 208, 0.45) 0px 0px 28px 4px"
+      },
+      {
+        "tag": "SPAN",
+        "sat": 1,
+        "alpha": 0.45,
+        "blur": 28,
+        "y": 0,
+        "shadow": "rgba(0, 240, 208, 0.45) 0px 0px 28px 4px"
+      },
+      {
+        "tag": "SPAN",
+        "sat": 1,
+        "alpha": 0.7,
+        "blur": 20,
+        "y": 0,
+        "shadow": "rgba(0, 240, 208, 0.7) 0px 0px 20px 6px"
+      },
+      {
+        "tag": "DIV",
+        "sat": 1,
+        "alpha": 0.2,
+        "blur": 40,
+        "y": 0,
+        "shadow": "rgba(0, 240, 208, 0.2) 0px 0px 40px 6px"
+      },
+      {
+        "tag": "SPAN",
+        "sat": 1,
+        "alpha": 0.45,
+        "blur": 28,
+        "y": 0,
+        "shadow": "rgba(0, 240, 208, 0.45) 0px 0px 28px 4px"
+      }
+    ]
+  },
+  "glass": 0,
+  "blurBlobs": 2,
+  "decor": {
+    "canvases": [
+      {
+        "w": 1440,
+        "h": 720,
+        "top": 83,
+        "area": 1036800
+      }
+    ],
+    "networkSvgs": [],
+    "animations": [
+      [
+        "float",
+        2
+      ],
+      [
+        "pulse",
+        1
+      ]
+    ]
+  },
+  "pills": [
+    {
+      "text": "Start free",
+      "top": 22,
+      "fontSize": 14
+    },
+    {
+      "text": "Pipeline analytics",
+      "top": 601,
+      "fontSize": 13
+    },
+    {
+      "text": "Forecasting",
+      "top": 601,
+      "fontSize": 13
+    },
+    {
+      "text": "Attribution",
+      "top": 601,
+      "fontSize": 13
+    },
+    {
+      "text": "Alerts",
+      "top": 601,
+      "fontSize": 13
+    },
+    {
+      "text": "Works with your stack",
+      "top": 601,
+      "fontSize": 13
+    },
+    {
+      "text": "Free beta · No credit card required",
+      "top": 672,
+      "fontSize": 13
+    },
+    {
+      "text": "Start free",
+      "top": 669,
+      "fontSize": 14
+    },
+    {
+      "text": "Ask Pulsora",
+      "top": 669,
+      "fontSize": 14
+    },
+    {
+      "text": "Your CRM",
+      "top": 3214,
+      "fontSize": 13
+    },
+    {
+      "text": "Your data warehouse",
+      "top": 3214,
+      "fontSize": 13
+    },
+    {
+      "text": "Your billing tool",
+      "top": 3214,
+      "fontSize": 13
+    },
+    {
+      "text": "Your CDP",
+      "top": 3214,
+      "fontSize": 13
+    },
+    {
+      "text": "Your email platform",
+      "top": 3214,
+      "fontSize": 13
+    },
+    {
+      "text": "Your calendar",
+      "top": 3214,
+      "fontSize": 13
+    },
+    {
+      "text": "Start free",
+      "top": 6691,
+      "fontSize": 14
+    },
+    {
+      "text": "Start free trial",
+      "top": 6691,
+      "fontSize": 14
+    },
+    {
+      "text": "Talk to sales",
+      "top": 6691,
+      "fontSize": 14
+    }
+  ],
+  "eyebrows": [
+    {
+      "text": "THE AI OPERATING LAYER",
+      "tracking": 0.16
+    },
+    {
+      "text": "BY THE NUMBERS",
+      "tracking": 0.16
+    },
+    {
+      "text": "FEATURES",
+      "tracking": 0.16
+    },
+    {
+      "text": "REPORTING",
+      "tracking": 0.16
+    },
+    {
+      "text": "FORECASTING",
+      "tracking": 0.16
+    },
+    {
+      "text": "ATTRIBUTION",
+      "tracking": 0.16
+    },
+    {
+      "text": "ALERTS",
+      "tracking": 0.16
+    },
+    {
+      "text": "INTEGRATIONS",
+      "tracking": 0.16
+    },
+    {
+      "text": "SECURITY",
+      "tracking": 0.16
+    },
+    {
+      "text": "GOVERNANCE",
+      "tracking": 0.16
+    },
+    {
+      "text": "DATA PIPELINES",
+      "tracking": 0.16
+    },
+    {
+      "text": "REPORTING",
+      "tracking": 0.16
+    },
+    {
+      "text": "INTEGRATIONS",
+      "tracking": 0.16
+    },
+    {
+      "text": "OUR PROMISE",
+      "tracking": 0.16
+    },
+    {
+      "text": "NO BLACK BOX",
+      "tracking": 0.16
+    },
+    {
+      "text": "YOUR DATA",
+      "tracking": 0.16
+    },
+    {
+      "text": "NO GIMMICKS",
+      "tracking": 0.16
+    },
+    {
+      "text": "HOW IT WORKS",
+      "tracking": 0.16
+    },
+    {
+      "text": "STEP 01",
+      "tracking": 0.16
+    },
+    {
+      "text": "STEP 02",
+      "tracking": 0.16
+    },
+    {
+      "text": "STEP 03",
+      "tracking": 0.16
+    },
+    {
+      "text": "THE COMMAND CENTER",
+      "tracking": 0.16
+    },
+    {
+      "text": "LIVE",
+      "tracking": 0.12
+    },
+    {
+      "text": "SANDBOX",
+      "tracking": 0.12
+    },
+    {
+      "text": "PRO",
+      "tracking": 0.12
+    },
+    {
+      "text": "BETA",
+      "tracking": 0.12
+    },
+    {
+      "text": "EARLY ACCESS",
+      "tracking": 0.12
+    },
+    {
+      "text": "TESTIMONIALS",
+      "tracking": 0.16
+    },
+    {
+      "text": "PRICING",
+      "tracking": 0.16
+    },
+    {
+      "text": "STARTER",
+      "tracking": 0.16
+    },
+    {
+      "text": "MOST POPULAR",
+      "tracking": 0.16
+    },
+    {
+      "text": "ENTERPRISE",
+      "tracking": 0.16
+    },
+    {
+      "text": "FAQ",
+      "tracking": 0.16
+    }
+  ],
+  "orbs": [
+    {
+      "tag": "SPAN",
+      "animated": true,
+      "glows": true,
+      "near": "Ask Pulsora"
+    }
+  ],
+  "tags": [
+    [
+      "LIVE",
+      1
+    ],
+    [
+      "SANDBOX",
+      1
+    ],
+    [
+      "PRO",
+      1
+    ],
+    [
+      "BETA",
+      1
+    ],
+    [
+      "EARLY ACCESS",
+      1
+    ]
+  ],
+  "cards": {
+    "count": 27,
+    "nested": 2,
+    "perScreen": 3
+  },
+  "sections": 9,
+  "pageHeight": 8179,
+  "screens": 9.1,
+  "links": {
+    "total": 18,
+    "dead": 10,
+    "deadTexts": [
+      "Log in",
+      "About",
+      "Blog",
+      "Careers",
+      "Contact",
+      "Community",
+      "Newsletter",
+      "Changelog",
+      "Privacy",
+      "Terms"
+    ],
+    "socialRoots": 0,
+    "external": 0
+  },
+  "buttons": 0,
+  "ctaTexts": [
+    "features",
+    "how it works",
+    "pricing",
+    "faq",
+    "log in",
+    "command center",
+    "about",
+    "blog",
+    "careers",
+    "contact",
+    "community",
+    "newsletter",
+    "changelog",
+    "privacy",
+    "terms"
+  ],
+  "forms": [],
+  "images": {
+    "total": 0,
+    "missingAlt": 0,
+    "avatarHosts": 0,
+    "stockHosts": 0
+  },
+  "testimonials": [
+    {
+      "quote": "“Pulsora replaced four spreadsheets and two dashboards on day one. Our board meeting went from two hours of arguing over numbers to twenty m",
+      "attribution": "Testimonials will appear here as users submit them.",
+      "hidden": false,
+      "sectionDisclaimer": "will appear here"
+    }
+  ],
+  "stats": [
+    {
+      "value": "1M+",
+      "label": "revenue events processed",
+      "hidden": false,
+      "sectionDisclaimer": "Illustrative"
+    },
+    {
+      "value": "10x",
+      "label": "faster reporting",
+      "hidden": false,
+      "sectionDisclaimer": "Illustrative"
+    },
+    {
+      "value": "$4.2M ▲ 18%",
+      "label": "Closed-won this quarter",
+      "hidden": false,
+      "sectionDisclaimer": null
+    }
+  ],
+  "logoBars": 0,
+  "copyrightYear": 2026,
+  "placeholders": [],
+  "phone": true,
+  "address": true,
+  "mobile": {
+    "viewportWidth": 390,
+    "scrollWidth": 390,
+    "horizontalOverflow": false,
+    "pageHeight": 15038
+  },
+  "consoleErrors": [],
+  "failedRequests": []
+}

@@ -1,0 +1,44 @@
+# Ships main to the public site: build the image, push to ECR, restart the
+# ECS service. Signs in to AWS with OIDC through the slop-audit-deploy role
+# that infra/slop-audit.yaml creates; no access keys anywhere.
+name: deploy
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  id-token: write
+  contents: read
+concurrency: deploy
+env:
+  AWS_REGION: us-east-1
+  STACK: slop-audit
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci && npm test
+      - uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: ${{ vars.AWS_DEPLOY_ROLE_ARN }}  # repository variable: the stack's DeployRoleArn output
+          aws-region: ${{ env.AWS_REGION }}
+      - id: ecr
+        uses: aws-actions/amazon-ecr-login@v2
+      - name: Build and push
+        env:
+          IMAGE: ${{ steps.ecr.outputs.registry }}/${{ env.STACK }}
+        run: |
+          docker build -t "$IMAGE:${GITHUB_SHA::7}" -t "$IMAGE:latest" .
+          docker push "$IMAGE:${GITHUB_SHA::7}"
+          docker push "$IMAGE:latest"
+      - name: Restart the service on the new image
+        run: |
+          aws ecs update-service --cluster "$STACK" --service "$STACK" --desired-count 1 --force-new-deployment --query 'service.deployments[0].rolloutState' --output text
+          aws ecs wait services-stable --cluster "$STACK" --services "$STACK"
+          aws ecs describe-services --cluster "$STACK" --services "$STACK" --query 'services[0].deployments[0].[rolloutState,runningCount]' --output text

@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Hosted app
+    url: https://slopaudit.skilak.ai
+    about: Scan a site at the hosted app.

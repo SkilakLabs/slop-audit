@@ -1,0 +1,53 @@
+name: Wrong score
+description: A site was scored wrong. The human eye is the ground truth.
+title: "Wrong score: <site or report>"
+labels: [wrong-score]
+body:
+  - type: input
+    id: report-url
+    attributes:
+      label: Report URL
+      description: The report URL on slopaudit.skilak.ai, if you have one.
+      placeholder: https://slopaudit.skilak.ai/...
+  - type: input
+    id: site-url
+    attributes:
+      label: Scanned site URL
+      description: The URL you scanned.
+      placeholder: https://example.com
+    validations:
+      required: true
+  - type: input
+    id: score-tier
+    attributes:
+      label: Score and tier shown
+      description: The score and tier the scanner reported.
+      placeholder: "79/100, Slop"
+  - type: dropdown
+    id: verdict
+    attributes:
+      label: Human verdict
+      description: Your judgement of the score.
+      options:
+        - too high
+        - about right
+        - too low
+    validations:
+      required: true
+  - type: textarea
+    id: what-is-wrong
+    attributes:
+      label: Which finding is wrong, or what tell was missed
+      description: The finding that fired but should not have, or the tell the rules missed.
+    validations:
+      required: true
+  - type: dropdown
+    id: owns-site
+    attributes:
+      label: Do you own this site
+      description: Whether you made or own the site being scored.
+      options:
+        - "yes"
+        - "no"
+    validations:
+      required: true

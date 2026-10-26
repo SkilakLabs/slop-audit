@@ -1,0 +1,44 @@
+[
+  {
+    "host": "option.com",
+    "url": "https://option.com",
+    "label": "clean",
+    "why": "Pre-AI corporate WordPress site, archived since 1998. Dated, not slop."
+  },
+  {
+    "host": "skilak.ai",
+    "url": "https://skilak.ai",
+    "label": "clean",
+    "why": "AI-era site with a human directing every choice. Shares 2026 grammar, not 2026 defaults."
+  },
+  {
+    "host": "slop-demo.fixture",
+    "url": "fixture:slop-demo",
+    "label": "slop",
+    "why": "Our own page built to show every default the rules measure; see fixtures/pages/slop-demo."
+  },
+  {
+    "host": "linear.app",
+    "url": "https://linear.app",
+    "label": "clean",
+    "why": "Dark, gradient-heavy, card-heavy and polished. Shares every 'sameness' tell; a human chose each one. Guards against sameness rules creeping back."
+  },
+  {
+    "host": "stripe.com",
+    "url": "https://stripe.com",
+    "label": "clean",
+    "why": "Canvas gradient hero, violet brand, mentions customer Lovable in prose. Guards builder-text and violet false positives."
+  },
+  {
+    "host": "nvidia.com",
+    "url": "https://nvidia.com",
+    "label": "clean",
+    "why": "Large human-edited corporate site: inline SVG styles, headline-case news titles, favicon with no link tag. None of that is slop."
+  },
+  {
+    "host": "microsoft.com",
+    "url": "https://www.microsoft.com/en-us",
+    "label": "clean",
+    "why": "Human-edited corporate storefront: rows of Read more / Read less / Shop now controls that must not read as repeated prose."
+  }
+]
