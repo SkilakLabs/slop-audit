@@ -63,11 +63,33 @@ export const RULES = [
   },
   {
     id: "eyebrow-everywhere", category: "visual", weight: 5, title: "Tracked uppercase eyebrow labels on everything",
-    run(f) { const n = (f.eyebrows || []).length; if (n < 12) return null; return { weight: n >= 25 ? 5 : 2, evidence: `${n} small uppercase tracked labels`, fix: "One eyebrow per section at most. Most sections need none." }; },
+    run(f) {
+      // Count distinct labels, not occurrences: a testimonial carousel repeating
+      // "APP STORE / WHATSAPP / TELEGRAM" under every quote is one template, not
+      // forty different eyebrows. Density of distinct things is the tell.
+      const labels = (f.eyebrows || []).map((e) => (e.text || "").replace(/\s+/g, " ").trim().toLowerCase()).filter(Boolean);
+      const n = labels.length;
+      const distinct = new Set(labels).size;
+      if (distinct < 8 || n < 12) return null;
+      return { weight: distinct >= 15 ? 5 : 2, evidence: `${n} small uppercase tracked labels, ${distinct} distinct`, fix: "One eyebrow per section at most. Most sections need none." };
+    },
   },
   {
     id: "status-tags", category: "visual", weight: 4, title: "Status tags (LIVE · SIM · PRO · BETA) as decoration",
-    run(f) { const t = (f.tags || []); if (t.length < 4) return null; return { evidence: `${t.length} distinct tags: ${t.slice(0, 6).map(([x]) => x).join(", ")}`, fix: "Tags belong in the product, not the marketing page." }; },
+    run(f) {
+      // Status words only: LIVE / BETA / PRO are decoration; GOOGLE DRIVE /
+      // WELLNESS / KNOWLEDGE / TASKS are product nouns inside a mockup.
+      const STATUS = new Set(["LIVE", "BETA", "ALPHA", "NEW", "PRO", "SIM", "DEMO", "SOON", "COMING SOON", "EARLY ACCESS", "HOT", "FREE", "PLUS", "PREMIUM", "ONLINE", "ACTIVE", "24/7", "V1", "V2", "V3", "AI", "GA", "LTS"]);
+      const STOP = new Set(["FAQ", "APP", "API", "CEO", "CTO", "USA", "UK", "EU", "IOS", "SEO", "CRM", "SAAS", "B2B", "PDF", "CSV"]);
+      const norm = (x) => x.replace(/\s+/g, " ").trim().toUpperCase();
+      const status = new Set();
+      for (const [text] of (f.tags || [])) {
+        const t = norm(text);
+        if (STATUS.has(t) || (/^[A-Z]{1,4}$/.test(t) && !STOP.has(t))) status.add(t);
+      }
+      if (status.size < 3) return null;
+      return { evidence: `${status.size} distinct status tags: ${[...status].join(", ")}`, fix: "Tags belong in the product, not the marketing page." };
+    },
   },
   {
     id: "gradient-text", category: "visual", weight: 5, title: "Gradient-filled headline text",

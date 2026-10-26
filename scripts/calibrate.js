@@ -57,5 +57,5 @@ await new Promise((resolve) => server.close(resolve));
 
 console.log("host".padEnd(18), "label".padEnd(10), "score", "tier");
 for (const r of rows) console.log(r.host.padEnd(18), r.label.padEnd(10), String(r.score).padStart(5), r.tier);
-const bad = rows.filter((r) => (r.label === "clean" && r.score > 12) || (r.label === "slop" && r.score < 55));
+const bad = rows.filter((r) => (r.label === "clean" && r.score > 12) || (r.label === "slop" && r.score < 55) || (r.label === "styled" && r.score > 30));
 if (bad.length) { console.error("\nOut of band:", bad.map((r) => `${r.host}=${r.score}`).join(", ")); process.exit(1); }
