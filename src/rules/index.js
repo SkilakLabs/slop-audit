@@ -93,7 +93,9 @@ export const RULES = [
   },
   {
     id: "gradient-text", category: "visual", weight: 5, title: "Gradient-filled headline text",
-    run(f) { if (!(f.gradients?.textClip > 0)) return null; return { evidence: `${f.gradients.textClip} headline(s) use background-clip:text`, fix: "Solid ink. If a word needs emphasis, use weight or the brand colour." }; },
+    // Density, not presence: one gradient headline is a choice; a page of them
+    // is the light-theme builder default.
+    run(f) { const n = f.gradients?.textClip || 0; if (n === 0) return null; return { weight: n >= 3 ? 5 : 2, evidence: `${n} headline(s) use background-clip:text`, fix: "Solid ink. If a word needs emphasis, use weight or the brand colour." }; },
   },
   {
     id: "gradient-heavy", category: "visual", weight: 3, title: "Gradient backgrounds across the page",
@@ -148,6 +150,33 @@ export const RULES = [
     // Density, not presence: a news section with headline-case article titles
     // among dozens of sentence-case headings is editorial style, not a default.
     run(f) { const all = (f.headings || []).filter((h) => h.level !== "h1" && words(h.text).length >= 4); const hs = all.filter((h) => isTitleCase(h.text)); if (hs.length < 2 || hs.length < all.length * 0.25) return null; return { weight: hs.length >= 3 ? 4 : 2, evidence: `${hs.length} of ${all.length} headings: ` + hs.slice(0, 3).map((h) => `“${h.text}”`).join(", "), fix: "Sentence case. Capitalise names, not verbs." }; },
+  },
+
+  {
+    id: "waitlist-everywhere", category: "copy", weight: 4, title: "“Join the waitlist”, over and over",
+    // Density: one sign-up is a step; the word on every pill, nav item, CTA and
+    // FAQ answer is the builder's waitlist template left in.
+    run(f) { const n = (copyOf(f).match(/\bwaitlist\b|\bwaiting list\b/gi) || []).length; if (n < 3) return null; return { evidence: `“waitlist” appears ${n} times`, fix: "Say where to sign up once, then stop. A waitlist is a step, not a brand." }; },
+  },
+  {
+    id: "ai-powered-headline", category: "copy", weight: 3, title: "“AI-powered” in the hero headline",
+    // Only the headline counts: a real company might say it once in a press
+    // release, but leading the hero with it is the model's default opener.
+    run(f) { const h1 = f.h1 || ""; if (!/\bai[- ](powered|driven|native|first)\b/i.test(h1)) return null; return { evidence: `Headline reads “${h1.replace(/\s+/g, " ").slice(0, 90)}”`, fix: "Name the product, not the technique. “AI-powered” is how the model introduces anything." }; },
+  },
+  {
+    id: "builder-defaults", category: "copy", weight: 4, title: "Builder landing-page defaults left together",
+    // A human-directed site may keep any one of these; leaving two or three is
+    // the template unedited.
+    run(f) {
+      const pills = (f.pills || []).map((p) => p.text || "");
+      const badge = (f.builderMarkers || []).length > 0;
+      const pill = pills.some((t) => /\b(free beta|no credit card|now in beta|early access|waitlist|waiting list|get early access|join the waitlist)\b/i.test(t));
+      const ai = /\bai[- ](powered|driven|native|first)\b/i.test([f.h1 || "", ...pills].join("\n"));
+      const left = [badge && "builder badge", pill && "waitlist pill", ai && "AI-powered headline"].filter(Boolean);
+      if (left.length < 2) return null;
+      return { weight: left.length >= 3 ? 6 : 4, evidence: `${left.length} builder defaults left in: ${left.join(", ")}`, fix: "Pick one: badge, waitlist pill, or “AI-powered”. Leave two and it reads like the template it is." };
+    },
   },
 
   // ---------------- FAKE TRUST ----------------

@@ -65,6 +65,40 @@ test("status-tags counts status words, not product nouns", () => {
   assert.ok(rule("status-tags").run(status));
 });
 
+test("gradient text scales with density, not presence", () => {
+  assert.equal(rule("gradient-text").run({ ...empty, gradients: { textClip: 0 } }), null);
+  assert.equal(rule("gradient-text").run({ ...empty, gradients: { textClip: 1 } }).weight, 2);
+  assert.equal(rule("gradient-text").run({ ...empty, gradients: { textClip: 2 } }).weight, 2);
+  assert.equal(rule("gradient-text").run({ ...empty, gradients: { textClip: 3 } }).weight, 5);
+  assert.equal(rule("gradient-text").run({ ...empty, gradients: { textClip: 18 } }).weight, 5);
+});
+
+test("waitlist everywhere fires on density, silent on one sign-up", () => {
+  assert.equal(rule("waitlist-everywhere").run({ ...empty, fullText: "Join the waitlist today." }), null);
+  assert.equal(rule("waitlist-everywhere").run({ ...empty, fullText: "Join the waitlist. Our waitlist is open." }), null, "two mentions is a step, not a template");
+  const dense = { ...empty, fullText: "Join the waitlist. The waitlist is open. Our waitlist grows. Get on the waitlist.", fullWordCount: 14 };
+  assert.ok(rule("waitlist-everywhere").run(dense));
+  assert.match(rule("waitlist-everywhere").run(dense).evidence, /4 times/);
+});
+
+test("AI-powered in the hero headline fires, product names and prose do not", () => {
+  assert.ok(rule("ai-powered-headline").run({ ...empty, h1: "AI-powered connections for startups" }));
+  assert.ok(rule("ai-powered-headline").run({ ...empty, h1: "The AI-Driven operating system" }));
+  assert.equal(rule("ai-powered-headline").run({ ...empty, h1: "Your revenue data, asked and answered" }), null);
+  assert.equal(rule("ai-powered-headline").run({ ...empty, h1: "Powering your AI infrastructure" }), null, "AI without the powered/driven qualifier is not the default");
+});
+
+test("builder defaults fire only when two or three defaults are left together", () => {
+  const badge = { ...empty, builderMarkers: ["made-with-badge"] };
+  const pill = { ...empty, pills: [{ text: "Early Access", top: 300 }] };
+  const ai = { ...empty, h1: "AI-powered scheduling" };
+  assert.equal(rule("builder-defaults").run(badge), null);
+  assert.equal(rule("builder-defaults").run({ ...badge, pills: [{ text: "Early Access" }] }).weight, 4);
+  assert.equal(rule("builder-defaults").run({ ...badge, pills: [{ text: "Early Access" }], h1: "AI-powered scheduling" }).weight, 6);
+  assert.equal(rule("builder-defaults").run({ ...pill, h1: "AI-powered scheduling" }).weight, 4);
+  assert.equal(rule("builder-defaults").run({ ...ai, builderMarkers: ["made-with-badge"], pills: [{ text: "AI-powered Type 1 care" }] }).weight, 4, "an AI-powered pill next to a badge is two defaults");
+});
+
 test("text measures", () => {
   assert.equal(emDashDensity("a — b — c d e f g h i j").per100, 20);
   assert.deepEqual(repeatedPhrases("before anything runs. before anything runs! before anything runs? before anything runs", { min: 4 })[0], { phrase: "before anything runs", count: 4 });
